@@ -1,8 +1,8 @@
-package dimanolog.by.testappbalinasoft.beans;
+package by.dimanolog.testappbalinasoft.beans;
 
 import org.simpleframework.xml.Attribute;
-import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
+import org.simpleframework.xml.Text;
 
 import java.io.Serializable;
 
@@ -13,7 +13,7 @@ import java.io.Serializable;
 public class Category implements Serializable{
     @Attribute(name="id")
     private Long mId;
-    @Element(name = "category")
+    @Text
     private String mCategory;
 
     public Category() {

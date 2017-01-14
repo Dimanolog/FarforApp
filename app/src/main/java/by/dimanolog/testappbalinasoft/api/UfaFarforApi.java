@@ -1,6 +1,6 @@
-package dimanolog.by.testappbalinasoft.api;
+package by.dimanolog.testappbalinasoft.api;
 
-import dimanolog.by.testappbalinasoft.beans.YmlCatalog;
+import by.dimanolog.testappbalinasoft.beans.YmlCatalog;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

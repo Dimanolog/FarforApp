@@ -1,4 +1,4 @@
-package dimanolog.by.testappbalinasoft.beans;
+package by.dimanolog.testappbalinasoft.beans;
 
 
 import org.simpleframework.xml.Attribute;
@@ -7,7 +7,6 @@ import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,16 +20,16 @@ public class Offer implements Serializable {
     private Long mCategoryId;
     @Element(name="url")
     private String mUrl;
-    @Element(name="picture")
+    @Element(name="picture",required = false)
     private String mPictureUrl;
     @Element(name="name")
     private String mName;
     @Element(name="price")
     private Double mPrice;
-    @Element(name="description")
+    @Element(name="description",required = false)
     private String mDescription;
-    @ElementList(inline=true, entry ="param" )
-    private List<Param> ParamList=new ArrayList<>();
+    @ElementList(inline=true, entry ="param",required = false)
+    private List<Param> ParamList;
 
 
     public Offer() {

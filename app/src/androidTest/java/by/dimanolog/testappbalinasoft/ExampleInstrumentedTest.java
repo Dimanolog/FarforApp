@@ -1,4 +1,4 @@
-package dimanolog.by.testappbalinasoft;
+package by.dimanolog.testappbalinasoft;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

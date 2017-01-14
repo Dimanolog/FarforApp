@@ -1,4 +1,4 @@
-package dimanolog.by.testappbalinasoft;
+package by.dimanolog.testappbalinasoft;
 
 import org.junit.Test;
 

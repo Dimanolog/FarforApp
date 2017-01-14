@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="dimanolog.by.testappbalinasoft">
+          package="by.dimanolog.testappbalinasoft">
 
     <application
-        android:category="dimanolog.by.testappbalinasoft.App"
+        android:name="by.dimanolog.testappbalinasoft.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:category=".MainActivity">
+        <activity android:name="by.dimanolog.testappbalinasoft.MainActivity">
             <intent-filter>
-                <action android:category="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN"/>
 
-                <categoryId android:category="android.intent.categoryId.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
