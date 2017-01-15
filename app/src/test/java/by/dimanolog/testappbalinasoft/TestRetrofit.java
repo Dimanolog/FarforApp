@@ -1,8 +1,5 @@
 package by.dimanolog.testappbalinasoft;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -81,8 +78,6 @@ public class TestRetrofit {
         try {
             Response<ResponseBody> response = call.execute();
             InputStream inputStream = response.body().byteStream();
-            final Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-            Assert.assertNotNull(bitmap);
 
         } catch (IOException e) {
             e.printStackTrace();

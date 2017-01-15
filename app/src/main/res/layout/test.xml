@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/assorti_harakiri" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/myImageView"
+        android:layout_alignRight="@id/myImageView"
+        android:layout_alignBottom="@id/myImageView"
+        android:text="Hello"
+        android:background="@color/colorBackground"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
