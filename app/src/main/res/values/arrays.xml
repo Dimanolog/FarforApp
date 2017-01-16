@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories">
+        <item>Патимейкер</item>
+        <item>Пицца</item>
+        <item>Сеты</item>
+        <item>Роллы</item>
+        <item>Суши</item>
+        <item>Добавки</item>
+        <item>Десерты</item>
+        <item>Напитки</item>
+        <item>Закуски</item>
+        <item>Лапша</item>
+        <item>Салаты</item>
+        <item>Супы</item>
+        <item>Теплое</item>
+    </string-array>
+
+    <string-array name="categories_image">
+        <item>party_maker</item>
+        <item>pizza</item>
+        <item>sets</item>
+        <item>rolls</item>
+        <item>sushi</item>
+        <item>additive</item>
+        <item>dessert</item>
+        <item>beverages</item>
+        <item>snack</item>
+        <item>noodles</item>
+        <item>salad</item>
+        <item>soups</item>
+        <item>warm</item>
+    </string-array>
+
+
+</resources>

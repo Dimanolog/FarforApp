@@ -6,18 +6,18 @@
     android:layout_height="fill_parent" >
 
     <ImageView
-        android:id="@+id/myImageView"
+        android:id="@+id/category_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/assorti_harakiri" />
+        android:src="@drawable/unknown" />
 
     <TextView
         android:id="@+id/myImageViewText"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignLeft="@id/myImageView"
-        android:layout_alignRight="@id/myImageView"
-        android:layout_alignBottom="@id/myImageView"
+        android:layout_alignLeft="@id/category_image_view"
+        android:layout_alignRight="@id/category_image_view"
+        android:layout_alignBottom="@id/category_image_view"
         android:text="Hello"
         android:background="@color/colorBackground"
         android:textColor="#FFFFFF"
