@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private ListView mDrawerList;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /** Swaps fragments in the main content view */
+
     private void selectItem(int position) {
         // Create a new fragment and specify the planet to show based on position
         Fragment fragment = new PlanetFragment();
         Bundle args = new Bundle();
         args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
-        fragment.setArguments(args);
+        fragment.setArguments(args);*//*
 
         // Insert the fragment by replacing any existing fragment
         FragmentManager fragmentManager = getFragmentManager();
@@ -58,4 +57,5 @@ public class MainActivity extends AppCompatActivity {
         mTitle = title;
         getActionBar().setTitle(mTitle);
     }
+}
 }

@@ -1,4 +1,4 @@
-package by.dimanolog.testappbalinasoft.Util;
+package by.dimanolog.testappbalinasoft.util;
 
 import android.content.Context;
 import android.content.res.Resources;

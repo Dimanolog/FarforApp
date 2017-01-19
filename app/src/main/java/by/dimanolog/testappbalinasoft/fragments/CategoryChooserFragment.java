@@ -19,34 +19,57 @@ import java.util.Map;
 
 import by.dimanolog.testappbalinasoft.App;
 import by.dimanolog.testappbalinasoft.R;
-import by.dimanolog.testappbalinasoft.Util.ResourcesUtil;
 import by.dimanolog.testappbalinasoft.beans.Category;
+import by.dimanolog.testappbalinasoft.services.UfaFarforDataProvider;
+import by.dimanolog.testappbalinasoft.util.ResourcesUtil;
 
 /**
  * Created by Dimanolog on 14.01.2017.
  */
 
-public class CategoryChooser extends Fragment {
-    private static final String TAG = CategoryChooser.class.getSimpleName();
+public class CategoryChooserFragment extends Fragment {
+    private static final String TAG = CategoryChooserFragment.class.getSimpleName();
+    private static final String ARG_CURRENT_CATEGORY ="current_category";
     private static final int WIDTH_COLUMNS = 360;
 
     private RecyclerView mCategoryRecyclerView;
     private Map<String, String> mCategoryToImageNameMap;
+    private Category mCurrentCategory;
+    private CategoryChooserFragmentCallback mCategoryChooserFragmentCallback;
 
+    interface CategoryChooserFragmentCallback {
+        void onCategoryItemClick(Category category);
+    }
+
+    public static  CategoryChooserFragment newInstance(@Nullable Category  currentCategory) {
+
+        CategoryChooserFragment fragment = new CategoryChooserFragment();
+        if(currentCategory!=null) {
+            Bundle args = new Bundle();
+            args.putSerializable(ARG_CURRENT_CATEGORY, currentCategory);
+            fragment.setArguments(args);
+        }
+        return fragment;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         mCategoryToImageNameMap = App.getCategoryToImageNameMap();
+        mCurrentCategory=(Category)getArguments().getSerializable(ARG_CURRENT_CATEGORY);
 
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_food_category_chooser, null);
-        mCategoryRecyclerView = (RecyclerView) mCategoryRecyclerView
+        View v = inflater.inflate(R.layout.fragment_category_list, null);
+        mCategoryRecyclerView = (RecyclerView) v
                 .findViewById(R.id.fragment_category_choose_recycler_view);
         mCategoryRecyclerView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
@@ -62,9 +85,13 @@ public class CategoryChooser extends Fragment {
         return v;
     }
 
+
+
     private void setupAdapter() {
         if (isAdded()) {
-            List<Category> categoryList=null;
+            List<Category> categoryList= UfaFarforDataProvider
+                    .getInstance(getActivity())
+                    .getCategorysList();
             mCategoryRecyclerView.setAdapter(new CategoryAdapter(categoryList));
         }
     }
@@ -72,20 +99,22 @@ public class CategoryChooser extends Fragment {
     private class CategoryHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private ImageView mCategoryImage;
         private TextView mCategoryTextView;
+        private View mCategorySelector;
         private Category mCategory;
+
 
         public CategoryHolder(View itemView) {
             super(itemView);
             mCategoryImage = (ImageView) itemView.findViewById(R.id.category_image_view);
             mCategoryTextView = (TextView) itemView.findViewById(R.id.category_text_view);
+            mCategorySelector =itemView.findViewById(R.id.category_selector);
         }
 
         public void bindCategory(Category category) {
             mCategory = category;
+
             String categoryName = mCategory.getCategory();
             mCategoryTextView.setText(categoryName);
-
-
             String imageName = mCategoryToImageNameMap.get(categoryName);
             Drawable drawable;
             if (imageName != null) {
@@ -95,15 +124,23 @@ public class CategoryChooser extends Fragment {
 
             }
             mCategoryImage.setImageDrawable(drawable);
-
+            checkSelected();
 
         }
+
 
         @Override
         public void onClick(View v) {
-
+            mCategoryChooserFragmentCallback.onCategoryItemClick(mCategory);
 
         }
+
+        private void checkSelected()
+        {
+            if(mCategory.equals(mCurrentCategory))
+                mCategorySelector.setVisibility(View.VISIBLE);
+        }
+
     }
 
     private class CategoryAdapter extends RecyclerView.Adapter<CategoryHolder> {
@@ -126,7 +163,6 @@ public class CategoryChooser extends Fragment {
         public void onBindViewHolder(CategoryHolder holder, int position) {
             Category category = mCategoryList.get(position);
             holder.bindCategory(category);
-
         }
 
         @Override
@@ -134,10 +170,5 @@ public class CategoryChooser extends Fragment {
             return mCategoryList.size();
         }
 
-        public void setCategoryList(List<Category> categoryList) {
-            mCategoryList = categoryList;
-        }
     }
-
-
 }

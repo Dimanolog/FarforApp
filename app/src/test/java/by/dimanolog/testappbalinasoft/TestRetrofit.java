@@ -30,6 +30,9 @@ public class TestRetrofit {
 
     @Test
     public void testDownloadXmlAndParse() {
+
+        /*Strategy strategy=new CycleStrategy("id","categoryId", "category");
+        Serializer serializer = new Persister(strategy);*/
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(SimpleXmlConverterFactory.create())
@@ -73,7 +76,7 @@ public class TestRetrofit {
 
         DownloadImageService downloadImageService = retrofit.create(DownloadImageService.class);
 
-        Call<ResponseBody> call = downloadImageService.downloadFileWithDynamicUrlSync(IMAGE_URL);
+        Call<ResponseBody> call = downloadImageService.downloadFileWithDynamicUrl(IMAGE_URL);
 
         try {
             Response<ResponseBody> response = call.execute();

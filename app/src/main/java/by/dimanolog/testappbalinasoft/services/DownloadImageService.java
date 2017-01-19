@@ -11,6 +11,6 @@ import retrofit2.http.Url;
 
 public interface DownloadImageService {
     @GET
-    Call<ResponseBody> downloadFileWithDynamicUrlSync(
+    Call<ResponseBody> downloadFileWithDynamicUrl(
             @Url String fileUrl);
 }

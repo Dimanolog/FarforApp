@@ -1,10 +1,11 @@
 package by.dimanolog.testappbalinasoft.services;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.util.Log;
 
+import java.util.ArrayList;
 import java.util.List;
-
 import by.dimanolog.testappbalinasoft.App;
 import by.dimanolog.testappbalinasoft.beans.Category;
 import by.dimanolog.testappbalinasoft.beans.Offer;
@@ -19,40 +20,60 @@ import retrofit2.Response;
 
 public class UfaFarforDataProvider {
     private static final String TAG=UfaFarforDataProvider.class.getSimpleName();
-    private static UfaFarforDataProvider sUfaFarforDataProvider;
+    private static UfaFarforDataProvider sInstance;
     private YmlCatalog mYmlCatalog;
     private Context mContext;
 
     public static UfaFarforDataProvider getInstance(Context context){
-        if(sUfaFarforDataProvider!=null)
-        {
-            return sUfaFarforDataProvider;
-        }else {
-            return new UfaFarforDataProvider(context);
+        if(sInstance==null){
+            sInstance=new UfaFarforDataProvider(context);
         }
+        return sInstance;
+
     }
 
     private UfaFarforDataProvider(Context context){
-        mContext=context;
+        mContext=context.getApplicationContext();
         UfaFarforDataProviderInit();
 
     }
 
 
+
+
     public List<Category>  getCategorysList(){
+        List<Category> categoryList=new ArrayList<>();
         if(mYmlCatalog!=null) {
-            return mYmlCatalog.getShop().getCategories();
+            categoryList.addAll( mYmlCatalog.getShop().getCategories());
         }
-        return null;
+        return categoryList;
     }
+
 
     public List<Offer> getOffers(){
+        List<Offer> offersList=new ArrayList<>();
         if(mYmlCatalog!=null) {
-            return mYmlCatalog.getShop().getOffers();
+           offersList.addAll(mYmlCatalog.getShop().getOffers());
         }
-        return null;
+        return offersList;
     }
 
+
+    public List<Offer> getOfferInCategory(@Nullable Category category){
+        if(category==null){
+            return getOffers();
+        }
+        Long categoryId=category.getId();
+        List<Offer>offersInCategory=new ArrayList<>();
+        List<Offer>offerList=mYmlCatalog.getShop().getOffers();
+        for (Offer offer:offerList){
+            if(offer.getCategoryId().equals(categoryId)){
+                offersInCategory.add(offer);
+            }
+        }
+
+        return offersInCategory;
+    }
     private void getDataFromHttp(){
         App.getUfaFarforApi()
                 .getData(App.getKey())
@@ -73,7 +94,7 @@ public class UfaFarforDataProvider {
     }
     private void UfaFarforDataProviderInit()
     {
-
+        getDataFromHttp();
 
     }
 

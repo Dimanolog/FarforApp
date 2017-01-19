@@ -39,4 +39,18 @@ public class Category implements Serializable{
     public void setCategory(String category) {
         mCategory = category;
     }
+
+    @Override
+    public boolean equals(Object o) {
+       if(o instanceof Category){
+           Category category =(Category)o;
+           return this.mId.equals(category.getId());
+       }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return mId.hashCode();
+    }
 }

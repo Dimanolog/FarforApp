@@ -19,6 +19,8 @@ public class Param implements Serializable{
     public Param() {
     }
 
+
+
     public Param(String content, String name) {
 
         mContent = content;
@@ -46,4 +48,23 @@ public class Param implements Serializable{
         this.mName = name;
     }
 
+    @Override
+    public boolean equals(Object o) {
+       if(o instanceof Param) {
+           Param param=(Param)o;
+           return mName.equals(param.mName);
+       }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return mName.hashCode();
+    }
+    @Override
+    public String toString() {
+
+        return String.format("%s : %s",mName, mContent);
+    }
 }
+
