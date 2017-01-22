@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import by.dimanolog.testappbalinasoft.api.UfaFarforApi;
+import by.dimanolog.testappbalinasoft.api.FarforApi;
 import by.dimanolog.testappbalinasoft.services.DownloadImageService;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
@@ -23,9 +23,12 @@ public class App extends Application {
     private static final String BASE_URL = "http://ufa.farfor.ru/";
     private static final String KEY = "ukAXxeJYZN";
 
-    private static UfaFarforApi sUfaFarforApi;
+    private static FarforApi sFarforApi;
     private static Map<String, String> sCategoryToImageNameMap;
     private static DownloadImageService sDownloadImageService;
+
+    public static final int PERMISSION_ACCESS_FINE_LOCATION=0;
+    public static final int MY_PERMISSION_ACCESS_COARSE_LOCATION=1;
 
     private Retrofit mRetrofit;
     private OkHttpClient mOkHttpClient;
@@ -34,8 +37,8 @@ public class App extends Application {
         return KEY;
     }
 
-    public static UfaFarforApi getUfaFarforApi() {
-        return sUfaFarforApi;
+    public static FarforApi getFarforApi() {
+        return sFarforApi;
     }
 
     public static Map<String,String> getCategoryToImageNameMap()
@@ -69,11 +72,11 @@ public class App extends Application {
 
     private void UfaFarforApiInit() {
         mRetrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL) //Базовая часть адреса
+                .baseUrl(BASE_URL)
                 .addConverterFactory(SimpleXmlConverterFactory.create())
                 .client(mOkHttpClient)
                 .build();
-        sUfaFarforApi = mRetrofit.create(UfaFarforApi.class); //Создаем объект, при помощи которого будем выполнять запросы
+        sFarforApi = mRetrofit.create(FarforApi.class);
     }
 
 

@@ -9,7 +9,7 @@ import retrofit2.http.Query;
  * Created by Dimanolog on 13.01.2017.
  */
 
-public interface UfaFarforApi
+public interface FarforApi
 {       @GET("/getyml")
         Call<YmlCatalog>getData(
                 @Query("key")String key);

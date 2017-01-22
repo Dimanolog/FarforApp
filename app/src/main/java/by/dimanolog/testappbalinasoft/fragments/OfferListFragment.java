@@ -1,12 +1,9 @@
 package by.dimanolog.testappbalinasoft.fragments;
 
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,13 +12,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import by.dimanolog.testappbalinasoft.R;
 import by.dimanolog.testappbalinasoft.beans.Category;
 import by.dimanolog.testappbalinasoft.beans.Offer;
 import by.dimanolog.testappbalinasoft.beans.Param;
-import by.dimanolog.testappbalinasoft.services.ImageDownloader;
 import by.dimanolog.testappbalinasoft.services.UfaFarforDataProvider;
 import by.dimanolog.testappbalinasoft.util.ParamNames;
 
@@ -37,7 +35,7 @@ public class OfferListFragment extends Fragment {
     private Category mCategory;
     private OfferListFragmentCallback mOfferListFragmentCallback;
 
-    interface OfferListFragmentCallback{
+   public interface OfferListFragmentCallback{
         void onOfferItemClick(Offer offer);
     }
 
@@ -51,11 +49,22 @@ public class OfferListFragment extends Fragment {
         return fragment;
     }
 
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        mOfferListFragmentCallback=(OfferListFragmentCallback)context;
+    }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mCategory=(Category)getArguments().getSerializable(ARG_CATEGORY);
+        Bundle bundle=getArguments();
+        if(bundle!=null){
+            if(bundle.containsKey(ARG_CATEGORY)){
+                mCategory=(Category)bundle.getSerializable(ARG_CATEGORY);
+            }
+        }
+
         mOfferList=UfaFarforDataProvider.getInstance(getActivity()).getOfferInCategory(mCategory);
     }
 
@@ -65,7 +74,7 @@ public class OfferListFragment extends Fragment {
         super.onCreateView(inflater, container, savedInstanceState);
 
         View v = inflater.inflate(R.layout.fragment_offers_list, null);
-        mOfferListRecyclerView = (RecyclerView) mOfferListRecyclerView
+        mOfferListRecyclerView = (RecyclerView)v
                 .findViewById(R.id.fragment_category_choose_recycler_view);
         mOfferListRecyclerView.setLayoutManager(new LinearLayoutManager
                 (getActivity()));
@@ -110,13 +119,15 @@ public class OfferListFragment extends Fragment {
             String price=String.valueOf(mOffer.getPrice());
             mOfferPriceTxtView.setText(price);
             Param weightParam=mOffer.getParamsByName(ParamNames.WEIGHT);
-            mOfferWeightTxtView.setText(weightParam.toString());
+            if(weightParam!=null) {
+                mOfferWeightTxtView.setText(weightParam.toString());
+            }
+            Picasso.with(getActivity())
+                    .load(offer.getPictureUrl())
+                    .placeholder(R.drawable.unknown)
+                    .error(R.drawable.unknown)
+                    .into(mOfferImageView);
 
-        }
-
-        public void bindDrawable(Drawable drawable)
-        {
-            mOfferImageView.setImageDrawable(drawable);
         }
 
         @Override
@@ -128,11 +139,11 @@ public class OfferListFragment extends Fragment {
 
     private class OfferAdapter extends RecyclerView.Adapter<OfferHolder> {
         private List<Offer> mOfferList;
-        private Drawable mDefaultDrawable;
+
 
         public OfferAdapter(List<Offer> offerList) {
            mOfferList=offerList;
-           mDefaultDrawable= ResourcesCompat.getDrawable(getResources(),R.drawable.unknown,null);
+
     }
 
         @Override
@@ -148,19 +159,6 @@ public class OfferListFragment extends Fragment {
         public void onBindViewHolder(final OfferHolder holder, int position) {
             Offer offer = mOfferList.get(position);
             holder.bindOffer(offer);
-            holder.bindDrawable(mDefaultDrawable);
-            if(offer.getPictureUrl()!=null) {
-                ImageDownloader imageDownloader = ImageDownloader.getInstance(getActivity());
-                imageDownloader.downloadImage(offer.getUrl(), new ImageDownloader.ImageDownloadedCallback() {
-                    @Override
-                    public void onImageDowloaded(Bitmap bitmap) {
-                        if(bitmap!=null){
-                            Drawable drawable = new BitmapDrawable(getResources(), bitmap);
-                            holder.bindDrawable(drawable);
-                        }
-                    }
-                });
-            }
 
         }
 

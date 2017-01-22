@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">TestAppBalinaSoft</string>
+    <string name="drawer_open">ткрыть</string>
+    <string name="drawer_close">закрыть</string>
+    <string name="search">поиск</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Открыть боковую панель</string>
+    <string name="navigation_drawer_close">Закрыть боковую панель</string>
+    <string name="contacts">Контакты</string>
+    <string name="catalog">Каталог</string>
+    <string name="action_settings">Settings</string>
+    <string name="progress_dialog_title">Загрузка</string>
+    <string name="progress_dialog_message"></string>
+    <string name="title_activity_maps">Map</string>
+
+
 </resources>

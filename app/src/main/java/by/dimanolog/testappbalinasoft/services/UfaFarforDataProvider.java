@@ -2,16 +2,15 @@ package by.dimanolog.testappbalinasoft.services;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
 import by.dimanolog.testappbalinasoft.App;
 import by.dimanolog.testappbalinasoft.beans.Category;
 import by.dimanolog.testappbalinasoft.beans.Offer;
 import by.dimanolog.testappbalinasoft.beans.YmlCatalog;
-import retrofit2.Call;
-import retrofit2.Callback;
 import retrofit2.Response;
 
 /**
@@ -34,12 +33,22 @@ public class UfaFarforDataProvider {
 
     private UfaFarforDataProvider(Context context){
         mContext=context.getApplicationContext();
-        UfaFarforDataProviderInit();
+    }
+
+    public boolean isReady(){
+        return mYmlCatalog!=null;
 
     }
 
+    public void update()
+    {
+        try {
+            getDataFromHttp();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-
+    }
 
     public List<Category>  getCategorysList(){
         List<Category> categoryList=new ArrayList<>();
@@ -74,31 +83,21 @@ public class UfaFarforDataProvider {
 
         return offersInCategory;
     }
-    private void getDataFromHttp(){
-        App.getUfaFarforApi()
+    private boolean getDataFromHttp() throws IOException {
+        Response<YmlCatalog> response=App.getFarforApi()
                 .getData(App.getKey())
-                .enqueue(new Callback<YmlCatalog>() {
-                    @Override
-                    public void onResponse(Call<YmlCatalog> call, Response<YmlCatalog> response) {
-                        if(response.isSuccessful()) {
-                            mYmlCatalog = response.body();
-                        }else {
-                            Log.w(TAG,"cant acces to resource");
-                        }
-                    }
-                    @Override
-                    public void onFailure(Call<YmlCatalog> call, Throwable t) {
-                            Log.e(TAG,"Failure",t);
-                    }
-                });
+                .execute();
+        if(response.isSuccessful()){
+          mYmlCatalog=response.body();
+            return true;
+        }
+        return false;
     }
-    private void UfaFarforDataProviderInit()
-    {
-        getDataFromHttp();
 
-    }
+
 
     private void getDataFromDb(){
+
 
     }
 

@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.concurrent.TimeUnit;
 
-import by.dimanolog.testappbalinasoft.api.UfaFarforApi;
+import by.dimanolog.testappbalinasoft.api.FarforApi;
 import by.dimanolog.testappbalinasoft.beans.YmlCatalog;
 import by.dimanolog.testappbalinasoft.services.DownloadImageService;
 import okhttp3.OkHttpClient;
@@ -38,9 +38,9 @@ public class TestRetrofit {
                 .addConverterFactory(SimpleXmlConverterFactory.create())
                 .client(getClient())
                 .build();
-        UfaFarforApi ufaFarforApi = retrofit.create(UfaFarforApi.class);
+        FarforApi farforApi = retrofit.create(FarforApi.class);
 
-        /*ufaFarforApi.getData(KEY)
+        /*farforApi.getData(KEY)
                 .enqueue(new Callback<Shop>() {
                     @Override
                     public void onResponse(Call<Shop> call, Response<Shop> response) {
@@ -57,7 +57,7 @@ public class TestRetrofit {
                 });*/
         YmlCatalog ymlCatalog;
         try {
-            Response<YmlCatalog> response = ufaFarforApi.getData(KEY).execute();
+            Response<YmlCatalog> response = farforApi.getData(KEY).execute();
             Assert.assertNotNull(response);
             ymlCatalog = response.body();
             Assert.assertNotNull(ymlCatalog);

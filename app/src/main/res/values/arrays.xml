@@ -33,5 +33,10 @@
         <item>warm</item>
     </string-array>
 
+    <string-array name="drawer_titles">
+        <item name="catalog">Каталог</item>
+        <item name="contacts">Контакты</item>
+    </string-array>
+    
 
 </resources>
