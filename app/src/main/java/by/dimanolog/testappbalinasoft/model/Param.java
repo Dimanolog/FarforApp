@@ -1,4 +1,7 @@
-package by.dimanolog.testappbalinasoft.beans;
+package by.dimanolog.testappbalinasoft.model;
+
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
 
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Root;
@@ -9,17 +12,28 @@ import java.io.Serializable;
 /**
  * Created by Dimanolog on 13.01.2017.
  */
+@DatabaseTable
 @Root(name = "param")
 public class Param implements Serializable{
+    @DatabaseField(foreign = true)
+    private Offer mOffer;
+    @DatabaseField
     @Attribute(name="name")
     private String mName;
+    @DatabaseField
     @Text
     private String mContent;
 
     public Param() {
     }
 
+    public Offer getOffer() {
+        return mOffer;
+    }
 
+    public void setOffer(Offer offer) {
+        mOffer = offer;
+    }
 
     public Param(String content, String name) {
 

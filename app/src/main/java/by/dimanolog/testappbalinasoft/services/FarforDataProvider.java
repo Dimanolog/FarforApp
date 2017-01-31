@@ -17,21 +17,21 @@ import retrofit2.Response;
  * Created by Dimanolog on 16.01.2017.
  */
 
-public class UfaFarforDataProvider {
-    private static final String TAG=UfaFarforDataProvider.class.getSimpleName();
-    private static UfaFarforDataProvider sInstance;
+public class FarforDataProvider {
+    private static final String TAG=FarforDataProvider.class.getSimpleName();
+    private static FarforDataProvider sInstance;
     private YmlCatalog mYmlCatalog;
     private Context mContext;
 
-    public static UfaFarforDataProvider getInstance(Context context){
+    public static FarforDataProvider getInstance(Context context){
         if(sInstance==null){
-            sInstance=new UfaFarforDataProvider(context);
+            sInstance=new FarforDataProvider(context);
         }
         return sInstance;
 
     }
 
-    private UfaFarforDataProvider(Context context){
+    private FarforDataProvider(Context context){
         mContext=context.getApplicationContext();
     }
 

@@ -1,4 +1,4 @@
-package by.dimanolog.testappbalinasoft.beans;
+package by.dimanolog.testappbalinasoft.model;
 
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;

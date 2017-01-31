@@ -20,16 +20,16 @@ import java.util.Map;
 
 import by.dimanolog.testappbalinasoft.App;
 import by.dimanolog.testappbalinasoft.R;
-import by.dimanolog.testappbalinasoft.beans.Category;
-import by.dimanolog.testappbalinasoft.services.UfaFarforDataProvider;
+import by.dimanolog.testappbalinasoft.model.Category;
+import by.dimanolog.testappbalinasoft.services.FarforDataProvider;
 import by.dimanolog.testappbalinasoft.util.ResourcesUtil;
 
 /**
  * Created by Dimanolog on 14.01.2017.
  */
 
-public class CategoryChooserFragment extends Fragment {
-    private static final String TAG = CategoryChooserFragment.class.getSimpleName();
+public class CatalogFragment extends Fragment {
+    private static final String TAG = CatalogFragment.class.getSimpleName();
     private static final String ARG_CURRENT_CATEGORY = "current_category";
     private static final int WIDTH_COLUMNS = 240;
 
@@ -42,9 +42,9 @@ public class CategoryChooserFragment extends Fragment {
         void onCategoryItemClick(Category category);
     }
 
-    public static CategoryChooserFragment newInstance(@Nullable Category currentCategory) {
+    public static CatalogFragment newInstance(@Nullable Category currentCategory) {
 
-        CategoryChooserFragment fragment = new CategoryChooserFragment();
+        CatalogFragment fragment = new CatalogFragment();
         if (currentCategory != null) {
             Bundle args = new Bundle();
             args.putSerializable(ARG_CURRENT_CATEGORY, currentCategory);
@@ -103,7 +103,7 @@ public class CategoryChooserFragment extends Fragment {
 
     private void setupAdapter() {
         if (isAdded()) {
-            List<Category> categoryList = UfaFarforDataProvider
+            List<Category> categoryList = FarforDataProvider
                     .getInstance(getActivity())
                     .getCategorysList();
             mCategoryRecyclerView.setAdapter(new CategoryAdapter(categoryList));
