@@ -26,9 +26,9 @@ public class Offer implements Serializable {
     @DatabaseField(id = true)
     @Attribute(name = "id")
     private Long mId;
-    @DatabaseField(foreign = true,useGetSet = true)
-    private Category mCategory;
-    @Element(name = "categoryId")
+    @DatabaseField(foreign = true, useGetSet = true,
+    columnName = "category_id")
+    private Category Category;
     private Long mCategoryId;
     @DatabaseField
     @Element(name = "url")
@@ -50,16 +50,17 @@ public class Offer implements Serializable {
 
     public Category getCategory() {
 
-        return mCategory;
+        return Category;
     }
 
     public void setCategory(Category category) {
-        mCategoryId=category.getId();
-        mCategory=category;
+        mCategoryId = category.getId();
+        Category = category;
     }
 
     public Offer() {
     }
+
     @ElementList(inline = true, entry = "param", required = false)
     public Collection<Param> getParamCollection() {
         return mParamCollection;
@@ -67,21 +68,22 @@ public class Offer implements Serializable {
 
     @ElementList(inline = true, entry = "param", required = false)
     public void setParamCollection(Collection<Param> paramCollection) {
-        if(paramCollection!=null){
-            for(Param param:paramCollection){
+        if (paramCollection != null) {
+            for (Param param : paramCollection) {
                 param.setOffer(this);
             }
         }
         mParamCollection = paramCollection;
     }
-
+    @Element(name = "categoryId")
     public Long getCategoryId() {
         return mCategoryId;
     }
 
+    @Element(name = "categoryId")
     public void setCategoryId(Long categoryId) {
-        mCategory=new Category();
-        mCategory.setId(categoryId);
+        Category = new Category();
+        Category.setId(categoryId);
         mCategoryId = categoryId;
     }
 
@@ -137,13 +139,15 @@ public class Offer implements Serializable {
 
     public List<Param> getParamList() {
         List<Param> paramList = new ArrayList<>();
-        paramList.addAll(mParamCollection);
+        if(mParamCollection!=null) {
+            paramList.addAll(mParamCollection);
+        }
         return paramList;
     }
 
     @Nullable
     public Param getParamsByName(String paramName) {
-        if(mParamCollection!=null) {
+        if (mParamCollection != null) {
             for (Param paramItem : mParamCollection) {
                 if (paramItem.getName().equals(paramName)) {
                     return paramItem;

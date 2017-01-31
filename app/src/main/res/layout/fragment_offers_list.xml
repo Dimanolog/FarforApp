@@ -4,4 +4,6 @@
     android:id="@+id/fragment_category_choose_recycler_view"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+
+
     />

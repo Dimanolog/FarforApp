@@ -4,8 +4,13 @@ import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 
+import com.j256.ormlite.android.apptools.OpenHelperManager;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import by.dimanolog.testappbalinasoft.model.Category;
+import by.dimanolog.testappbalinasoft.database.DatabaseHelper;
 
 import static org.junit.Assert.*;
 
@@ -21,6 +26,12 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("dimanolog.by.testappbalinasoft", appContext.getPackageName());
+        assertEquals("by.dimanolog.testappbalinasoft", appContext.getPackageName());
+    }
+
+    @Test
+    public void databaseCreate(){
+       DatabaseHelper sDatabaseHelper = OpenHelperManager.getHelper(InstrumentationRegistry.getTargetContext(), DatabaseHelper.class);
+       sDatabaseHelper.getCategoryDao().create(new Category(new Long(0),"1234"));
     }
 }

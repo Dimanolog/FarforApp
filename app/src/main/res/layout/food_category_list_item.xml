@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativelayout"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_gravity="center">
+
     <ImageView
         android:id="@+id/category_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/unknown"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
-
-    <View
-        android:id="@+id/category_selector"
-        android:layout_width="wrap_content"
-        android:layout_height="5dp"
-        android:background="@drawable/category_selected"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:visibility="gone"
-        />
+        android:src="@drawable/unknow_mini"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/category_text_view"
@@ -31,11 +22,25 @@
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:textStyle="normal|bold"
-        android:textSize="30sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="5dp"/>
+        android:textSize="20sp"
+        tools:text="Незнамо што"
+        android:layout_alignBottom="@+id/category_image_view"
+        android:layout_alignLeft="@+id/category_image_view"
+        android:layout_alignStart="@+id/category_image_view"
+        android:layout_alignRight="@+id/category_image_view"
+        android:layout_alignEnd="@+id/category_image_view"/>
+
+    <View
+        android:id="@+id/category_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="@drawable/category_selected"
+        android:visibility="invisible"
+        android:layout_above="@+id/category_text_view"
+        android:layout_alignLeft="@+id/category_image_view"
+        android:layout_alignStart="@+id/category_image_view"
+        android:layout_alignRight="@+id/category_image_view"
+        android:layout_alignEnd="@+id/category_image_view"/>
 
 
 </RelativeLayout>

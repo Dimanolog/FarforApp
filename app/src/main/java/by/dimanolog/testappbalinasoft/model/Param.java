@@ -15,7 +15,9 @@ import java.io.Serializable;
 @DatabaseTable
 @Root(name = "param")
 public class Param implements Serializable{
-    @DatabaseField(foreign = true)
+    @DatabaseField(generatedId = true)
+    private Long mId;
+    @DatabaseField(foreign = true, columnName = "offer_id")
     private Offer mOffer;
     @DatabaseField
     @Attribute(name="name")

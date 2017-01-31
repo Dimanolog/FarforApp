@@ -17,10 +17,10 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 import by.dimanolog.testappbalinasoft.R;
-import by.dimanolog.testappbalinasoft.beans.Category;
-import by.dimanolog.testappbalinasoft.beans.Offer;
-import by.dimanolog.testappbalinasoft.beans.Param;
-import by.dimanolog.testappbalinasoft.services.UfaFarforDataProvider;
+import by.dimanolog.testappbalinasoft.model.Category;
+import by.dimanolog.testappbalinasoft.model.Offer;
+import by.dimanolog.testappbalinasoft.model.Param;
+import by.dimanolog.testappbalinasoft.services.FarforDataProvider;
 import by.dimanolog.testappbalinasoft.util.ParamNames;
 
 /**
@@ -65,7 +65,7 @@ public class OfferListFragment extends Fragment {
             }
         }
 
-        mOfferList=UfaFarforDataProvider.getInstance(getActivity()).getOfferInCategory(mCategory);
+        mOfferList= FarforDataProvider.getInstance(getActivity()).getOfferInCategory(mCategory);
     }
 
     @Nullable
@@ -124,10 +124,9 @@ public class OfferListFragment extends Fragment {
             }
             Picasso.with(getActivity())
                     .load(offer.getPictureUrl())
-                    .placeholder(R.drawable.unknown)
-                    .error(R.drawable.unknown)
+                    .placeholder(R.drawable.unknow_mini)
+                    .error(R.drawable.unknow_mini)
                     .into(mOfferImageView);
-
         }
 
         @Override

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "dimanolog.by.testappbalinasoft"
+        applicationId "by.dimanolog.testappbalinasoft"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
@@ -37,6 +37,7 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.google.android.gms:play-services-maps:10.0.1'
     compile 'com.google.android.gms:play-services-location:10.0.1'
-    compile 'com.google.android.gms:play-services:10.0.1'
+    compile 'com.j256.ormlite:ormlite-android:5.0'
+
     testCompile 'junit:junit:4.12'
-}
+   }

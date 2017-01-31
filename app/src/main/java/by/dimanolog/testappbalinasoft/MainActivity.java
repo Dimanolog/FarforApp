@@ -1,6 +1,5 @@
 package by.dimanolog.testappbalinasoft;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -10,33 +9,40 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 
-import by.dimanolog.testappbalinasoft.beans.Category;
-import by.dimanolog.testappbalinasoft.beans.Offer;
 import by.dimanolog.testappbalinasoft.dialogs.ProgressDialogFragment;
-import by.dimanolog.testappbalinasoft.fragments.CategoryChooserFragment;
+import by.dimanolog.testappbalinasoft.fragments.CatalogFragment;
 import by.dimanolog.testappbalinasoft.fragments.ContactsFragment;
+import by.dimanolog.testappbalinasoft.fragments.OfferFragment;
 import by.dimanolog.testappbalinasoft.fragments.OfferListFragment;
-import by.dimanolog.testappbalinasoft.services.UfaFarforDataProvider;
+import by.dimanolog.testappbalinasoft.model.Category;
+import by.dimanolog.testappbalinasoft.model.Offer;
+import by.dimanolog.testappbalinasoft.services.FarforDataProvider;
 
-import static by.dimanolog.testappbalinasoft.services.UfaFarforDataProvider.getInstance;
+import static by.dimanolog.testappbalinasoft.services.FarforDataProvider.getInstance;
 
 public class MainActivity extends AppCompatActivity
-        implements CategoryChooserFragment.CategoryChooserFragmentCallback,
-        OfferListFragment.OfferListFragmentCallback {
-    public static final String TAG=MainActivity.class.getSimpleName();
-    public static final String PROGRESS_DIALOG="ProgressDialog";
+        implements CatalogFragment.CategoryChooserFragmentCallback,
+        OfferListFragment.OfferListFragmentCallback,
+        FarforDataProvider.FarforDataProviderCallback {
+
+    public static final String TAG = MainActivity.class.getSimpleName();
+    public static final String PROGRESS_DIALOG = "ProgressDialog";
+    public static final String ARG_CURRENT_CATEGORY = "current_category";
 
     private Category mCurrentCategory;
-    private UfaFarforDataProvider mUfaFarforDataProvider;
+    private FarforDataProvider mUfaFarforDataProvider;
     private ProgressDialogFragment mProgressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (savedInstanceState != null) {
+
+            mCurrentCategory =(Category) savedInstanceState.getSerializable(ARG_CURRENT_CATEGORY);
+        }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -54,15 +60,25 @@ public class MainActivity extends AppCompatActivity
                 return onItemSelected(item.getItemId());
             }
         });
+
         mProgressDialog = new ProgressDialogFragment();
 
         mUfaFarforDataProvider = getInstance(this);
+        mUfaFarforDataProvider.setCallback(this);
         if (!mUfaFarforDataProvider.isReady()) {
-                new UfaFarforDataUpdateTask().execute();
+            if (mUfaFarforDataProvider.isLoading()) {
+                mProgressDialog.show(getSupportFragmentManager(), PROGRESS_DIALOG);
+            }
+            mUfaFarforDataProvider.update();
         }
-
     }
 
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putSerializable(ARG_CURRENT_CATEGORY, mCurrentCategory);
+    }
 
     @Override
     public void onBackPressed() {
@@ -74,30 +90,8 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     private void showFragment(Fragment fragment) {
-
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, fragment)
@@ -116,20 +110,19 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onOfferItemClick(Offer offer) {
 
+        Fragment fragment = OfferFragment.newInstance(offer);
+        showFragment(fragment);
     }
 
 
     private boolean onItemSelected(int menuId) {
-
-
         Fragment fragment = null;
-
         switch (menuId) {
             case R.id.nav_catalog:
-                fragment = CategoryChooserFragment.newInstance(mCurrentCategory);
+                fragment = CatalogFragment.newInstance(mCurrentCategory);
                 break;
             case R.id.nav_contacts:
-                fragment= ContactsFragment.getNewInstance();
+                fragment = ContactsFragment.newInstance();
                 break;
 
             default:
@@ -145,29 +138,17 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private class UfaFarforDataUpdateTask extends AsyncTask<Void, Void, Void> {
+    @Override
+    public void onStartLoad() {
+        mProgressDialog.show(getSupportFragmentManager(), PROGRESS_DIALOG);
+    }
 
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            mProgressDialog.show(getSupportFragmentManager(), PROGRESS_DIALOG );
-
-        }
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            mUfaFarforDataProvider.update();
-
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void Void) {
-            super.onPostExecute(Void);
-            mProgressDialog.dismiss();
-            onItemSelected(R.id.nav_catalog);
-
-        }
+    @Override
+    public void onFinishLoad() {
+        mProgressDialog.dismiss();
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragment_container, CatalogFragment.newInstance(mCurrentCategory))
+                .commit();
     }
 }

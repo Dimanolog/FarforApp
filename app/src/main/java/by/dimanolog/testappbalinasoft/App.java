@@ -2,11 +2,14 @@ package by.dimanolog.testappbalinasoft;
 
 import android.app.Application;
 
+import com.j256.ormlite.android.apptools.OpenHelperManager;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import by.dimanolog.testappbalinasoft.api.FarforApi;
+import by.dimanolog.testappbalinasoft.database.DatabaseHelper;
 import by.dimanolog.testappbalinasoft.services.DownloadImageService;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
@@ -17,6 +20,7 @@ import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
  */
 
 public class App extends Application {
+
     private static final int MAP_INITIAL_CAPACITY = 12;
     private static final int CONNECT_TIMEOUT = 1;
     private static final int READ_TIMEOUT = 1;
@@ -24,11 +28,14 @@ public class App extends Application {
     private static final String KEY = "ukAXxeJYZN";
 
     private static FarforApi sFarforApi;
+    private static DatabaseHelper sDatabaseHelper;
     private static Map<String, String> sCategoryToImageNameMap;
     private static DownloadImageService sDownloadImageService;
 
     public static final int PERMISSION_ACCESS_FINE_LOCATION=0;
-    public static final int MY_PERMISSION_ACCESS_COARSE_LOCATION=1;
+    public static final int PERMISSION_ACCESS_COARSE_LOCATION =1;
+
+
 
     private Retrofit mRetrofit;
     private OkHttpClient mOkHttpClient;
@@ -39,6 +46,9 @@ public class App extends Application {
 
     public static FarforApi getFarforApi() {
         return sFarforApi;
+    }
+    public static DatabaseHelper getDatabaseHelper(){
+        return sDatabaseHelper;
     }
 
     public static Map<String,String> getCategoryToImageNameMap()
@@ -58,7 +68,14 @@ public class App extends Application {
         UfaFarforApiInit();
         DownloadImageServiceInit();
         categoryToImageInit();
+        sDatabaseHelper = OpenHelperManager.getHelper(getApplicationContext(), DatabaseHelper.class);
 
+    }
+
+    @Override
+    public void onTerminate() {
+        super.onTerminate();
+        sDatabaseHelper.close();
     }
 
     private void DownloadImageServiceInit() {

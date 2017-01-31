@@ -31,7 +31,7 @@ import by.dimanolog.testappbalinasoft.util.ResourcesUtil;
 public class CatalogFragment extends Fragment {
     private static final String TAG = CatalogFragment.class.getSimpleName();
     private static final String ARG_CURRENT_CATEGORY = "current_category";
-    private static final int WIDTH_COLUMNS = 240;
+    private static final int WIDTH_COLUMNS = 300;
 
     private RecyclerView mCategoryRecyclerView;
     private Map<String, String> mCategoryToImageNameMap;
@@ -45,11 +45,12 @@ public class CatalogFragment extends Fragment {
     public static CatalogFragment newInstance(@Nullable Category currentCategory) {
 
         CatalogFragment fragment = new CatalogFragment();
+
+        Bundle args = new Bundle();
         if (currentCategory != null) {
-            Bundle args = new Bundle();
             args.putSerializable(ARG_CURRENT_CATEGORY, currentCategory);
-            fragment.setArguments(args);
         }
+        fragment.setArguments(args);
         return fragment;
     }
 
@@ -69,8 +70,6 @@ public class CatalogFragment extends Fragment {
                 mCurrentCategory = (Category) getArguments().getSerializable(ARG_CURRENT_CATEGORY);
             }
         }
-
-
     }
 
     @Override
@@ -141,6 +140,8 @@ public class CatalogFragment extends Fragment {
         @Override
         public void onClick(View v) {
             mCategoryChooserFragmentCallback.onCategoryItemClick(mCategory);
+            mCurrentCategory = mCategory;
+            getArguments().putSerializable(ARG_CURRENT_CATEGORY, mCurrentCategory);
 
         }
 
@@ -158,7 +159,7 @@ public class CatalogFragment extends Fragment {
 
         public CategoryAdapter(List<Category> categoryList) {
             mCategoryList = categoryList;
-            mUnknownCategoryDrw = ResourcesCompat.getDrawable(getResources(), R.drawable.unknown, null);
+            mUnknownCategoryDrw = ResourcesCompat.getDrawable(getResources(), R.drawable.unknow_mini, null);
         }
 
         @Override
