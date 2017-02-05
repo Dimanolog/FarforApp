@@ -95,7 +95,6 @@ public class CatalogFragment extends Fragment {
         });
         setupAdapter();
 
-
         return v;
     }
 
