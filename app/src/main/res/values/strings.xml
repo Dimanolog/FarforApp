@@ -16,11 +16,13 @@
 
 
     <!--Contacts fragment-->
+
+    <string name="contact_tel">Контактные телефоны:</string>
     <string name="our_adress">Адреса заведений:</string>
     <string name="user_position_marker">Вы здесь</string>
     <string name="farfor_positiom_marker">А мы тут</string>
 
-    <string name="farfor_tel">+375298803542</string>
+    <string name="farfor_tel">(МТС)+375298803542</string>
 
    <string name="farfor_address1">ул. Озeрная, 49, Калининград,
         Калининградская обл., Россия, 236029</string>
@@ -31,7 +33,6 @@
         110a, Гродно, Беларусь</string>
     <string name="farfor_addres2_lat">53.672086</string>
     <string name="farfor_addres2_lng">23.799021</string>
-
 
     <string name="farfor_address3">ул. Кульман 5б, Минск, Беларусь, 220013</string>
     <string name="farfor_addres3_lat">53.918854</string>

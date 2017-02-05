@@ -2,59 +2,59 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:clickable="true"
-                android:focusable="true"
                 android:background="?android:attr/selectableItemBackground"
-                xmlns:tools="http://schemas.android.com/tools">
+                android:clickable="true"
+                android:focusable="true">
 
     <ImageView
         android:id="@+id/offer_image_view"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/unknown"
-        android:layout_alignParentTop="true"
+        android:layout_width="105dp"
+        android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:layout_margin="5dp"
-        android:scaleType="fitCenter"/>
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/unknown"
+       />
 
     <TextView
         android:id="@+id/offer_list_item_offer_name_txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="?android:attr/textAppearanceLarge"
         android:layout_alignTop="@+id/offer_image_view"
-        android:layout_toRightOf="@+id/offer_image_view"
         android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
         android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toRightOf="@+id/offer_image_view"
         android:gravity="center"
+        style="@style/TitleFont.List"
         tools:text="Offer name"/>
 
     <TextView
         android:id="@+id/offer_list_item_weight_txt"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/offer_list_item_offer_name_txt"
+        android:layout_alignStart="@+id/offer_list_item_offer_name_txt"
         android:layout_below="@+id/offer_list_item_offer_name_txt"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
         android:inputType="textMultiLine"
-        tools:text="Вес: 1024 гр."
-        android:layout_toRightOf="@+id/offer_image_view"
-
-
-        android:fontFamily="sans-serif"
-        android:layout_marginBottom="12dp"/>
+        style="@style/NormalText"
+        tools:text="Вес: 1024 гр."/>
 
     <TextView
         android:id="@+id/offer_list_item_price_txt"
+        style="@style/PriceTextView.List"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Цена: 100000р."
-        android:layout_below="@+id/offer_list_item_weight_txt"
-        android:layout_alignLeft="@+id/offer_list_item_weight_txt"
-        android:layout_alignStart="@+id/offer_list_item_weight_txt"/>
+        android:layout_alignBaseline="@+id/offer_list_item_weight_txt"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        tools:text="100000"
+        />
 
 </RelativeLayout>

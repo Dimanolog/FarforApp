@@ -124,8 +124,10 @@ public class OfferListFragment extends Fragment {
             }
             Picasso.with(getActivity())
                     .load(offer.getPictureUrl())
-                    .placeholder(R.drawable.unknow_mini)
-                    .error(R.drawable.unknow_mini)
+                    .placeholder(R.drawable.unknown_mini)
+                    .error(R.drawable.unknown_mini)
+                    .fit()
+                    .centerCrop()
                     .into(mOfferImageView);
         }
 

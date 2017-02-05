@@ -159,7 +159,7 @@ public class CatalogFragment extends Fragment {
 
         public CategoryAdapter(List<Category> categoryList) {
             mCategoryList = categoryList;
-            mUnknownCategoryDrw = ResourcesCompat.getDrawable(getResources(), R.drawable.unknow_mini, null);
+            mUnknownCategoryDrw = ResourcesCompat.getDrawable(getResources(), R.drawable.unknown_mini, null);
         }
 
         @Override

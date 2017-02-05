@@ -1,0 +1,4104 @@
+﻿
+<yml_catalog date="2017-02-04 20:20">
+<shop>
+<categories>
+<category id="5">Суши</category>
+<category id="8">Теплое</category>
+<category id="25">Патимейкер</category>
+<category id="3">Лапша</category>
+<category id="1">Пицца</category>
+<category id="2">Сеты</category>
+<category id="18">Роллы</category>
+<category id="6">Супы</category>
+<category id="23">Добавки</category>
+<category id="7">Салаты</category>
+<category id="20">Закуски</category>
+<category id="10">Десерты</category>
+<category id="9">Напитки</category>
+<category id="24">Шашлыки</category>
+</categories>
+<offers>
+<offer id="10679">
+<url>http://ufa.farfor.ru/pizza/siciliya-40sm-spec/</url>
+<name>Сицилия 40см</name>
+<price>590.00</price>
+<description>
+Ветчина, бекон сырокопченый, колбаса полукопченая, сыр Моцарелла. В бортике молочная сосиска. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F-6_1_2.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1080.00 гр</param>
+</offer>
+<offer id="2950">
+<url>http://ufa.farfor.ru/dessert/shoko_muffin/</url>
+<name>Маффин шоколадный</name>
+<price>50.00</price>
+<description>Шоколадный маффин</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/4d63a0e5b89d21b04420ccdb59a1cd68.jpg
+</picture>
+<categoryId>10</categoryId>
+<param name="Вес">95.00 гр</param>
+<param name="Каллорийность">5.053</param>
+<param name="Белки">0.074</param>
+<param name="Жиры">0.337</param>
+<param name="Углеводы">0.432</param>
+</offer>
+<offer id="7616">
+<url>http://ufa.farfor.ru/set-constructor/double-pizza/</url>
+<name>ДаблПицца</name>
+<price>390.00</price>
+<description>
+Это новый прорыв от доставки удовольствий Фарфор. Мы знаем как много битв и споров вокруг того какую пиццу заказать на доставку. Мы решили сократить эту проблему ровно на половину. Заказывайте через конструктор пиццы двойные пиццы. Два вкуса в одной пицце!
+</description>
+<picture/>
+<categoryId>25</categoryId>
+</offer>
+<offer id="10690">
+<url>http://ufa.farfor.ru/pizza/siciliya-30sm-spec/</url>
+<name>Сицилия 30см</name>
+<price>290.00</price>
+<description>
+Ветчина, бекон сырокопченый, колбаса полукопченая, сыр Моцарелла. В бортике молочная сосиска. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F-6_1_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">630.00 гр</param>
+</offer>
+<offer id="10628">
+<url>
+http://ufa.farfor.ru/shashlyk/shashlyk-iz-svinnoi-shei/
+</url>
+<name>Шашлык из свиной шеи</name>
+<price>390.00</price>
+<description>
+Шашлык из свиной шеи, лук маринованный, фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%81%D0%B2%D0%B8%D0%BD%D0%BE%D0%B9_%D1%88%D0%B0%D1%88%D0%BB%D1%8B%D0%BA_1.jpg
+</picture>
+<categoryId>24</categoryId>
+<param name="Вес">270.00 гр</param>
+</offer>
+<offer id="1892">
+<url>http://ufa.farfor.ru/lapsha/1/</url>
+<name>Фунчоза с овощами под соусом Кинг</name>
+<price>180.00</price>
+<description>
+Лапша Фунчоза, шампиньоны, перец болгарский, морковь, фасоль стручковая, лук, соус Кинг.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A4%D1%83%D0%BD%D1%87%D0%BE%D0%B7%D0%B0-%D1%81-%D0%BE%D0%B2%D0%BE%D1%89%D0%B0%D0%BC%D0%B8-%D0%BF%D0%BE%D0%B4-%D1%81%D0%BE%D1%83%D1%81%D0%BE%D0%BC-%D0%9A%D0%B8%D0%BD%D0%B3.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">340.00 гр</param>
+<param name="Каллорийность">282.153</param>
+<param name="Белки">2.014</param>
+<param name="Жиры">5.874</param>
+<param name="Углеводы">58.912</param>
+</offer>
+<offer id="1972">
+<url>http://ufa.farfor.ru/dessert/pirog_clubnika/</url>
+<name>Клубничный пирог</name>
+<price>150.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/IMG_0066.jpg
+</picture>
+<categoryId>10</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="5797">
+<url>http://ufa.farfor.ru/set-constructor/unlim/</url>
+<name>Unlim</name>
+<price>1990.00</price>
+<description>роллы+пицца+салат</description>
+<picture>http://ufa.farfor.ru/media/menu/products/7.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="1941">
+<url>http://ufa.farfor.ru/japan/sushi/sushi_s_lososem/</url>
+<name>Суси с лососем</name>
+<price>70.00</price>
+<description>Нежный норвежский лосось</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D1%81%D0%B8_%D1%81_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">140.977</param>
+<param name="Белки">11.086</param>
+<param name="Жиры">3.206</param>
+<param name="Углеводы">16.989</param>
+</offer>
+<offer id="5019">
+<url>http://ufa.farfor.ru/dobawky/vasabi/</url>
+<name>Васаби</name>
+<price>10.00</price>
+<description>
+Васаби – это японский зеленый хрен, широко используемый в национальной японской кухне.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B2%D0%B0%D1%81%D0%B0%D0%B1%D0%B8.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">20.00 гр</param>
+<param name="Каллорийность">241.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">9.0</param>
+<param name="Углеводы">40.0</param>
+</offer>
+<offer id="3220">
+<url>http://ufa.farfor.ru/zakuski/chesnochnyie-grenki/</url>
+<name>Чесночные гренки</name>
+<price>90.00</price>
+<description>
+Вкуснейшие, хрустящие гренки из ржаного хлеба с фирменным чесночным соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B3%D1%80%D0%B5%D0%BD%D0%BA%D0%B8.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">160.00 гр</param>
+<param name="Каллорийность">253.156</param>
+<param name="Белки">6.569</param>
+<param name="Жиры">7.446</param>
+<param name="Углеводы">38.813</param>
+</offer>
+<offer id="10319">
+<url>http://ufa.farfor.ru/japan/rolly/roll-kopchenyi/</url>
+<name>Ролл Копченый</name>
+<price>149.00</price>
+<description>
+Стружка тунца, масляная рыба, кожа лосося, перец болгарский, японский майонез, унаги соус и белый кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D0%BE%D0%BF%D1%87%D0%B5%D0%BD%D1%8B%D0%B9_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">250.00 гр</param>
+</offer>
+<offer id="1939">
+<url>
+http://ufa.farfor.ru/japan/sushi/susi_s_kopchenym_lososem/
+</url>
+<name>Суси с копченым лососем</name>
+<price>70.00</price>
+<description>Вкуснейший копченый лосось</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D1%81%D0%B8_%D1%81_%D0%BA%D0%BE%D0%BF%D1%87%D0%B5%D0%BD%D1%8B%D0%BC_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">167.549</param>
+<param name="Белки">11.471</param>
+<param name="Жиры">5.991</param>
+<param name="Углеводы">16.989</param>
+</offer>
+<offer id="3130">
+<url>http://ufa.farfor.ru/dobawky/soevyij_sous/</url>
+<name>Соевый соус</name>
+<price>20.00</price>
+<description>
+Ароматный и вкусный соевый соус, приправа, которая способна превратить любое блюдо в изысканное яство.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/8022bca0845d9f9c6f9f820bd3d082ad.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">183.0</param>
+<param name="Белки">2.6</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">43.0</param>
+</offer>
+<offer id="2112">
+<url>http://ufa.farfor.ru/zakuski/fri-kart/</url>
+<name>Картофель Фри</name>
+<price>90.00</price>
+<description>
+Традиционный и всеми любимый! Обжаренные во фритюре до золотистого цвета дольки картофеля фри с зеленым луком.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/311_%D0%97%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8_%D0%9A%D0%B0%D1%80%D1%82%D0%BE%D1%84%D0%B5%D0%BB%D1%8C_%D0%A4%D1%80%D0%B8.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">150.00 гр</param>
+<param name="Каллорийность">264.233</param>
+<param name="Белки">2.185</param>
+<param name="Жиры">20.323</param>
+<param name="Углеводы">19.273</param>
+</offer>
+<offer id="10329">
+<url>http://ufa.farfor.ru/japan/rolly/roll-hrust/</url>
+<name>Хруст</name>
+<price>149.00</price>
+<description>
+Жареное куриное филе, сливочный сыр, перец болгарский, икра масаго, лук фри.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%85%D1%80%D1%83%D1%81%D1%82_.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">185.00 гр</param>
+</offer>
+<offer id="10637">
+<url>
+http://ufa.farfor.ru/shashlyk/shashlyk-iz-file-kurinogo-bedra/
+</url>
+<name>Шашлык из филе куриного бедра</name>
+<price>290.00</price>
+<description>
+Шашлык из филе куриного бедра, лук маринованный, фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D1%83%D1%80%D0%B8%D0%BD%D1%8B%D0%B9_%D1%88%D0%B0%D1%88%D0%BB%D1%8B%D0%BA_1.jpg
+</picture>
+<categoryId>24</categoryId>
+<param name="Вес">270.00 гр</param>
+</offer>
+<offer id="1888">
+<url>http://ufa.farfor.ru/lapsha/2/</url>
+<name>Соба с курицей в остро-сладком соусе</name>
+<price>190.00</price>
+<description>
+Лапша Соба, куриное филе, фасоль стручковая, перец болгарский, лук, остро-сладкий соус, кунжут, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/102_%D0%9B%D0%B0%D0%BF%D1%88%D0%B0_%D0%A1%D0%BE%D0%B1%D0%B0_%D1%81_%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B5%D0%B8_%D0%B2_%D0%BE%D1%81%D1%82%D1%80%D0%BE-%D1%81%D0%BB%D0%B0%D0%B4%D0%BA%D0%BE%D0%BC_%D1%81%D0%BE%D1%83%D1%81%D0%B5.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">340.00 гр</param>
+<param name="Каллорийность">267.391</param>
+<param name="Белки">12.805</param>
+<param name="Жиры">5.883</param>
+<param name="Углеводы">40.811</param>
+</offer>
+<offer id="3233">
+<url>http://ufa.farfor.ru/salaty/grecheskiy/</url>
+<name>Салат Греческий</name>
+<price>190.00</price>
+<description>
+Свежие овощи: помидор, пекинская капуста, огурец и болгарский перец, маслины и кусочки сыра Фета. Заправлен салат классическим соусом на оливковом масле.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/342_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%D1%8B_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82_%D0%93%D1%80%D0%B5%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B8_1.jpg
+</picture>
+<categoryId>7</categoryId>
+<param name="Вес">210.00 гр</param>
+<param name="Каллорийность">56.143</param>
+<param name="Белки">2.743</param>
+<param name="Жиры">4.689</param>
+<param name="Углеводы">5.566</param>
+</offer>
+<offer id="1957">
+<url>http://ufa.farfor.ru/japan/teploe/tyahon_ovoshi/</url>
+<name>Тяхан с овощами</name>
+<price>160.00</price>
+<description>
+Болгарский перец, репчатый лук, рис, яйцо, соевый соус, чеснок, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A2%D1%8F%D1%85%D0%BE%D0%BD-%D1%81-%D0%BE%D0%B2%D0%BE%D1%89%D1%8F%D0%BC%D0%B8.jpg
+</picture>
+<categoryId>8</categoryId>
+<param name="Вес">270.00 гр</param>
+<param name="Каллорийность">117.989</param>
+<param name="Белки">2.252</param>
+<param name="Жиры">5.139</param>
+<param name="Углеводы">15.379</param>
+</offer>
+<offer id="10416">
+<url>http://ufa.farfor.ru/japan/sety/unagi-mix/</url>
+<name>Унаги Микс</name>
+<price>1150.00</price>
+<description>
+Вулкан, Монако, Сливочный с угрем, Красава, Филадельфия под угрем.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%83%D0%BD%D0%B0%D0%B3%D0%B8_%D0%BC%D0%B8%D0%BA%D1%81_%D1%81%D0%B0%D0%B9%D1%82.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">910.00 гр</param>
+<param name="Каллорийность">218.664</param>
+<param name="Белки">6.798</param>
+<param name="Жиры">11.744</param>
+<param name="Углеводы">20.323</param>
+</offer>
+<offer id="1942">
+<url>http://ufa.farfor.ru/japan/sushi/susi_s_tuncom/</url>
+<name>Суси с тунцом</name>
+<price>70.00</price>
+<description>Нежнейший тунец</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D1%81%D0%B8_%D1%81_%D1%82%D1%83%D0%BD%D1%86%D0%BE%D0%BC.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">124.263</param>
+<param name="Белки">11.686</param>
+<param name="Жиры">1.063</param>
+<param name="Углеводы">16.989</param>
+</offer>
+<offer id="10286">
+<url>http://ufa.farfor.ru/japan/rolly/roll-voron/</url>
+<name>Ворон</name>
+<price>149.00</price>
+<description>
+Черный рис, копченое филе куриной грудки, консервированные ананасы, сливочный сыр, барбекю соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B2%D0%BE%D1%80%D0%BE%D0%BD_.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">185.00 гр</param>
+</offer>
+<offer id="5028">
+<url>http://ufa.farfor.ru/dobawky/imbir/</url>
+<name>Имбирь</name>
+<price>25.00</price>
+<description>
+Маринованный имбирь подают с суши, роллами или сашими, эта острая приправа освежает вкус и улучшает восприятие японских блюд.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B8%D0%BC%D0%B1%D0%B8%D1%80%D1%8C.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">140.0</param>
+<param name="Белки">3.15</param>
+<param name="Жиры">1.4</param>
+<param name="Углеводы">27.65</param>
+</offer>
+<offer id="2115">
+<url>http://ufa.farfor.ru/zakuski/fri-dolkami/</url>
+<name>Картофель дольками</name>
+<price>90.00</price>
+<description>
+Обжаренный во фритюре картофель по-деревенски с зеленым луком.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%84%D0%B5%D0%BB%D1%8C_%D0%B4%D0%BE%D0%BB%D1%8C%D0%BA%D0%B0%D0%BC%D0%B8.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">150.00 гр</param>
+<param name="Каллорийность">264.233</param>
+<param name="Белки">2.185</param>
+<param name="Жиры">20.323</param>
+<param name="Углеводы">19.273</param>
+</offer>
+<offer id="10648">
+<url>http://ufa.farfor.ru/shashlyk/ovoschnaya-narezka/</url>
+<name>Овощная нарезка</name>
+<price>160.00</price>
+<description>Помидоры, перец болгарский, огурцы, лук зеленый.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BE%D0%B2%D0%BE%D1%89%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B0%D1%80%D0%B5%D0%B7%D0%BA%D0%B0_2.jpg
+</picture>
+<categoryId>24</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="1889">
+<url>http://ufa.farfor.ru/lapsha/7/</url>
+<name>Удон с курицей в остро-сладком соусе</name>
+<price>190.00</price>
+<description>
+Лапша Удон, куриное филе, перец болгарский, фасоль стручковая, морковь, лук, остро-сладкий соус, кунжут, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/103_%D0%9B%D0%B0%D0%BF%D1%88%D0%B0_%D0%A3%D0%B4%D0%BE%D0%BD_%D1%81_%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B5%D0%B8_%D0%B2_%D0%BE%D1%81%D1%82%D1%80%D0%BE-%D1%81%D0%BB%D0%B0%D0%B4%D0%BA%D0%BE%D0%BC_%D1%81%D0%BE%D1%83%D1%81%D0%B5.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">320.00 гр</param>
+<param name="Каллорийность">229.916</param>
+<param name="Белки">9.63</param>
+<param name="Жиры">6.213</param>
+<param name="Углеводы">33.074</param>
+</offer>
+<offer id="1944">
+<url>http://ufa.farfor.ru/japan/supy/miso/</url>
+<name>Мисо-суп</name>
+<price>100.00</price>
+<description>
+Знаменитый японский суп Мисо. Бульон, приготовленный на мисо пастах, вакаме, грибы шиитаке, кунжут, зеленый лук, сыр тофу.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B8%D1%81%D0%BE.jpg
+</picture>
+<categoryId>6</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">151.093</param>
+<param name="Белки">9.806</param>
+<param name="Жиры">6.734</param>
+<param name="Углеводы">13.987</param>
+</offer>
+<offer id="1872">
+<url>
+http://ufa.farfor.ru/japan/sety/set_filadelfiya_mix/
+</url>
+<name>Филадельфия Микс</name>
+<price>1090.00</price>
+<description>
+Айова 1/2, Филадельфия классик 1/2, Филадельфия темпурная, Запеченная филадельфия 1/2, Филадельфия фреш
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D0%BC%D0%B8%D0%BA%D1%81.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">28 шт</param>
+<param name="Вес">952.00 гр</param>
+<param name="Каллорийность">171.004</param>
+<param name="Белки">8.056</param>
+<param name="Жиры">9.722</param>
+<param name="Углеводы">12.766</param>
+</offer>
+<offer id="3236">
+<url>http://ufa.farfor.ru/salaty/salat-tsezar/</url>
+<name>Салат Цезарь</name>
+<price>190.00</price>
+<description>
+Помидоры, капуста по-пекински, дольки приготовленного по особому рецепту куриного филе, сыр Пармезан и классический соус Цезарь вместе создают неповторимый вкус, пожалуй, самого известного салата в мире.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/344_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%D1%8B_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82_%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8C.jpg
+</picture>
+<categoryId>7</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">21.833</param>
+<param name="Белки">1.986</param>
+<param name="Жиры">1.879</param>
+<param name="Углеводы">19.0</param>
+</offer>
+<offer id="1943">
+<url>http://ufa.farfor.ru/japan/sushi/susi_s_ugrem/</url>
+<name>Суси с угрём</name>
+<price>90.00</price>
+<description>Нежнейший копченый речной угорь</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D1%81%D0%B8_%D1%81_%D1%83%D0%B3%D1%80%D1%91%D0%BC.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">259.57</param>
+<param name="Белки">10.92</param>
+<param name="Жиры">13.9</param>
+<param name="Углеводы">22.563</param>
+</offer>
+<offer id="10297">
+<url>http://ufa.farfor.ru/japan/rolly/roll-jungle/</url>
+<name>Джунгли</name>
+<price>149.00</price>
+<description>Сливочный сыр, чука салат, спайси соус.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D0%B8_.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">260.00 гр</param>
+</offer>
+<offer id="5032">
+<url>
+http://ufa.farfor.ru/dobawky/firmennyij-tomatnyij-sous/
+</url>
+<name>Фирменный томатный соус</name>
+<price>30.00</price>
+<description>
+Фирменный томатный соус. В состав входят помидоры, маринованные в собственном соку, обжаренный репчатый лук и специи.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%82%D0%BE%D0%BC%D0%B0%D1%82.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+</offer>
+<offer id="10659">
+<url>http://ufa.farfor.ru/shashlyk/ovoschi-v-tempure/</url>
+<name>Овощи в темпуре</name>
+<price>190.00</price>
+<description>Кабачок, болгарский перец, помидоры, шампиньоны.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BE%D0%B2%D0%BE%D1%89%D0%B8_%D0%B2_%D1%82%D0%B5%D0%BC%D0%BF%D1%83%D1%80%D0%B5_1.jpg
+</picture>
+<categoryId>24</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="1887">
+<url>http://ufa.farfor.ru/lapsha/6/</url>
+<name>Соба с говядиной в соусе Кинг</name>
+<price>220.00</price>
+<description>
+Лапша Соба, говядина, помидоры, перец болгарский, морковь, лук, фасоль стручковая, соус Кинг, кунжут, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/101_%D0%9B%D0%B0%D0%BF%D1%88%D0%B0_%D0%A1%D0%BE%D0%B1%D0%B0_%D1%81_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D0%BE%D0%B8_%D0%B2_%D1%81%D0%BE%D1%83%D1%81%D0%B5_%D0%9A%D0%B8%D0%BD%D0%B3.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">298.602</param>
+<param name="Белки">10.917</param>
+<param name="Жиры">8.936</param>
+<param name="Углеводы">45.878</param>
+</offer>
+<offer id="1965">
+<url>http://ufa.farfor.ru/napitki/coca-cola-zero/</url>
+<name>Coca-cola (Zero) 0,5л</name>
+<price>70.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/colazero.jpg
+</picture>
+<categoryId>9</categoryId>
+<param name="Вес">500.00 гр</param>
+</offer>
+<offer id="10669">
+<url>
+http://ufa.farfor.ru/shashlyk/assorti-iz-shashlykof/
+</url>
+<name>Ассорти из шашлыков</name>
+<price>690.00</price>
+<description>
+Шашлык из свиной шеи, шашлык из филе куриного бедра, овощная нарезка, лук маринованный, соус томатный.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8_2_1.jpg
+</picture>
+<categoryId>24</categoryId>
+<param name="Вес">720.00 гр</param>
+</offer>
+<offer id="3235">
+<url>http://ufa.farfor.ru/salaty/funchoza/</url>
+<name>Салат с фунчозой</name>
+<price>120.00</price>
+<description>
+Свежие овощи - огурец, болгарский перец и морковь - искусно сплетаются вкусом с тончайшей рисовой вермишелью Фунчоза под сыром Пармезан. Салат заправлен оливковым маслом и фирменным остро-сладким соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/341_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%D1%8B_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82_%D1%81_%D1%84%D1%83%D0%BD%D1%87%D0%BE%D0%B7%D0%BE%D0%B8.jpg
+</picture>
+<categoryId>7</categoryId>
+<param name="Вес">170.00 гр</param>
+<param name="Каллорийность">123.612</param>
+<param name="Белки">1.326</param>
+<param name="Жиры">3.464</param>
+<param name="Углеводы">27.273</param>
+</offer>
+<offer id="1890">
+<url>http://ufa.farfor.ru/lapsha/3/</url>
+<name>Удон с морепродуктами в соусе Терияки</name>
+<price>220.00</price>
+<description>
+Лапша Удон, окунь, перец болгарский, кольца кальмара, морковь, фасоль стручковая, лук, соус Терияки, кунжут, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A3%D0%B4%D0%BE%D0%BD-%D1%81-%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%D0%BC%D0%B8.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">340.00 гр</param>
+<param name="Каллорийность">221.038</param>
+<param name="Белки">9.922</param>
+<param name="Жиры">5.857</param>
+<param name="Углеводы">31.587</param>
+</offer>
+<offer id="3217">
+<url>http://ufa.farfor.ru/zakuski/naggetsyi/</url>
+<name>Куриные наггетсы</name>
+<price>160.00</price>
+<description>Кусочки куриного филе, обжаренные во фритюре.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/319_%D0%97%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8_%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D1%8B%D0%B5_%D0%BD%D0%B0%D0%B3%D0%B3%D0%B5%D1%82%D1%81%D1%8B.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">200.00 гр</param>
+<param name="Каллорийность">87.8</param>
+<param name="Белки">2.9</param>
+<param name="Жиры">7.28</param>
+<param name="Углеводы">2.8</param>
+</offer>
+<offer id="1940">
+<url>http://ufa.farfor.ru/japan/sushi/susi_s_krevetkoi/</url>
+<name>Суси с креветкой</name>
+<price>90.00</price>
+<description>Вареная королевская креветка</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D1%81%D0%B8_%D1%81_%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D0%B9.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">121.691</param>
+<param name="Белки">9.929</param>
+<param name="Жиры">1.577</param>
+<param name="Углеводы">16.989</param>
+</offer>
+<offer id="1976">
+<url>http://ufa.farfor.ru/dessert/chizkejk-nyu-jork/</url>
+<name>Чизкейк Нью-Йорк</name>
+<price>150.00</price>
+<description>
+Знаменитый классический творожный десерт. Топпинг по выбору.
+</description>
+<picture>http://ufa.farfor.ru/media/menu/products/2_1.jpg</picture>
+<categoryId>10</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="5808">
+<url>http://ufa.farfor.ru/set-constructor/xxxl/</url>
+<name>XXXL</name>
+<price>1490.00</price>
+<description>роллы+пицца+паста</description>
+<picture>http://ufa.farfor.ru/media/menu/products/6.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="5035">
+<url>
+http://ufa.farfor.ru/dobawky/firmennyij-majoneznyij-sous/
+</url>
+<name>Фирменный майонезный соус</name>
+<price>30.00</price>
+<description>
+Фирменный майонезный соус. В состав входит майонез, свежий чеснок, свежая зелень, специи.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B0%D0%B9%D0%BE%D0%BD%D0%B5%D0%B7.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+</offer>
+<offer id="1955">
+<url>http://ufa.farfor.ru/japan/teploe/tyahon_chiken/</url>
+<name>Тяхан с курицей</name>
+<price>190.00</price>
+<description>
+Куриная грудка, болгарский перец, репчатый лук, рис, яйцо, соевый соус, чеснок, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%82%D1%8F%D1%85%D0%BE%D0%BD-%D1%81-%D0%BA%D1%83%D1%80%D0%B8%D1%86%D0%B5%D0%B9.jpg
+</picture>
+<categoryId>8</categoryId>
+<param name="Вес">270.00 гр</param>
+<param name="Каллорийность">115.026</param>
+<param name="Белки">2.252</param>
+<param name="Жиры">5.139</param>
+<param name="Углеводы">15.379</param>
+</offer>
+<offer id="1945">
+<url>http://ufa.farfor.ru/japan/supy/miso-syake/</url>
+<name>Мисо-сяке</name>
+<price>130.00</price>
+<description>
+Традиционный бульон Мисо с кусочками лосося и свежей зеленью.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B8%D1%81%D0%BE_%D1%81%D1%8F%D0%BA%D0%B5.jpg
+</picture>
+<categoryId>6</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">158.433</param>
+<param name="Белки">11.227</param>
+<param name="Жиры">7.123</param>
+<param name="Углеводы">13.955</param>
+</offer>
+<offer id="1977">
+<url>
+http://ufa.farfor.ru/dessert/chizkejk-nyu-jork-vishnya/
+</url>
+<name>Чизкейк Нью-Йорк (вишня)</name>
+<price>150.00</price>
+<description>
+Знаменитый классический творожный десерт с вишневым топпингом.
+</description>
+<picture>http://ufa.farfor.ru/media/menu/products/1_1.jpg</picture>
+<categoryId>10</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="5817">
+<url>http://ufa.farfor.ru/set-constructor/xxl/</url>
+<name>XXL</name>
+<price>1290.00</price>
+<description>пятничный роллы+закуска+пицца</description>
+<picture>http://ufa.farfor.ru/media/menu/products/5_1.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="3160">
+<url>http://ufa.farfor.ru/dobawky/syirnyij_sous/</url>
+<name>Соус Сырный</name>
+<price>30.00</price>
+<description>
+Нежный сырный соус готовится на основе твердых сыров. У него удивительный аромат и приятная консистенция.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%81%D1%8B%D1%80%D0%BD%D1%8B%D0%B9.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">356.0</param>
+<param name="Белки">2.5</param>
+<param name="Жиры">36.0</param>
+<param name="Углеводы">5.5</param>
+</offer>
+<offer id="1953">
+<url>http://ufa.farfor.ru/japan/teploe/karavai/</url>
+<name>Каравай</name>
+<price>200.00</price>
+<description>
+Изумительно сытное блюдо из риса: лосось терияки, рис, сырный соус, унаги-соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/168_%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B5_%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%B8.jpg
+</picture>
+<categoryId>8</categoryId>
+<param name="Вес">200.00 гр</param>
+<param name="Каллорийность">201.759</param>
+<param name="Белки">9.573</param>
+<param name="Жиры">12.293</param>
+<param name="Углеводы">12.841</param>
+</offer>
+<offer id="1946">
+<url>http://ufa.farfor.ru/japan/supy/miso-unagi/</url>
+<name>Мисо-унаги</name>
+<price>150.00</price>
+<description>
+Классический японский Мисо бульон с ароматным копченым угрем и свежей зеленью.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B8%D1%81%D0%BE_%D1%83%D0%BD%D0%B0%D0%B3%D0%B8.jpg
+</picture>
+<categoryId>6</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">170.833</param>
+<param name="Белки">10.98</param>
+<param name="Жиры">8.63</param>
+<param name="Углеводы">13.955</param>
+</offer>
+<offer id="1964">
+<url>http://ufa.farfor.ru/napitki/coca-cola/</url>
+<name>Coca-cola 0.5л</name>
+<price>70.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D0%BE%D0%BB%D0%B0.jpg
+</picture>
+<categoryId>9</categoryId>
+<param name="Диаметр">0.5л</param>
+<param name="Вес">500.00 гр</param>
+</offer>
+<offer id="1951">
+<url>http://ufa.farfor.ru/salaty/chuka/</url>
+<name>Салат Чука</name>
+<price>120.00</price>
+<description>
+Салат из маринованных водорослей с соусом гамадари.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/165_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%D1%8B_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82_%D0%A7%D1%83%D0%BA%D0%B0.jpg
+</picture>
+<categoryId>7</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">27.136</param>
+<param name="Белки">0.882</param>
+<param name="Жиры">2.214</param>
+<param name="Углеводы">0.555</param>
+</offer>
+<offer id="1891">
+<url>http://ufa.farfor.ru/lapsha/5/</url>
+<name>Удон со свининой в остро-сладком соусе</name>
+<price>220.00</price>
+<description>
+Лапша Удон, свинина, шампиньоны, фасоль стручковая, лук, перец болгарский, морковь, остро-сладкий соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A3%D0%B4%D0%BE%D0%BD-%D1%81%D0%BE-%D1%81%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D0%BE%D0%B9-%D0%B2-%D0%BE%D1%81%D1%82%D1%80%D0%BE-%D1%81%D0%BB%D0%B0%D0%B4%D0%BA%D0%BE%D0%BC-%D1%81%D0%BE%D1%83%D1%81%D0%B5.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">320.00 гр</param>
+<param name="Каллорийность">237.447</param>
+<param name="Белки">9.189</param>
+<param name="Жиры">7.279</param>
+<param name="Углеводы">33.555</param>
+</offer>
+<offer id="2116">
+<url>http://ufa.farfor.ru/zakuski/kolca_kalmarov/</url>
+<name>Кольца кальмаров</name>
+<price>170.00</price>
+<description>
+Изумительно питательные кольца кальмаров в пивном кляре с чесночным соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%B0_%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80%D0%BE%D0%B2.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">213.278</param>
+<param name="Белки">10.739</param>
+<param name="Жиры">16.028</param>
+<param name="Углеводы">5.867</param>
+</offer>
+<offer id="2099">
+<url>http://ufa.farfor.ru/japan/rolly/roll_s_ogurcom/</url>
+<name>Ролл с огурцом</name>
+<price>79.00</price>
+<description>
+Легкий классический ролл с огурцом и ароматными кунжутными семечками.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/285_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D1%81_%D0%BE%D0%B3%D1%83%D1%80%D1%86%D0%BE%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">105.00 гр</param>
+<param name="Каллорийность">130.494</param>
+<param name="Белки">3.692</param>
+<param name="Жиры">0.953</param>
+<param name="Углеводы">26.93</param>
+</offer>
+<offer id="2107">
+<url>http://ufa.farfor.ru/japan/rolly/roll_kappoejra/</url>
+<name>Каппоэйра</name>
+<price>89.00</price>
+<description>Классический ролл с огурцом и сливочным сыром.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/293_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9A%D0%B0%D0%BF%D0%BF%D0%BE%D1%8D%D0%B8%D1%80%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">115.00 гр</param>
+<param name="Каллорийность">182.637</param>
+<param name="Белки">5.163</param>
+<param name="Жиры">3.595</param>
+<param name="Углеводы">32.518</param>
+</offer>
+<offer id="1978">
+<url>
+http://ufa.farfor.ru/dessert/chizkejk-nyu-jork-karamel/
+</url>
+<name>Чизкейк Нью-Йорк (карамель)</name>
+<price>150.00</price>
+<description>
+Знаменитый классический творожный десерт с карамельным топпингом.
+</description>
+<picture>http://ufa.farfor.ru/media/menu/products/5_3.jpg</picture>
+<categoryId>10</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="3131">
+<url>http://ufa.farfor.ru/dobawky/spajsi_sous/</url>
+<name>Соус Спайси</name>
+<price>30.00</price>
+<description>
+Это один из классических японских соусов, соус обладает приятным ароматом и придает блюду особый острый вкус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%81%D0%BF%D0%B0%D0%B9%D1%81%D0%B8.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">320.0</param>
+<param name="Белки">3.5</param>
+<param name="Жиры">51.8</param>
+<param name="Углеводы">5.5</param>
+</offer>
+<offer id="1947">
+<url>http://ufa.farfor.ru/japan/supy/miso-ebi/</url>
+<name>Мисо-эби</name>
+<price>150.00</price>
+<description>
+Классический бульон Мисо с аппетитными креветками и свежей зеленью.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B8%D1%81%D0%BE_%D1%8D%D0%B1%D0%B8.jpg
+</picture>
+<categoryId>6</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">155.433</param>
+<param name="Белки">11.047</param>
+<param name="Жиры">6.87</param>
+<param name="Углеводы">13.955</param>
+</offer>
+<offer id="1966">
+<url>http://ufa.farfor.ru/napitki/coca-cola1/</url>
+<name>Coca-cola 1л</name>
+<price>90.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D0%BE%D0%BB%D0%B0_1.jpg
+</picture>
+<categoryId>9</categoryId>
+<param name="Диаметр">1л</param>
+<param name="Вес">1000.00 гр</param>
+</offer>
+<offer id="1949">
+<url>http://ufa.farfor.ru/salaty/shiitaki/</url>
+<name>Салат Шиитаке Сарада</name>
+<price>190.00</price>
+<description>
+Самый популярный салат нашей японской кухни. Листья пекинской капусты, грибы Шиитаке, дольки обжаренного куриного филе, свежий огурец, зелень - под фирменным соусом Шиитаке.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/166_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82%D1%8B_%D0%A1%D0%B0%D0%BB%D0%B0%D1%82_%D0%A8%D0%B8%D0%B8%D1%82%D0%B0%D0%BA%D0%B8_%D0%A1%D0%B0%D1%80%D0%B0%D0%B4%D0%BE.jpg
+</picture>
+<categoryId>7</categoryId>
+<param name="Вес">132.00 гр</param>
+<param name="Каллорийность">131.848</param>
+<param name="Белки">4.613</param>
+<param name="Жиры">1.067</param>
+<param name="Углеводы">13.797</param>
+</offer>
+<offer id="1893">
+<url>http://ufa.farfor.ru/lapsha/4/</url>
+<name>Фунчоза со свининой в соусе Терияки</name>
+<price>220.00</price>
+<description>
+Лапша Фунчоза, свинина, перец болгарский, фасоль стручковая, морковь, лук, черный перец, соус Терияки, кунжут, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/107_%D0%9B%D0%B0%D0%BF%D1%88%D0%B0_%D0%A4%D1%83%D0%BD%D1%87%D0%BE%D0%B7%D0%B0_%D1%81%D0%BE_%D1%81%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D0%BE%D0%B8_%D0%B2_%D1%81%D0%BE%D1%83%D1%81%D0%B5_%D0%A2%D0%B8%D1%80%D0%B8%D1%8F%D0%BA%D0%B8.jpg
+</picture>
+<categoryId>3</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="1935">
+<url>
+http://ufa.farfor.ru/japan/sushi/gunkan_s_lososem_ostryj/
+</url>
+<name>Гункан с лососем (острый)</name>
+<price>110.00</price>
+<description>
+Гункан с нежным лососем, заправленный острым спайс-соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%83%D0%BD%D0%BA%D0%B0%D0%BD_%D1%81_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%80%D1%8B%D0%B9.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">262.377</param>
+<param name="Белки">16.489</param>
+<param name="Жиры">18.866</param>
+<param name="Углеводы">19.731</param>
+</offer>
+<offer id="3219">
+<url>http://ufa.farfor.ru/zakuski/syirnyie-palochki/</url>
+<name>Сырные палочки</name>
+<price>190.00</price>
+<description>
+Обжаренные во фритюре до хрустящей корочки кусочки классического сыра Гауда в кляре. Идеально к пиву!
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/317_%D0%97%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8_%D0%A1%D1%8B%D1%80%D0%BD%D1%8B%D0%B5_%D0%BF%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B8.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">150.00 гр</param>
+<param name="Каллорийность">59.733</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">6.64</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="1936">
+<url>
+http://ufa.farfor.ru/japan/sushi/gunkan_s_tuncom_ostryj/
+</url>
+<name>Гункан с тунцом (острый)</name>
+<price>110.00</price>
+<description>
+Гункан с нежным тунцом, заправленный острым спайс-соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%83%D0%BD%D0%BA%D0%B0%D0%BD_%D1%81_%D1%82%D1%83%D0%BD%D1%86%D0%BE%D0%BC_%D0%BE%D1%81%D1%82%D1%80%D1%8B%D0%B9.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">240.091</param>
+<param name="Белки">17.289</param>
+<param name="Жиры">16.009</param>
+<param name="Углеводы">19.731</param>
+</offer>
+<offer id="5826">
+<url>http://ufa.farfor.ru/set-constructor/xl/</url>
+<name>XL</name>
+<price>990.00</price>
+<description>СЛС роллы+паста+салат</description>
+<picture>http://ufa.farfor.ru/media/menu/products/4_1.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="2101">
+<url>http://ufa.farfor.ru/japan/rolly/roll_s_krevetkoj/</url>
+<name>Ролл с креветкой</name>
+<price>129.00</price>
+<description>Классический ролл с тигровой креветкой.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/287_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D1%81_%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">105.00 гр</param>
+<param name="Каллорийность">150.732</param>
+<param name="Белки">8.121</param>
+<param name="Жиры">1.477</param>
+<param name="Углеводы">26.264</param>
+</offer>
+<offer id="1979">
+<url>
+http://ufa.farfor.ru/dessert/chizkejk-nyu-jork-clubnika/
+</url>
+<name>Чизкейк Нью-Йорк (клубника)</name>
+<price>150.00</price>
+<description>
+Знаменитый классический творожный десерт с клубничным топпингом.
+</description>
+<picture>http://ufa.farfor.ru/media/menu/products/1_3.jpg</picture>
+<categoryId>10</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="1967">
+<url>http://ufa.farfor.ru/napitki/coca-cola2/</url>
+<name>Coca-cola 2л</name>
+<price>110.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D0%BE%D0%BB%D0%B0_2.jpg
+</picture>
+<categoryId>9</categoryId>
+<param name="Диаметр">2л</param>
+<param name="Вес">2000.00 гр</param>
+</offer>
+<offer id="2113">
+<url>http://ufa.farfor.ru/zakuski/chiken_panko/</url>
+<name>Куриные крылышки</name>
+<price>190.00</price>
+<description>
+Рецепт хрустящей корочки крылышек в сухарях когда-то давно был утерян. Но настало время, и он перед вами - оригинальный рецепт в лучших традициях ресторана Фарфор!
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/308_%D0%97%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8_%D0%9A%D1%83%D1%80%D0%B8%D0%BD%D1%8B%D0%B5_%D0%BA%D1%80%D1%8B%D0%BB%D1%8B%D1%88%D0%BA%D0%B8.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">293.00 гр</param>
+<param name="Каллорийность">255.939</param>
+<param name="Белки">16.058</param>
+<param name="Жиры">20.256</param>
+<param name="Углеводы">2.648</param>
+</offer>
+<offer id="1956">
+<url>http://ufa.farfor.ru/japan/teploe/tyahon_losos/</url>
+<name>Тяхан с лососем</name>
+<price>240.00</price>
+<description>
+Лосось, болгарский перец, репчатый лук, рис, яйцо, соевый соус, чеснок, зеленый лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%82%D1%8F%D1%85%D0%BE%D0%BD-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>8</categoryId>
+<param name="Вес">270.00 гр</param>
+<param name="Каллорийность">140.952</param>
+<param name="Белки">6.252</param>
+<param name="Жиры">6.25</param>
+<param name="Углеводы">15.379</param>
+</offer>
+<offer id="5835">
+<url>http://ufa.farfor.ru/set-constructor/l/</url>
+<name>L</name>
+<price>890.00</price>
+<description>48уд роллы+салат</description>
+<picture>http://ufa.farfor.ru/media/menu/products/3.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="3145">
+<url>http://ufa.farfor.ru/dobawky/sous-gamadari/</url>
+<name>Соус Гамадари</name>
+<price>30.00</price>
+<description>
+Ореховый соус, обладающий оригинальным вкусом и интересным ароматом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B3%D0%B0%D0%B4%D0%B0%D0%BC%D0%B0%D1%80%D0%B8.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">284.04</param>
+<param name="Белки">0.56</param>
+<param name="Жиры">26.76</param>
+<param name="Углеводы">9.52</param>
+</offer>
+<offer id="2100">
+<url>http://ufa.farfor.ru/japan/rolly/roll_s_lososem/</url>
+<name>Ролл с лососем</name>
+<price>129.00</price>
+<description>Классический ролл с лососем.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/286_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D1%81_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">105.00 гр</param>
+<param name="Каллорийность">161.447</param>
+<param name="Белки">8.764</param>
+<param name="Жиры">2.382</param>
+<param name="Углеводы">26.264</param>
+</offer>
+<offer id="1980">
+<url>http://ufa.farfor.ru/dessert/chizkejk-shokolad/</url>
+<name>Чизкейк Шоколадный</name>
+<price>150.00</price>
+<description>
+Знаменитый классический творожный десерт в шоколадном исполнении.
+</description>
+<picture>http://ufa.farfor.ru/media/menu/products/3_2.jpg</picture>
+<categoryId>10</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="1963">
+<url>http://ufa.farfor.ru/napitki/nestea/</url>
+<name>Nestea</name>
+<price>80.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BD%D0%B5%D1%81%D1%82%D0%B8_1.jpg
+</picture>
+<categoryId>9</categoryId>
+<param name="Вес">500.00 гр</param>
+</offer>
+<offer id="1937">
+<url>
+http://ufa.farfor.ru/japan/sushi/gunkan_s_ugrm_ostryj/
+</url>
+<name>Гункан с угрём (острый)</name>
+<price>110.00</price>
+<description>
+Гункан с копченным угрем, заправленный острым спайс-соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/152_%D0%A1%D1%83%D1%88%D0%B8_%D0%93%D1%83%D0%BD%D0%BA%D0%B0%D0%BD_%D1%81_%D1%83%D0%B3%D1%80%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%80%D1%8B%D0%B8.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">368.663</param>
+<param name="Белки">14.374</param>
+<param name="Жиры">31.78</param>
+<param name="Углеводы">19.731</param>
+</offer>
+<offer id="2117">
+<url>http://ufa.farfor.ru/zakuski/midii_v_ostrom_soyse/</url>
+<name>Мидии в остром соусе</name>
+<price>190.00</price>
+<description>
+Знаменитые запеченные мидии с рисом под острым спайси-соусом. 3 шт в порции!
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/170_%D0%97%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8_%D0%9C%D0%B8%D0%B4%D0%B8%D0%B8_%D0%B2_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC_%D1%81%D0%BE%D1%83%D1%81%D0%B5.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">250.00 гр</param>
+<param name="Каллорийность">163.972</param>
+<param name="Белки">5.522</param>
+<param name="Жиры">13.84</param>
+<param name="Углеводы">14.984</param>
+</offer>
+<offer id="3239">
+<url>http://ufa.farfor.ru/japan/teploe/pasta-karbonare/</url>
+<name>Паста Карбонара</name>
+<price>270.00</price>
+<description>
+Одно из самых популярных блюд Италии. Классический рецепт. Паста Карбонара с сырокопченым беконом, репчатым луком, обжаренная в нежных сливках под сыром Пармезан.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/346_%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B5_%D0%9F%D0%B0%D1%81%D1%82%D0%B0_%D0%BA%D0%B0%D1%80%D0%B1%D0%BE%D0%BD%D0%B0%D1%80%D0%B0.jpg
+</picture>
+<categoryId>8</categoryId>
+<param name="Вес">320.00 гр</param>
+<param name="Каллорийность">308.031</param>
+<param name="Белки">10.619</param>
+<param name="Жиры">12.875</param>
+<param name="Углеводы">44.837</param>
+</offer>
+<offer id="5844">
+<url>http://ufa.farfor.ru/set-constructor/m/</url>
+<name>M</name>
+<price>790.00</price>
+<description/>
+<picture>http://ufa.farfor.ru/media/menu/products/2.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="3184">
+<url>http://ufa.farfor.ru/dobawky/sous_hondashi/</url>
+<name>Соус Хондаши</name>
+<price>30.00</price>
+<description>
+Соус с удивительно легким рыбным вкусом и тонким японским ароматом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%85%D0%BE%D0%BD%D0%B4%D0%B0%D1%88%D0%B8.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">299.0</param>
+<param name="Белки">2.9</param>
+<param name="Жиры">1.7</param>
+<param name="Углеводы">4.8</param>
+</offer>
+<offer id="2102">
+<url>http://ufa.farfor.ru/japan/rolly/roll_s_tuncom/</url>
+<name>Ролл с тунцом</name>
+<price>129.00</price>
+<description>Классический ролл с тунцом.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/288_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D1%81_%D1%82%D1%83%D0%BD%D1%86%D0%BE%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">105.00 гр</param>
+<param name="Каллорийность">152.161</param>
+<param name="Белки">9.097</param>
+<param name="Жиры">1.191</param>
+<param name="Углеводы">26.264</param>
+</offer>
+<offer id="1934">
+<url>
+http://ufa.farfor.ru/japan/sushi/gunkan_s_krevetkoj_ostryj/
+</url>
+<name>Гункан с креветкой (острый)</name>
+<price>110.00</price>
+<description>
+Гункан с креветкой, заправленный острым спайс-соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%83%D0%BD%D0%BA%D0%B0%D0%BD_%D1%81_%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D0%B9_%D0%BE%D1%81%D1%82%D1%80%D1%8B%D0%B9.jpg
+</picture>
+<categoryId>5</categoryId>
+<param name="Вес">35.00 гр</param>
+<param name="Каллорийность">236.663</param>
+<param name="Белки">14.946</param>
+<param name="Жиры">16.694</param>
+<param name="Углеводы">19.731</param>
+</offer>
+<offer id="8897">
+<url>
+http://ufa.farfor.ru/japan/sety/superset-po-telefonu/
+</url>
+<name>Суперсет.</name>
+<price>850.00</price>
+<description>
+*Сет доступен для заказа на сайте за 750 рублей и по телефону за 850 рублей. Фламинго; Запеченный под хондаши соусом ролл с окунем, сыром и огурцами; Теплый ролл с помидором, мидиями под сырным соусом; Запеченный ролл с мидиями, крабовыми палочками и салатом; Ролл с сыром, куриным филе и салатом, запеченный под фирменным соусом; Хоккайдо.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D0%BF%D0%B5%D1%80_%D1%81%D0%B5%D1%82.._1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">1290.00 гр</param>
+</offer>
+<offer id="2118">
+<url>http://ufa.farfor.ru/zakuski/midii_v_syrnom_souse/</url>
+<name>Мидии в сырном соусе</name>
+<price>190.00</price>
+<description>
+Знаменитые запеченные мидии с рисом под сырным соусом. 3 шт в порции!
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/171_%D0%97%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8_%D0%9C%D0%B8%D0%B4%D0%B8%D0%B8_%D0%B2_%D1%81%D1%8B%D1%80%D0%BD%D0%BE%D0%BC_%D1%81%D0%BE%D1%83%D1%81%D0%B5.jpg
+</picture>
+<categoryId>20</categoryId>
+<param name="Вес">210.00 гр</param>
+<param name="Каллорийность">205.491</param>
+<param name="Белки">6.289</param>
+<param name="Жиры">11.961</param>
+<param name="Углеводы">17.839</param>
+</offer>
+<offer id="1810">
+<url>http://ufa.farfor.ru/pizza/gavaiskaya-30sm/</url>
+<name>Гавайская 30см</name>
+<price>340.00</price>
+<description>
+Консервированные ананасы кусочками, курица х/к, сливочно-сладкий соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F3_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">610.00 гр</param>
+</offer>
+<offer id="3240">
+<url>
+http://ufa.farfor.ru/japan/teploe/fetuchchini-s-ugryom/
+</url>
+<name>Фетучини с угрём</name>
+<price>290.00</price>
+<description>
+Знаменитая итальянская паста Фетучини с копченым угрем, репчатым луком, обжаренная в нежных сливках под сыром Пармезан.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/345_%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B5_%D0%A4%D0%B5%D1%82%D1%83%D1%87%D1%87%D0%B8%D0%BD%D0%B8_%D1%81_%D1%83%D0%B3%D1%80%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>8</categoryId>
+<param name="Вес">300.00 гр</param>
+<param name="Каллорийность">281.765</param>
+<param name="Белки">9.348</param>
+<param name="Жиры">9.118</param>
+<param name="Углеводы">48.635</param>
+</offer>
+<offer id="3192">
+<url>http://ufa.farfor.ru/dobawky/sous-chesnochnyij/</url>
+<name>Соус Чесночный</name>
+<price>30.00</price>
+<description>
+Один из вкуснейших соусов, который, несмотря на свою простоту, действительно, восхитителен.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%87%D0%B5%D1%81%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B9.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">335.0</param>
+<param name="Белки">1.6</param>
+<param name="Жиры">32.2</param>
+<param name="Углеводы">9.1</param>
+</offer>
+<offer id="2103">
+<url>http://ufa.farfor.ru/japan/rolly/roll_s_ugrem/</url>
+<name>Ролл с угрём</name>
+<price>129.00</price>
+<description>
+Традиционный ролл с копченым угрем и кунжутными семечками.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/289_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D1%81_%D1%83%D0%B3%D1%80%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">110.00 гр</param>
+<param name="Каллорийность">207.105</param>
+<param name="Белки">7.701</param>
+<param name="Жиры">7.476</param>
+<param name="Углеводы">27.275</param>
+</offer>
+<offer id="1809">
+<url>http://ufa.farfor.ru/pizza/gavaiskaya/</url>
+<name>Гавайская 40см</name>
+<price>440.00</price>
+<description>
+Консервированные ананасы кусочками, курица х/к, сливочно-сладкий соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F3.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1015.00 гр</param>
+</offer>
+<offer id="3176">
+<url>http://ufa.farfor.ru/dobawky/sous-teriyaki/</url>
+<name>Соус Терияки</name>
+<price>30.00</price>
+<description>
+Один из самых распространенных во всем мире соусов среди блюд Японской кухни, который обладает неповторимым сладким вкусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%82%D0%B5%D1%80%D0%B8%D1%8F%D0%BA%D0%B8.jpg
+</picture>
+<categoryId>23</categoryId>
+<param name="Вес">40.00 гр</param>
+<param name="Каллорийность">0.0</param>
+<param name="Белки">0.0</param>
+<param name="Жиры">0.0</param>
+<param name="Углеводы">0.0</param>
+</offer>
+<offer id="9677">
+<url>http://ufa.farfor.ru/japan/rolly/minion/</url>
+<name>Миньон</name>
+<price>149.00</price>
+<description>
+Сливочный сыр, болгарский перец, куриное филе, белый кунжут, сырный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B8%D0%BD%D1%8C%D0%BE%D0%BD.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">160.00 гр</param>
+</offer>
+<offer id="8244">
+<url>http://ufa.farfor.ru/japan/sety/superset/</url>
+<name>Суперсет</name>
+<price>750.00</price>
+<description>
+*Сет доступен для заказа на сайте за 750 рублей и по телефону за 850 рублей. Фламинго; Запеченный под хондаши соусом ролл с окунем, сыром и огурцами; Теплый ролл с помидором, мидиями под сырным соусом; Запеченный ролл с мидиями, крабовыми палочками и салатом; Ролл с сыром, куриным филе и салатом, запеченный под фирменным соусом; Хоккайдо.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D0%BF%D0%B5%D1%80_%D1%81%D0%B5%D1%82...jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">1290.00 гр</param>
+</offer>
+<offer id="9645">
+<url>http://ufa.farfor.ru/japan/sety/superset2/</url>
+<name>Суперсет 2</name>
+<price>990.00</price>
+<description>
+Миньон; Эверест; Сырный; Майами; Темпурный с кальмаром; Коралловый риф; Запеченный под хондаши соусом ролл с окунем, сыром и огурцами; Запеченный ролл с мидиями, крабовым мясом и салатом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D0%BF%D0%B5%D1%80%D0%A1%D0%B5%D1%82-2.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">64 шт</param>
+<param name="Вес">1640.00 гр</param>
+<param name="Каллорийность">124.383</param>
+<param name="Белки">3.496</param>
+<param name="Жиры">5.978</param>
+<param name="Углеводы">14.808</param>
+</offer>
+<offer id="8908">
+<url>http://ufa.farfor.ru/pizza/chicken-cheese-30/</url>
+<name>Чикен Чиз 30см</name>
+<price>290.00</price>
+<description>
+Помидоры, курица х/к, соус Хайнц, сыр Пармезан. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A7%D0%B8%D0%BA%D0%B5%D0%BD%D0%A7%D0%B8%D0%B7.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">590.00 гр</param>
+</offer>
+<offer id="2104">
+<url>
+http://ufa.farfor.ru/japan/rolly/syake_kunsej-krim/
+</url>
+<name>Сяке кунсей-крим</name>
+<price>149.00</price>
+<description>
+Классический ролл с копченым лососем, огурцом и сливочным сыром.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/290_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A1%D1%8F%D0%BA%D0%B5_%D0%BA%D1%83%D0%BD%D1%81%D0%B5%D0%B8-%D0%BA%D1%80%D0%B8%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">107.00 гр</param>
+<param name="Каллорийность">179.204</param>
+<param name="Белки">8.502</param>
+<param name="Жиры">5.785</param>
+<param name="Углеводы">23.312</param>
+</offer>
+<offer id="5774">
+<url>http://ufa.farfor.ru/set-constructor/s/</url>
+<name>S</name>
+<price>690.00</price>
+<description>для офиса</description>
+<picture>http://ufa.farfor.ru/media/menu/products/1.jpg</picture>
+<categoryId>25</categoryId>
+</offer>
+<offer id="1961">
+<url>http://ufa.farfor.ru/napitki/sok_1litr/</url>
+<name>Сок</name>
+<price>90.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%81%D0%BE%D0%BA_%D0%B7%D0%B0%D0%BF%D0%B0%D1%81.jpg
+</picture>
+<categoryId>9</categoryId>
+<param name="Вес">1000.00 гр</param>
+</offer>
+<offer id="9655">
+<url>http://ufa.farfor.ru/japan/sety/superset3/</url>
+<name>Суперсет 3</name>
+<price>1390.00</price>
+<description>
+Т34; Цусима; Адель; Наоми; Гуру; Рассвет; Фламинго; Коралловый риф; Горячее сердце самурая; Теплый ролл с помидорами, мидиями под сырным соусом; Ролл с сыром, куриным филе и салатом, запеченный под фирменным соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D0%BF%D0%B5%D1%80%D0%A1%D0%B5%D1%82-3.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">88 шт</param>
+<param name="Вес">2190.00 гр</param>
+<param name="Каллорийность">118.635</param>
+<param name="Белки">3.408</param>
+<param name="Жиры">4.789</param>
+<param name="Углеводы">13.926</param>
+</offer>
+<offer id="8919">
+<url>http://ufa.farfor.ru/pizza/chicken-cheese-40/</url>
+<name>Чикен Чиз 40см</name>
+<price>490.00</price>
+<description>
+Помидоры, курица х/к, соус Хайнц, сыр Пармезан. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A7%D0%B8%D0%BA%D0%B5%D0%BD%D0%A7%D0%B8%D0%B7_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1010.00 гр</param>
+</offer>
+<offer id="2106">
+<url>http://ufa.farfor.ru/japan/rolly/roll_syakekrim/</url>
+<name>Сяке-крим</name>
+<price>149.00</price>
+<description>
+Нежный классический ролл с лососем, огурцом и сливочным сыром.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/292_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A1%D1%8F%D0%BA%D0%B5-%D0%BA%D1%80%D0%B8%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">107.00 гр</param>
+<param name="Каллорийность">167.615</param>
+<param name="Белки">8.334</param>
+<param name="Жиры">4.57</param>
+<param name="Углеводы">23.312</param>
+</offer>
+<offer id="8930">
+<url>http://ufa.farfor.ru/pizza/pizza-margarita-30/</url>
+<name>Маргарита 30см</name>
+<price>250.00</price>
+<description>
+Помидоры, петрушка, сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">585.00 гр</param>
+</offer>
+<offer id="2105">
+<url>http://ufa.farfor.ru/japan/rolly/roll_unagi-krim/</url>
+<name>Унаги-крим</name>
+<price>149.00</price>
+<description>
+Классический ролл с копченым жареным угрём, огурцом и сливочным сыром.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/291_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A3%D0%BD%D0%B0%D0%B3%D0%B8-%D0%BA%D1%80%D0%B8%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">115.00 гр</param>
+<param name="Каллорийность">208.386</param>
+<param name="Белки">7.617</param>
+<param name="Жиры">9.093</param>
+<param name="Углеводы">24.011</param>
+</offer>
+<offer id="2089">
+<url>http://ufa.farfor.ru/japan/rolly/roll_hendroll/</url>
+<name>Хендролл</name>
+<price>149.00</price>
+<description>
+Жареная маринованная кожа лосося, ломтики огурца, соус Спайси. Украшен кунжутными семечками.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%85%D0%B5%D0%BD%D0%B4%D1%80%D0%BE%D0%BB%D0%BB.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">132.518</param>
+<param name="Белки">7.629</param>
+<param name="Жиры">2.736</param>
+<param name="Углеводы">40.106</param>
+</offer>
+<offer id="8941">
+<url>http://ufa.farfor.ru/pizza/pizza-margarita-40/</url>
+<name>Маргарита 40см</name>
+<price>390.00</price>
+<description>
+Помидоры, петрушка, сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">965.00 гр</param>
+</offer>
+<offer id="8974">
+<url>http://ufa.farfor.ru/pizza/4-sezona-30/</url>
+<name>Четыре сезона 30см</name>
+<price>290.00</price>
+<description>
+Ветчина, грибы шампиньоны, перец болгарский, помидоры, сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%B5_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%B0_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">560.00 гр</param>
+</offer>
+<offer id="2094">
+<url>http://ufa.farfor.ru/japan/rolly/roll_ebikrim/</url>
+<name>Эби-крим</name>
+<price>149.00</price>
+<description>
+Классический ролл с тигровой креветкой, огурцом и сливочным сыром.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/280_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%AD%D0%B1%D0%B8-%D0%BA%D1%80%D0%B8%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">105.00 гр</param>
+<param name="Каллорийность">162.236</param>
+<param name="Белки">7.978</param>
+<param name="Жиры">3.933</param>
+<param name="Углеводы">23.756</param>
+</offer>
+<offer id="8985">
+<url>http://ufa.farfor.ru/pizza/4-sezona-40/</url>
+<name>Четыре сезона 40см</name>
+<price>430.00</price>
+<description>
+Ветчина, грибы шампиньоны, перец болгарский, помидоры, сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%B5_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%B0_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">970.00 гр</param>
+</offer>
+<offer id="2029">
+<url>http://ufa.farfor.ru/japan/rolly/fenix/</url>
+<name>Феникс</name>
+<price>149.00</price>
+<description>
+Болгарский перец, пекинская капуста, огурец, куриное филе, икра Масаго четырех цветов.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/266_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">170.00 гр</param>
+<param name="Каллорийность">118.195</param>
+<param name="Белки">4.395</param>
+<param name="Жиры">1.174</param>
+<param name="Углеводы">23.202</param>
+</offer>
+<offer id="8952">
+<url>http://ufa.farfor.ru/pizza/pizza-myasnaya-30/</url>
+<name>Мясная 30см</name>
+<price>310.00</price>
+<description>
+Ветчина, бекон сырокопченый, колбаса полукопченая, сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">520.00 гр</param>
+</offer>
+<offer id="4529">
+<url>http://ufa.farfor.ru/japan/rolly/shahmatyi/</url>
+<name>Шахматы</name>
+<price>149.00</price>
+<description>
+Маринованная кожа лосося, окунь, обжаренный в Унаги-соусе, огурец, зеленый лук, кунжут, болгарский перец, соус спайси.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%88%D0%B0%D1%85%D0%B0%D0%BC%D0%B0%D1%82%D1%8B.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">128.046</param>
+<param name="Белки">5.077</param>
+<param name="Жиры">3.225</param>
+<param name="Углеводы">28.801</param>
+</offer>
+<offer id="8963">
+<url>http://ufa.farfor.ru/pizza/pizza-myasnaya-40/</url>
+<name>Мясная 40см</name>
+<price>490.00</price>
+<description>
+Ветчина, бекон сырокопченый, колбаса полукопченая, сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">980.00 гр</param>
+</offer>
+<offer id="4504">
+<url>http://ufa.farfor.ru/japan/rolly/monomah/</url>
+<name>Мономах</name>
+<price>149.00</price>
+<description>Сливочный сыр, зеленый лук, грибной соус.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%BE%D0%BD%D0%BE%D0%BC%D0%B0%D1%85_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">153.86</param>
+<param name="Белки">4.518</param>
+<param name="Жиры">5.212</param>
+<param name="Углеводы">22.113</param>
+</offer>
+<offer id="4231">
+<url>http://ufa.farfor.ru/japan/rolly/patriot/</url>
+<name>Патриот</name>
+<price>149.00</price>
+<description>
+Он тот, кто любит Вас, он предан Вам, он готов на жертвы и подвиги ради того, чтобы утолить Ваш голод. Нежный сливочный сыр, хрустящий обжаренный в темпуре репчатый лук и тонкая нотка вкуса чесночного соуса.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BF%D0%B0%D1%82%D1%80%D0%B8%D0%BE%D1%82_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">205.00 гр</param>
+</offer>
+<offer id="9062">
+<url>http://ufa.farfor.ru/pizza/derevenskaya-30/</url>
+<name>Деревенская 30см</name>
+<price>340.00</price>
+<description>
+Курица жареная, шампиньоны свежие, лук красный, бекон, сыр, соус барбекю. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">660.00 гр</param>
+</offer>
+<offer id="4221">
+<url>http://ufa.farfor.ru/japan/rolly/shtirlits/</url>
+<name>Штирлиц</name>
+<price>149.00</price>
+<description>
+Хрустящий обжаренный лук в темпуре, хрустящая кожа лосося, свежий огурец и острый спайси соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%88%D1%82%D0%B8%D1%80%D0%BB%D0%B8%D1%86_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="9073">
+<url>http://ufa.farfor.ru/pizza/derevenskaya-40/</url>
+<name>Деревенская 40см</name>
+<price>540.00</price>
+<description>
+Курица жареная, шампиньоны свежие, лук красный, бекон, сыр, соус барбекю. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1110.00 гр</param>
+</offer>
+<offer id="1855">
+<url>http://ufa.farfor.ru/japan/sety/set_hodovoj/</url>
+<name>Сет Ходовой</name>
+<price>650.00</price>
+<description>
+С огурцом, Миньон, Филадельфия лайт 1/2, Калифорния с лососем 1/2, Горячее сердце самурая, Шанхай
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A5%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B9-3.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">840.00 гр</param>
+<param name="Каллорийность">139.965</param>
+<param name="Белки">4.835</param>
+<param name="Жиры">6.541</param>
+<param name="Углеводы">17.913</param>
+</offer>
+<offer id="10351">
+<url>http://ufa.farfor.ru/japan/rolly/roll-panda/</url>
+<name>Панда</name>
+<price>189.00</price>
+<description>
+Черный рис, тофу, тунец, кимчи соус, сыр сливочный.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BF%D0%B0%D0%BD%D0%B4%D0%B0_.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+</offer>
+<offer id="10275">
+<url>http://ufa.farfor.ru/japan/rolly/roll-bumer/</url>
+<name>Бумер</name>
+<price>189.00</price>
+<description>
+Черный рис, кальмар жареный, лук зеленый, помидоры, кожа лосося, кляр.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B1%D1%83%D0%BC%D0%B5%D1%80_.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">255.00 гр</param>
+</offer>
+<offer id="9040">
+<url>http://ufa.farfor.ru/pizza/govyadina-chili-30/</url>
+<name>Говядина чили 30см</name>
+<price>340.00</price>
+<description>
+Телятина в/к, огурцы маринованные, шампиньоны свежие, соус Табаско, соус Хайнц. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D0%B0_%D1%87%D0%B8%D0%BB%D0%B8_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">610.00 гр</param>
+</offer>
+<offer id="9051">
+<url>http://ufa.farfor.ru/pizza/govyadina-chili-40/</url>
+<name>Говядина чили 40см</name>
+<price>590.00</price>
+<description>
+Телятина в/к, огурцы маринованные, шампиньоны свежие, соус Табаско, соус Хайнц. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D0%B0_%D1%87%D0%B8%D0%BB%D0%B8_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1040.00 гр</param>
+</offer>
+<offer id="10308">
+<url>http://ufa.farfor.ru/japan/rolly/roll-kvadrat/</url>
+<name>Квадрат</name>
+<price>189.00</price>
+<description>
+Черный рис, кожа лосося, мидии маринованные, кунжут белый, сыр сливочный,чили перец.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">205.00 гр</param>
+</offer>
+<offer id="1848">
+<url>http://ufa.farfor.ru/japan/sety/best-best-set/</url>
+<name>Самый Лучший Сет</name>
+<price>980.00</price>
+<description>
+Самый лучший сет от ресторана Фарфор! В ролях: Филадельфия-Лайт, Фламинго, Темпурный с кальмаром, Фокус, Горячее сердце самурая, Сенсей.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%9B%D0%A1_new_1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">1245.00 гр</param>
+<param name="Каллорийность">184.939</param>
+<param name="Белки">6.706</param>
+<param name="Жиры">8.207</param>
+<param name="Углеводы">22.464</param>
+</offer>
+<offer id="1870">
+<url>http://ufa.farfor.ru/japan/sety/set_gurman/</url>
+<name>Сет Гурман</name>
+<price>850.00</price>
+<description>
+Калифорния с лососем 1/2, Филадельфия классик 1/2, Феникс, Хоккайдо, Фокус, Рассвет
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%83%D1%80%D0%BC%D0%B0%D0%BD_3.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">950.00 гр</param>
+<param name="Каллорийность">181.253</param>
+<param name="Белки">7.204</param>
+<param name="Жиры">5.62</param>
+<param name="Углеводы">21.192</param>
+</offer>
+<offer id="9688">
+<url>http://ufa.farfor.ru/japan/rolly/adel-farfor/</url>
+<name>Адель</name>
+<price>189.00</price>
+<description>
+Огурец, авокадо, куриное филе, крабовые палочки, фирменный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%90%D0%B4%D0%B5%D0%BB%D1%8C-1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+</offer>
+<offer id="9018">
+<url>
+http://ufa.farfor.ru/pizza/barbeku-po-bolgarski-30/
+</url>
+<name>Барбекю по-болгарски 30см</name>
+<price>340.00</price>
+<description>
+Соус барбекю, охотничьи колбаски, перец болгарский, сыр, лук красный. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D0%BA%D1%8E_%D0%BF%D0%BE-%D0%B1%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">600.00 гр</param>
+</offer>
+<offer id="9029">
+<url>
+http://ufa.farfor.ru/pizza/barbeku-po-bolgarski-40/
+</url>
+<name>Барбекю по-болгарски 40см</name>
+<price>540.00</price>
+<description>
+Соус барбекю, охотничьи кобаски, перец болгарский, сыр, лук красный. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D0%BA%D1%8E_%D0%BF%D0%BE-%D0%B1%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1010.00 гр</param>
+</offer>
+<offer id="1850">
+<url>http://ufa.farfor.ru/japan/sety/set_mafiya/</url>
+<name>Сет Мафия</name>
+<price>1450.00</price>
+<description>
+Ролевая игра "Мафия" в подарок! Капоэйра, С лососем, С огурцом, Хоккайдо, Феникс, Фокус, Сочи, Филадельфия лайт, Черномор, Незнакомка.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B0%D1%84%D0%B8%D1%8F_3.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">80 шт</param>
+<param name="Вес">1740.00 гр</param>
+<param name="Каллорийность">175.15</param>
+<param name="Белки">6.494</param>
+<param name="Жиры">6.374</param>
+<param name="Углеводы">21.971</param>
+</offer>
+<offer id="9710">
+<url>http://ufa.farfor.ru/japan/rolly/naomi-farfor/</url>
+<name>Наоми</name>
+<price>189.00</price>
+<description>Сливочный сыр, помидор, омлет, белый кунжут.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/18-%D0%9D%D0%B0%D0%BE%D0%BC%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">160.00 гр</param>
+</offer>
+<offer id="9721">
+<url>http://ufa.farfor.ru/japan/rolly/syrnyi/</url>
+<name>Ролл Сырный</name>
+<price>189.00</price>
+<description>
+Сливочный сыр, Моцарелла, Сырный соус, плавленый сыр слайсами.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%8B%D1%80%D0%BD%D1%8B%D0%B9_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">160.00 гр</param>
+</offer>
+<offer id="9084">
+<url>http://ufa.farfor.ru/pizza/kurica-po-dijonski-30/</url>
+<name>Курица по-дижонски 30см</name>
+<price>290.00</price>
+<description>
+Курица х/к, шампиньоны свежие, лук красный, дижонская горчица. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D1%83%D1%80%D0%B8%D1%86%D0%B0-%D0%BF%D0%BE-%D0%B4%D0%B8%D0%B6%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-2.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">630.00 гр</param>
+</offer>
+<offer id="2121">
+<url>http://ufa.farfor.ru/japan/sety/all-inclusive/</url>
+<name>Всё включено</name>
+<price>940.00</price>
+<description>
+Пицца Мясная 30см, Ролл Филадельфия-Лайт, Ролл Бонито, Удон с курицей в остро-сладком соусе (2 порции).
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%92%D1%81%D0%B5_%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BE_%D1%81%D0%B5%D1%82_1_1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Вес">1600.00 гр</param>
+<param name="Каллорийность">131.517</param>
+<param name="Белки">5.846</param>
+<param name="Жиры">3.915</param>
+<param name="Углеводы">17.913</param>
+</offer>
+<offer id="9732">
+<url>http://ufa.farfor.ru/japan/rolly/roll-guru/</url>
+<name>Гуру</name>
+<price>189.00</price>
+<description>
+Сухарики с салата Цезарь, куриное филе, пекинская капуста, укроп свежий, соус цезарь.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%83%D1%80%D1%83.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">160.00 гр</param>
+</offer>
+<offer id="9095">
+<url>http://ufa.farfor.ru/pizza/kurica-po-dijonski-40/</url>
+<name>Курица по-дижонски 40см</name>
+<price>390.00</price>
+<description>
+Курица х/к, шампиньоны свежие, лук красный, дижонская горчица. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D1%83%D1%80%D0%B8%D1%86%D0%B0-%D0%BF%D0%BE-%D0%B4%D0%B8%D0%B6%D0%BE%D0%BD%D1%81%D0%BA%D0%B8-2_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1070.00 гр</param>
+</offer>
+<offer id="3237">
+<url>http://ufa.farfor.ru/japan/sety/pivnoj-set/</url>
+<name>Пивной сет</name>
+<price>590.00</price>
+<description>
+Картофель фри, Картофель дольками, Наггетсы, Куриные крылья, Чесночные гренки 2шт, Соус Хайнц сырный 2шт.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9F%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D1%81%D0%B5%D1%82.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Вес">1100.00 гр</param>
+<param name="Каллорийность">229.845</param>
+<param name="Белки">7.311</param>
+<param name="Жиры">14.428</param>
+<param name="Углеводы">17.762</param>
+</offer>
+<offer id="2028">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-light/
+</url>
+<name>Филадельфия Лайт</name>
+<price>189.00</price>
+<description>
+Чилийский лосось, сливочный сыр, ломтики свежего огурца.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%BC%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D0%BB%D0%B0%D0%B9%D1%82.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">195.00 гр</param>
+<param name="Каллорийность">167.196</param>
+<param name="Белки">8.588</param>
+<param name="Жиры">6.223</param>
+<param name="Углеводы">19.239</param>
+</offer>
+<offer id="9117">
+<url>http://ufa.farfor.ru/pizza/mr-cherry-30/</url>
+<name>Мистер Черри 30см</name>
+<price>290.00</price>
+<description>
+Огурцы маринованные, шампиньоны свежие, черри, фарш говяжий. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80-%D0%A7%D0%B5%D1%80%D1%80%D0%B8-3.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">660.00 гр</param>
+</offer>
+<offer id="2038">
+<url>http://ufa.farfor.ru/japan/rolly/morskoi_volk/</url>
+<name>Запеченный Морской волк</name>
+<price>189.00</price>
+<description>
+Обжаренная тилапия, японский омлет Тамаго, зеленый лук, свежий помидор под шапкой с чесночным соусом и соусом Унаги. Белый кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/221_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B8_%D0%B2%D0%BE%D0%BB%D0%BA.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">215.00 гр</param>
+<param name="Каллорийность">216.058</param>
+<param name="Белки">5.153</param>
+<param name="Жиры">11.718</param>
+<param name="Углеводы">23.084</param>
+</offer>
+<offer id="9107">
+<url>http://ufa.farfor.ru/pizza/mr-cherry-40/</url>
+<name>Мистер Черри 40см</name>
+<price>440.00</price>
+<description>
+Огурцы маринованные, шампиньоны свежие, черри, фарш говяжий. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%A7%D0%B5%D1%80%D1%80%D0%B8_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1110.00 гр</param>
+</offer>
+<offer id="9135">
+<url>http://ufa.farfor.ru/pizza/provanskaya-30/</url>
+<name>Прованская 30см</name>
+<price>290.00</price>
+<description>
+Сосиски молочные, охотничьи колбаски, орегано, шампиньоны свежие, сыр. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9F%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F-2.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">600.00 гр</param>
+</offer>
+<offer id="1852">
+<url>http://ufa.farfor.ru/japan/sety/set_mini/</url>
+<name>Сет Мини</name>
+<price>590.00</price>
+<description>Морской волк, Адель, Калифорния с лососем, Цезарь.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B8%D0%BD%D0%B8-1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">32 шт</param>
+<param name="Вес">800.00 гр</param>
+<param name="Каллорийность">130.255</param>
+<param name="Белки">4.062</param>
+<param name="Жиры">5.461</param>
+<param name="Углеводы">15.845</param>
+</offer>
+<offer id="2062">
+<url>http://ufa.farfor.ru/japan/rolly/vsadnik/</url>
+<name>Всадник</name>
+<price>189.00</price>
+<description>
+Куриное филе х/к. Шапка: чесночный соус, Унаги соус, белый кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">225.00 гр</param>
+<param name="Каллорийность">218.841</param>
+<param name="Белки">8.298</param>
+<param name="Жиры">10.912</param>
+<param name="Углеводы">21.574</param>
+</offer>
+<offer id="5785">
+<url>
+http://ufa.farfor.ru/japan/sety/set-ponyat-i-prostit/
+</url>
+<name>Сет "Понять и простить"</name>
+<price>390.00</price>
+<description>Фокус, Мономах.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C_%D0%B8_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%B8%D1%82%D1%8C_%D1%84%D0%BE%D1%82%D0%BE.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">13 шт</param>
+<param name="Вес">400.00 гр</param>
+</offer>
+<offer id="2096">
+<url>http://ufa.farfor.ru/japan/rolly/everest/</url>
+<name>Эверест</name>
+<price>189.00</price>
+<description>
+Японский омлет Тамаго под шапкой сырного и Унаги-соуса. Украшен кунжутом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%8D%D0%B2%D0%B5%D1%80%D0%B5%D1%81%D1%822.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+<param name="Каллорийность">231.415</param>
+<param name="Белки">5.592</param>
+<param name="Жиры">14.107</param>
+<param name="Углеводы">20.405</param>
+</offer>
+<offer id="9145">
+<url>http://ufa.farfor.ru/pizza/provanskaya-40/</url>
+<name>Прованская 40см</name>
+<price>440.00</price>
+<description>
+Сосиски молочные, охотничьи колбаски, орегано, шампиньоны свежие, сыр. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9F%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F-2_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1010.00 гр</param>
+</offer>
+<offer id="3065">
+<url>http://ufa.farfor.ru/japan/rolly/kanaryi/</url>
+<name>Канары</name>
+<price>189.00</price>
+<description>
+Лосось холодного копчения, сливочный сыр, огурец, укроп свежий, унаги соус, сырный соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/410_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9A%D0%B0%D0%BD%D0%B0%D1%80%D1%8B.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+<param name="Каллорийность">168.212</param>
+<param name="Белки">7.321</param>
+<param name="Жиры">5.915</param>
+<param name="Углеводы">21.293</param>
+</offer>
+<offer id="9217">
+<url>http://ufa.farfor.ru/pizza/griboedov-30/</url>
+<name>Грибоедов 30см</name>
+<price>340.00</price>
+<description>
+Шампиньоны свежие, грибы маринованные, лук жареный, сливки 33%.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%80%D0%B8%D0%B1%D0%BE%D0%B5%D0%B4%D0%BE%D0%B2_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">580.00 гр</param>
+</offer>
+<offer id="9227">
+<url>http://ufa.farfor.ru/pizza/griboedov-40/</url>
+<name>Грибоедов 40см</name>
+<price>490.00</price>
+<description>
+Шампиньоны свежие, грибы маринованные, лук жареный, сливки 33%.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%93%D1%80%D0%B8%D0%B1%D0%BE%D0%B5%D0%B4%D0%BE%D0%B2_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">980.00 гр</param>
+</offer>
+<offer id="9175">
+<url>http://ufa.farfor.ru/pizza/pepperoni-30/</url>
+<name>Пепперони 30см</name>
+<price>390.00</price>
+<description>
+Орегано, пепперони, черри, шампиньоны свежие, карбонад. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">660.00 гр</param>
+</offer>
+<offer id="4216">
+<url>http://ufa.farfor.ru/japan/rolly/t-34/</url>
+<name>Т-34</name>
+<price>189.00</price>
+<description>
+Филе курицы холодного копчения, нежный сливочный сыр, икра Масаго, помидор, крошка картофельных чипсов и всё это под классическим соусом Цезарь.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/446_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A2-34.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+</offer>
+<offer id="9185">
+<url>http://ufa.farfor.ru/pizza/pepperoni-40/</url>
+<name>Пепперони 40см</name>
+<price>590.00</price>
+<description>
+Орегано, пепперони, черри, шампиньоны свежие, карбонад. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1090.00 гр</param>
+</offer>
+<offer id="4518">
+<url>http://ufa.farfor.ru/japan/rolly/robin-gud/</url>
+<name>Робин Гуд</name>
+<price>189.00</price>
+<description>
+Королевская креветка в темпуре, пекинская капуста, жареный лук.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD_%D0%93%D1%83%D0%B4_01_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">170.00 гр</param>
+<param name="Каллорийность">132.166</param>
+<param name="Белки">6.428</param>
+<param name="Жиры">1.203</param>
+<param name="Углеводы">23.604</param>
+</offer>
+<offer id="4489">
+<url>http://ufa.farfor.ru/japan/rolly/amazonka/</url>
+<name>Амазонка</name>
+<price>189.00</price>
+<description>
+Лосось, пекинская капуста, крабовая палочка в миксе настоящего японского соуса QP.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B0%D0%BC%D0%B0%D0%B7%D0%BE%D0%BD%D0%BA%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+<param name="Каллорийность">118.116</param>
+<param name="Белки">6.511</param>
+<param name="Жиры">1.667</param>
+<param name="Углеводы">18.878</param>
+</offer>
+<offer id="9155">
+<url>http://ufa.farfor.ru/pizza/ciplenok-barbeku-30/</url>
+<name>Цыпленок барбекю 30см</name>
+<price>340.00</price>
+<description>
+Ветчина, курица жареная, шампиньоны свежие, перец болгарский, лук зеленый, соус барбекю. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A6%D1%8B%D0%BF%D0%BB%D0%B5%D0%BD%D0%BE%D0%BA_%D0%B1%D0%B0%D1%80%D0%B1%D0%B5%D0%BA%D1%8E_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">645.00 гр</param>
+</offer>
+<offer id="4528">
+<url>http://ufa.farfor.ru/japan/rolly/tsusima/</url>
+<name>Цусима</name>
+<price>189.00</price>
+<description>
+Обжаренный осьминог в чесночном соусе, соус QP, соус из угря Унаги.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A6%D1%83%D1%81%D0%B8%D0%BC%D0%B02.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">140.00 гр</param>
+<param name="Каллорийность">137.37</param>
+<param name="Белки">3.869</param>
+<param name="Жиры">1.006</param>
+<param name="Углеводы">28.094</param>
+</offer>
+<offer id="9165">
+<url>http://ufa.farfor.ru/pizza/ciplenok-barbeku-40/</url>
+<name>Цыпленок барбекю 40см</name>
+<price>490.00</price>
+<description>
+Ветчина, курица жареная, шампиньоны свежие, перец болгарский, лук зеленый, соус барбекю. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A6%D1%8B%D0%BF%D0%BB%D0%B5%D0%BD%D0%BE%D0%BA_%D0%B1%D0%B0%D1%80%D0%B1%D0%B5%D0%BA%D1%8E_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1090.00 гр</param>
+</offer>
+<offer id="4503">
+<url>http://ufa.farfor.ru/japan/rolly/mister-grin-/</url>
+<name>Мистер Грин</name>
+<price>189.00</price>
+<description>
+Шампиньоны в кляре, сливочный сыр, зеленая икра Масаго, соус Унаги.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%B3%D1%80%D0%B8%D0%BD21.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">165.00 гр</param>
+<param name="Каллорийность">118.801</param>
+<param name="Белки">4.268</param>
+<param name="Жиры">1.405</param>
+<param name="Углеводы">22.482</param>
+</offer>
+<offer id="9197">
+<url>
+http://ufa.farfor.ru/pizza/s-telyarinoi-i-brynzoi-30/
+</url>
+<name>С телятиной и брынзой 30см</name>
+<price>340.00</price>
+<description>
+Телятина в/к, лук красный, перец болгарский, зелень, сыр брынза. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1_%D1%82%D0%B5%D0%BB%D1%8F%D1%82%D0%B8%D0%BD%D0%BE%D0%B9_%D0%B8_%D0%B1%D1%80%D1%8B%D0%BD%D0%B7%D0%BE%D0%B9_09.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">620.00 гр</param>
+</offer>
+<offer id="9207">
+<url>
+http://ufa.farfor.ru/pizza/s-telyarinoi-i-brynzoi-40/
+</url>
+<name>С телятиной и брынзой 40см</name>
+<price>540.00</price>
+<description>
+Телятина в/к, лук красный, перец болгарский, зелень, сыр брынза. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1_%D1%82%D0%B5%D0%BB%D1%8F%D1%82%D0%B8%D0%BD%D0%BE%D0%B9_%D0%B8_%D0%B1%D1%80%D1%8B%D0%BD%D0%B7%D0%BE%D0%B9_09_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1060.00 гр</param>
+</offer>
+<offer id="1857">
+<url>http://ufa.farfor.ru/japan/sety/set_nindzya/</url>
+<name>Сет Ниндзя</name>
+<price>750.00</price>
+<description>Фудзияма, Капоэйра, Аркаим, Цезарь, Хендролл.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9D%D0%B8%D0%BD%D0%B4%D0%B7%D1%8F_2.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">870.00 гр</param>
+<param name="Каллорийность">176.569</param>
+<param name="Белки">6.763</param>
+<param name="Жиры">6.697</param>
+<param name="Углеводы">26.667</param>
+</offer>
+<offer id="4502">
+<url>http://ufa.farfor.ru/japan/rolly/miledi/</url>
+<name>Миледи</name>
+<price>189.00</price>
+<description>Масляная рыба, сливочный сыр, огурец.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BC%D0%B8%D0%BB%D0%B5%D0%B4%D0%B82_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">98.907</param>
+<param name="Белки">2.662</param>
+<param name="Жиры">0.741</param>
+<param name="Углеводы">20.431</param>
+</offer>
+<offer id="10406">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll-chernyi-plasch/
+</url>
+<name>Черный плащ</name>
+<price>229.00</price>
+<description>
+Черный рис, сливочный сыр, перец болгарский, лук зеленый, лосось х/к, спайси соус, чили перец.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BB%D0%B0%D1%89.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+</offer>
+<offer id="1856">
+<url>http://ufa.farfor.ru/japan/sety/set_yaponika/</url>
+<name>Сет Японика</name>
+<price>790.00</price>
+<description>
+С лососем, Сенсей, Филадельфия Лайт, Штирлиц, Темпурный с кальмаром.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0_2.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">925.00 гр</param>
+<param name="Каллорийность">165.342</param>
+<param name="Белки">6.933</param>
+<param name="Жиры">6.578</param>
+<param name="Углеводы">26.796</param>
+</offer>
+<offer id="9666">
+<url>http://ufa.farfor.ru/japan/rolly/koralovyi-rif/</url>
+<name>Коралловый риф</name>
+<price>229.00</price>
+<description>
+Маринованный коралловый гребешок, кальмар в унаги соусе, крабовая палочка, черная масаго, майонез.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D0%BE%D1%80%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B8%D1%84.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">190.00 гр</param>
+</offer>
+<offer id="9743">
+<url>http://ufa.farfor.ru/japan/rolly/roll-joker/</url>
+<name>Джокер</name>
+<price>229.00</price>
+<description>
+Омлет, лосось маринованный в кимчи, огурец, икра масаго зеленая, фирменный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">240.00 гр</param>
+</offer>
+<offer id="1861">
+<url>http://ufa.farfor.ru/japan/sety/set_udacha/</url>
+<name>Сет Удача</name>
+<price>790.00</price>
+<description>
+Филадельфия классик 1/2, Калифорния с лососем 1/2, Горячее сердце самурая, Фокус, Каппоэйра, С лососем.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/57__%D0%A1%D0%B5%D1%82%D1%8B_%D0%A1%D0%B5%D1%82_%D0%A3%D0%B4%D0%B0%D1%87%D0%B0.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">820.00 гр</param>
+<param name="Каллорийность">194.181</param>
+<param name="Белки">8.737</param>
+<param name="Жиры">7.403</param>
+<param name="Углеводы">23.365</param>
+</offer>
+<offer id="9699">
+<url>http://ufa.farfor.ru/japan/rolly/aiowa/</url>
+<name>Айова</name>
+<price>229.00</price>
+<description>
+Сливочный сыр, огурец, лосось маринованный в кимчи.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%90%D0%B9%D0%BE%D0%B2%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+</offer>
+<offer id="1842">
+<url>http://ufa.farfor.ru/pizza/chetyre_syra-30sm/</url>
+<name>Четыре сыра 30см</name>
+<price>290.00</price>
+<description>
+Сыры Дор-Блю, Пармезан, Гауда и Моцарелла. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/4%D0%A1%D1%8B%D1%80%D0%B0-1_3.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">350.00 гр</param>
+<param name="Каллорийность">353.6</param>
+<param name="Белки">14.179</param>
+<param name="Жиры">14.985</param>
+<param name="Углеводы">70.143</param>
+</offer>
+<offer id="1864">
+<url>http://ufa.farfor.ru/japan/sety/set_hot/</url>
+<name>Сет Хот</name>
+<price>760.00</price>
+<description>Фокус, ролл Темпурный, Хоккайдо, Подпевас.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A5%D0%BE%D1%82-1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">32 шт</param>
+<param name="Вес">830.00 гр</param>
+<param name="Каллорийность">222.571</param>
+<param name="Белки">7.189</param>
+<param name="Жиры">13.115</param>
+<param name="Углеводы">19.208</param>
+</offer>
+<offer id="1863">
+<url>http://ufa.farfor.ru/japan/sety/set_okinava/</url>
+<name>Сет Окинава</name>
+<price>790.00</price>
+<description>
+Филадельфия Лайт, Хоккайдо, Штирлиц, С лососем, Шанхай, Сяке-крим
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9E%D0%BA%D0%B8%D0%BD%D0%B0%D0%B2%D0%B0_1_1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">930.00 гр</param>
+<param name="Каллорийность">160.922</param>
+<param name="Белки">6.618</param>
+<param name="Жиры">6.56</param>
+<param name="Углеводы">25.021</param>
+</offer>
+<offer id="1841">
+<url>http://ufa.farfor.ru/pizza/chetyre_syra/</url>
+<name>Четыре сыра 40см</name>
+<price>430.00</price>
+<description>
+Сыры Дор-Блю, Пармезан, Гауда и Моцарелла. К пицце подается фирменный майонезный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/4%D0%A1%D1%8B%D1%80%D0%B0-1_2.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">630.00 гр</param>
+<param name="Каллорийность">344.794</param>
+<param name="Белки">12.893</param>
+<param name="Жиры">14.246</param>
+<param name="Углеводы">58.627</param>
+</offer>
+<offer id="2058">
+<url>http://ufa.farfor.ru/japan/rolly/roll_bonito/</url>
+<name>Бонито</name>
+<price>229.00</price>
+<description>
+Чилийский лосось, обжаренный в соусе Терияки, ломтики огурца, сливочный сыр. Пикантный вкус роллу придает стружка тунца.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%91%D0%BE%D0%BD%D0%B8%D1%82%D0%BE_03_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">190.00 гр</param>
+<param name="Каллорийность">161.464</param>
+<param name="Белки">7.977</param>
+<param name="Жиры">5.649</param>
+<param name="Углеводы">19.693</param>
+</offer>
+<offer id="1865">
+<url>
+http://ufa.farfor.ru/japan/sety/set_serdce_samuraya/
+</url>
+<name>Сет Сердце самурая</name>
+<price>840.00</price>
+<description>
+Горячее сердце самурая, Сяке-крим, Филадельфия темпурная, Патриот, Мистер Грин
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D1%81%D0%B0%D0%BC%D1%83%D1%80%D0%B0%D1%8F_1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">40 шт</param>
+<param name="Вес">890.00 гр</param>
+<param name="Каллорийность">195.159</param>
+<param name="Белки">6.73</param>
+<param name="Жиры">9.254</param>
+<param name="Углеводы">21.179</param>
+</offer>
+<offer id="2047">
+<url>http://ufa.farfor.ru/japan/rolly/roll_vulkan/</url>
+<name>Запеченный Вулкан</name>
+<price>229.00</price>
+<description>
+Вулканом страсти вырывается наружу желание не оставить от этого ролла ни одного кусочка. Нежный сливочный сыр, ломтики авокадо, копченый угорь, спайси-соус, Унаги-соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/230_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%92%D1%83%D0%BB%D0%BA%D0%B0%D0%BD.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">150.00 гр</param>
+<param name="Каллорийность">237.51</param>
+<param name="Белки">7.056</param>
+<param name="Жиры">12.165</param>
+<param name="Углеводы">21.464</param>
+</offer>
+<offer id="2098">
+<url>http://ufa.farfor.ru/japan/rolly/roll_in-yan/</url>
+<name>Инь-ян</name>
+<price>229.00</price>
+<description>
+Знаменитый фигурный ролл с чилийским лососем и обжаренным копченым угрем в форме таинственного знака Равновесия и Гармонии.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/284_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%98%D0%BD%D1%8C-%D1%8F%D0%BD.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">215.00 гр</param>
+<param name="Каллорийность">198.995</param>
+<param name="Белки">9.285</param>
+<param name="Жиры">5.06</param>
+<param name="Углеводы">29.181</param>
+</offer>
+<offer id="2063">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_kaliforniya_s_lososem/
+</url>
+<name>Калифорния с лососем</name>
+<price>229.00</price>
+<description>
+Давно полюбившийся всем ролл с чилийским лососем, ломтиками огурца и авокадо. Ролл украшен оранжевой икрой Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F_%D1%81_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC_03_1_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">190.00 гр</param>
+<param name="Каллорийность">146.964</param>
+<param name="Белки">7.601</param>
+<param name="Жиры">2.999</param>
+<param name="Углеводы">20.364</param>
+</offer>
+<offer id="2051">
+<url>http://ufa.farfor.ru/japan/rolly/roll_majami/</url>
+<name>Запеченный Майами</name>
+<price>229.00</price>
+<description>
+Ролл, который раскрепощает и не даёт покоя. Зажигательный Майами! Мидии, икра Масаго, сырный соус, Унаги-соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/234_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%9C%D0%B0%D0%B8%D0%B0%D0%BC%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">215.00 гр</param>
+<param name="Каллорийность">222.427</param>
+<param name="Белки">6.331</param>
+<param name="Жиры">12.228</param>
+<param name="Углеводы">22.145</param>
+</offer>
+<offer id="2080">
+<url>http://ufa.farfor.ru/japan/rolly/tamago/</url>
+<name>Тамаго</name>
+<price>229.00</price>
+<description>
+Тигровая креветка, японский омлет Тамаго, сливочный сыр, свежий огурец, зеленый лук, икра Масаго оранжевая.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%82%D0%B0%D0%BC%D0%B0%D0%B3%D0%BE.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">195.00 гр</param>
+<param name="Каллорийность">141.427</param>
+<param name="Белки">6.534</param>
+<param name="Жиры">4.107</param>
+<param name="Углеводы">20.234</param>
+</offer>
+<offer id="2090">
+<url>http://ufa.farfor.ru/japan/rolly/roll_hokkaido/</url>
+<name>Хоккайдо</name>
+<price>229.00</price>
+<description>
+Сливочный сыр и тропический авокадо под шапкой чилийского лосося, обжаренного в сырном и Унаги-соусах. Украшен кунжутом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/276_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A5%D0%BE%D0%BA%D0%BA%D0%B0%D0%B8%D0%B4%D0%BE.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">150.00 гр</param>
+<param name="Каллорийность">141.443</param>
+<param name="Белки">3.764</param>
+<param name="Жиры">3.516</param>
+<param name="Углеводы">20.201</param>
+</offer>
+<offer id="2091">
+<url>http://ufa.farfor.ru/japan/rolly/roll_cezar/</url>
+<name>Цезарь</name>
+<price>229.00</price>
+<description>
+Обжаренное куриное филе, сливочный сыр, листья пекинской капусты, ломтики свежего огурца, фирменный сырный соус, кунжутные семечки.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%86%D0%B5%D0%B7%D0%B0%D1%80%D1%8C_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">165.712</param>
+<param name="Белки">3.874</param>
+<param name="Жиры">7.108</param>
+<param name="Углеводы">21.357</param>
+</offer>
+<offer id="2093">
+<url>http://ufa.farfor.ru/japan/rolly/shanghai/</url>
+<name>Шанхай</name>
+<price>229.00</price>
+<description>
+Обжаренное куриное филе, свежий огурец под острой шапочкой Спайси-соуса.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/279_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A8%D0%B0%D0%BD%D1%85%D0%B0%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+<param name="Каллорийность">177.741</param>
+<param name="Белки">3.569</param>
+<param name="Жиры">14.348</param>
+<param name="Углеводы">20.016</param>
+</offer>
+<offer id="1849">
+<url>
+http://ufa.farfor.ru/japan/sety/set_48_udovolstvij/
+</url>
+<name>Сет 48 удовольствий</name>
+<price>890.00</price>
+<description>
+Сяке-крим, Хендролл, Эверест, Коралловый риф, Миледи, Айова.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/48-%D1%83%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B8%D0%B9_2.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">1080.00 гр</param>
+<param name="Каллорийность">104.46</param>
+<param name="Белки">3.732</param>
+<param name="Жиры">4.037</param>
+<param name="Углеводы">16.745</param>
+</offer>
+<offer id="2039">
+<url>http://ufa.farfor.ru/japan/rolly/grib_rain/</url>
+<name>Запеченный Грибной дождь</name>
+<price>229.00</price>
+<description>
+Нежнейший чилийский лосось и свежий огурчик под шапкой с грибами Шиитаке, кунжутом и сырным соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/222_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%93%D1%80%D0%B8%D0%B1%D0%BD%D0%BE%D0%B8_%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+<param name="Каллорийность">213.937</param>
+<param name="Белки">8.373</param>
+<param name="Жиры">6.157</param>
+<param name="Углеводы">31.108</param>
+</offer>
+<offer id="2030">
+<url>http://ufa.farfor.ru/japan/rolly/roll-fokus/</url>
+<name>Фокус</name>
+<price>229.00</price>
+<description>
+Куриное филе х/к, томат, сыр Моцарелла, черный кунжут. Шапка: сливочный сыр, сырный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%BE%D0%BA%D1%83%D1%81_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+<param name="Каллорийность">217.988</param>
+<param name="Белки">9.215</param>
+<param name="Жиры">11.531</param>
+<param name="Углеводы">21.177</param>
+</offer>
+<offer id="1873">
+<url>http://ufa.farfor.ru/japan/sety/set_legengy_oseni/</url>
+<name>Сет Легенды Осени</name>
+<price>1050.00</price>
+<description>
+Штирлиц, Цусима, Цезарь, Майами, Кофейный, Филадельфия-one.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D1%8B-%D0%BE%D1%81%D0%B5%D0%BD%D0%B8-1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">1060.00 гр</param>
+<param name="Каллорийность">184.388</param>
+<param name="Белки">6.731</param>
+<param name="Жиры">7.636</param>
+<param name="Углеводы">25.964</param>
+</offer>
+<offer id="2040">
+<url>http://ufa.farfor.ru/japan/rolly/arkaim/</url>
+<name>Запеченный Аркаим</name>
+<price>229.00</price>
+<description>
+Куриное филе х/к, перец болгарский. Шапка: сырный соус, кунжут белый.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%90%D1%80%D0%BA%D0%B0%D0%B8%D0%BC2.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">220.00 гр</param>
+<param name="Каллорийность">211.352</param>
+<param name="Белки">7.136</param>
+<param name="Жиры">11.098</param>
+<param name="Углеводы">20.625</param>
+</offer>
+<offer id="2037">
+<url>http://ufa.farfor.ru/japan/rolly/rassvet/</url>
+<name>Запеченный Рассвет</name>
+<price>229.00</price>
+<description>
+Крабовая палочка под шапкой микса Хондаши и Унаги-соуса. Украшен кунжутом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%80%D0%B0%D1%81%D1%81%D0%B2%D0%B5%D1%82.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+<param name="Каллорийность">207.241</param>
+<param name="Белки">5.573</param>
+<param name="Жиры">3.647</param>
+<param name="Углеводы">21.309</param>
+</offer>
+<offer id="2078">
+<url>http://ufa.farfor.ru/japan/rolly/sochi/</url>
+<name>Запеченный Сочи</name>
+<price>229.00</price>
+<description>
+Сыр сливочный, икра Масаго оранжевая, крабовая палочка в миксе с японским майонезом. Шапка: грибы шампиньоны, сырный соус, соус Унаги, кунжут белый.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/262_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D1%8B%D0%B5_%D0%A1%D0%BE%D1%87%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">245.00 гр</param>
+<param name="Каллорийность">164.234</param>
+<param name="Белки">6.393</param>
+<param name="Жиры">6.941</param>
+<param name="Углеводы">19.442</param>
+</offer>
+<offer id="1875">
+<url>http://ufa.farfor.ru/japan/sety/set_edem/</url>
+<name>Сет Эдем</name>
+<price>1090.00</price>
+<description>
+Филадельфия Макси, Хоккайдо, Сочи, Аркаим, Темпурный, Сяке-крим.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/81__%D0%A1%D0%B5%D1%82%D1%8B_%D0%A1%D0%B5%D1%82_%D0%AD%D0%B4%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">48 шт</param>
+<param name="Вес">1190.00 гр</param>
+<param name="Каллорийность">179.093</param>
+<param name="Белки">5.848</param>
+<param name="Жиры">8.257</param>
+<param name="Углеводы">19.418</param>
+</offer>
+<offer id="2073">
+<url>http://ufa.farfor.ru/japan/rolly/neznakomka/</url>
+<name>Незнакомка</name>
+<price>229.00</price>
+<description>
+Омлет Тамаго, икра Масаго черная, крабовая палочка в миксе с японским соусом под шапкой из сливочного сыра, соуса Хондаши и Унаги.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/257_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9D%D0%B5%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D0%BA%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">245.00 гр</param>
+<param name="Каллорийность">204.112</param>
+<param name="Белки">7.261</param>
+<param name="Жиры">7.433</param>
+<param name="Углеводы">19.574</param>
+</offer>
+<offer id="1877">
+<url>http://ufa.farfor.ru/japan/sety/set_red_dragon/</url>
+<name>Сет Красный Дракон</name>
+<price>1250.00</price>
+<description>
+Горячее сердце самурая, Сенсей, Филадельфия ONE, Сочи, Шахматы, Патриот, Амазонка.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">56 шт</param>
+<param name="Вес">1400.00 гр</param>
+<param name="Каллорийность">157.094</param>
+<param name="Белки">6.348</param>
+<param name="Жиры">5.549</param>
+<param name="Углеводы">21.577</param>
+</offer>
+<offer id="8229">
+<url>
+http://ufa.farfor.ru/japan/sety/zhenshina-vsegda-prava/
+</url>
+<name>Женщина всегда права</name>
+<price>1190.00</price>
+<description>
+Горячее сердце самурая; Филадельфия Лайт; Сливочный с лососем; Теплый ролл с курицей сыром и салатом под соусом хондаши; Запеченный под хондаши соусом ролл с окунем сыром и огурцами; Ролл с кальмаром и окунем под шапкой с белым соусом; Запеченный ролл с мидиями крабовым мясом и салатом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/8%D0%BC%D0%B0%D1%80%D1%82%D0%B0_%D0%B22.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">56 шт</param>
+<param name="Вес">1400.00 гр</param>
+<param name="Каллорийность">149.091</param>
+<param name="Белки">5.421</param>
+<param name="Жиры">4.67</param>
+<param name="Углеводы">19.276</param>
+</offer>
+<offer id="3113">
+<url>http://ufa.farfor.ru/japan/rolly/chernomor/</url>
+<name>Черномор</name>
+<price>229.00</price>
+<description>
+Креветка тигровая, свежий огурец, крабовая палочка, сырный соус, унаги соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/421_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%BC%D0%BE%D1%80.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+<param name="Каллорийность">205.563</param>
+<param name="Белки">5.386</param>
+<param name="Жиры">11.637</param>
+<param name="Углеводы">19.867</param>
+</offer>
+<offer id="3081">
+<url>http://ufa.farfor.ru/japan/rolly/monako/</url>
+<name>Монако</name>
+<price>229.00</price>
+<description>
+Угорь, пекинская капуста, унаги соус, хондаши соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/412_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9C%D0%BE%D0%BD%D0%B0%D0%BA%D0%BE.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">175.00 гр</param>
+<param name="Каллорийность">187.616</param>
+<param name="Белки">5.431</param>
+<param name="Жиры">4.823</param>
+<param name="Углеводы">22.929</param>
+</offer>
+<offer id="1879">
+<url>http://ufa.farfor.ru/japan/sety/set_hit/</url>
+<name>Сет Хит</name>
+<price>1450.00</price>
+<description>
+Сенсей, Филадельфия-One, Хоккайдо, Цезарь, Эби-крим, Эверест, Монако, Красава, Патриот.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/_DSC4420.JPG
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">72 шт</param>
+<param name="Вес">1650.00 гр</param>
+<param name="Каллорийность">183.479</param>
+<param name="Белки">5.608</param>
+<param name="Жиры">8.447</param>
+<param name="Углеводы">21.0</param>
+</offer>
+<offer id="1880">
+<url>
+http://ufa.farfor.ru/japan/sety/set_vostochnoe_solnce/
+</url>
+<name>Сет Восточное солнце</name>
+<price>1490.00</price>
+<description>
+Наоми, Сырный, Калифорния с лососем, Тамаго, Аркаим, Филадельфия-one, Рай, Красава.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D1%81%D0%BE%D0%BB%D0%BD%D1%86%D0%B5-1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">64 шт</param>
+<param name="Вес">1630.00 гр</param>
+<param name="Каллорийность">133.91</param>
+<param name="Белки">5.559</param>
+<param name="Жиры">6.032</param>
+<param name="Углеводы">15.189</param>
+</offer>
+<offer id="4522">
+<url>
+http://ufa.farfor.ru/japan/rolly/tempurnyij-s-kalmarom/
+</url>
+<name>Темпурный с кальмаром</name>
+<price>229.00</price>
+<description>
+Кальмар жареный, маринованная кожа лосося, спайси-соус, чесночный соус, зеленый лук, помидор.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A2%D0%B5%D0%BC%D0%BF%D1%83%D1%80%D1%8B%D0%B9-%D1%81-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80%D0%BE%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">265.00 гр</param>
+<param name="Каллорийность">151.135</param>
+<param name="Белки">4.744</param>
+<param name="Жиры">8.092</param>
+<param name="Углеводы">25.058</param>
+</offer>
+<offer id="5711">
+<url>
+http://ufa.farfor.ru/japan/rolly/slivochnyij-losos/
+</url>
+<name>Сливочный с лососем</name>
+<price>229.00</price>
+<description>
+Нежнейший чилийский лосось и свежий огурчик под классическим сливочным соусом. Украшен оранжевой икрой капеллана Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%BB%D0%B8%D0%B2%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="5712">
+<url>http://ufa.farfor.ru/japan/rolly/slivochnyij-ugor/</url>
+<name>Сливочный с угрем</name>
+<price>229.00</price>
+<description>
+Обжаренный копченый угорь и свежий огурчик под классическим сливочным соусом. Украшен оранжевой икрой капеллана Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%BB%D0%B8%D0%B2%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D1%81-%D1%83%D0%B3%D1%80%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="5710">
+<url>
+http://ufa.farfor.ru/japan/rolly/slivochnaya-krevetka/
+</url>
+<name>Сливочный с креветкой</name>
+<price>229.00</price>
+<description>
+Тигровая индонезийская креветка и свежий огурчик под классическим сливочным соусом. Украшен оранжевой икрой капеллана Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%BB%D0%B8%D0%B2%D0%BE%D1%87%D0%BD%D1%8B%D0%B9-%D1%81-%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D0%B9.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="1883">
+<url>
+http://ufa.farfor.ru/japan/sety/set_bolshaya_mafiya/
+</url>
+<name>Сет Большая Мафия</name>
+<price>2090.00</price>
+<description>
+Ролевая игра "Мафия" в подарок! Акира, С лососем, Сенсей, Филадельфия–One, Хоккайдо, Цезарь, Калифорния с лососем, Морской волк, Рассвет, Черномор, Рай, Мономах.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%BC%D0%B0%D1%84%D0%B8%D1%8F_new.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">93 шт</param>
+<param name="Вес">2260.00 гр</param>
+<param name="Каллорийность">173.503</param>
+<param name="Белки">6.331</param>
+<param name="Жиры">6.206</param>
+<param name="Углеводы">21.077</param>
+</offer>
+<offer id="1851">
+<url>http://ufa.farfor.ru/japan/sety/set_hochuka/</url>
+<name>Сет Хочука</name>
+<price>2190.00</price>
+<description>
+Шахматы, Адель, Хоккайдо, Майами, Сочи, Незнакомка, Акира, Темпурный с кальмаром, Филадельфия-one, Сенсей, Красава, Филадельфия темпурная.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A5%D0%BE%D1%87%D1%83%D0%BA%D0%B0-1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">96 шт</param>
+<param name="Вес">2640.00 гр</param>
+<param name="Каллорийность">180.342</param>
+<param name="Белки">6.298</param>
+<param name="Жиры">8.733</param>
+<param name="Углеводы">20.541</param>
+</offer>
+<offer id="1884">
+<url>
+http://ufa.farfor.ru/japan/sety/zapechenyie-sushi-1/
+</url>
+<name>Запеченные суши №1</name>
+<price>390.00</price>
+<description>
+Гункан с угрем (2 шт), Гункан с лососем (2 шт), Гункан с окунем (2 шт).
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/98__%D0%A1%D0%B5%D1%82%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D1%83%D1%88%D0%B8_1.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">6 шт</param>
+<param name="Вес">305.00 гр</param>
+</offer>
+<offer id="1824">
+<url>http://ufa.farfor.ru/pizza/ohotnichya-30sm/</url>
+<name>Охотничья 30см</name>
+<price>340.00</price>
+<description>
+Охотничьи колбаски, вешенки свежие, перец болгарский, маслины, оливки, орегано. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9E%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D1%87%D1%8C%D1%8F_09_6.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">670.00 гр</param>
+<param name="Каллорийность">203.687</param>
+<param name="Белки">8.657</param>
+<param name="Жиры">9.681</param>
+<param name="Углеводы">22.526</param>
+</offer>
+<offer id="1885">
+<url>
+http://ufa.farfor.ru/japan/sety/zapechenyie-sushi-2/
+</url>
+<name>Запеченные суши №2</name>
+<price>390.00</price>
+<description>
+Гункан с кальмаром (2 шт), Гункан с мидиями (2 шт), Гункан с креветкой (2 шт).
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/99__%D0%A1%D0%B5%D1%82%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D1%83%D1%88%D0%B8_2.jpg
+</picture>
+<categoryId>2</categoryId>
+<param name="Кол-во">6 шт</param>
+<param name="Вес">305.00 гр</param>
+</offer>
+<offer id="6508">
+<url>http://ufa.farfor.ru/japan/rolly/kofejnyij/</url>
+<name>Ролл Кофейный</name>
+<price>229.00</price>
+<description>
+Лосось, кофейный ликер, обжаренная тилапия, сливочный сыр, сырный соус, корица молотая.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8B%D0%B92.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+</offer>
+<offer id="6519">
+<url>http://ufa.farfor.ru/japan/rolly/myatnyij/</url>
+<name>Фрешролл</name>
+<price>229.00</price>
+<description>
+Мятный ликер, японский омлет Тамаго, терияки-морковь, сливочный сыр, мята сушеная, настоящий японский майонез.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D1%8F%D1%82%D0%BD%D1%8B%D0%B92_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">240.00 гр</param>
+</offer>
+<offer id="1823">
+<url>http://ufa.farfor.ru/pizza/ohotnichya/</url>
+<name>Охотничья 40см</name>
+<price>490.00</price>
+<description>
+Охотничьи колбаски, вешенки свежие, перец болгарский, маслины, оливки, орегано. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9E%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D1%87%D1%8C%D1%8F_09_7.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1130.00 гр</param>
+<param name="Каллорийность">207.655</param>
+<param name="Белки">8.375</param>
+<param name="Жиры">9.391</param>
+<param name="Углеводы">24.427</param>
+</offer>
+<offer id="7752">
+<url>http://ufa.farfor.ru/japan/rolly/Akira/</url>
+<name>Акира</name>
+<price>229.00</price>
+<description>
+Лосось, обжаренный в соусе Терияки, зеленый лук, сливочный сыр, икра Масаго зеленая.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%90%D0%BA%D0%B8%D1%80%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+</offer>
+<offer id="5940">
+<url>http://ufa.farfor.ru/pizza/juliette-30/</url>
+<name>Джульетта 30см</name>
+<price>390.00</price>
+<description>
+Карбонад, колбаса полукопченая, Ветчина, болгарский перец, сыр Моцарелла. В бортиках сыр Моцарелла.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%94%D0%B6%D1%83%D0%BB%D1%8C%D0%B5%D1%82%D1%82%D0%B0-6_1.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">30см</param>
+<param name="Вес">670.00 гр</param>
+</offer>
+<offer id="7877">
+<url>http://ufa.farfor.ru/japan/rolly/flamingo/</url>
+<name>Фламинго</name>
+<price>229.00</price>
+<description>
+Обжаренное куриное филе, Хондаши соус, сырный соус, свежий укроп, сливочный сыр, икра масаго оранжевая, пекинская капуста.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/flamingo.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">225.00 гр</param>
+</offer>
+<offer id="10373">
+<url>http://ufa.farfor.ru/japan/rolly/roll-malevicha/</url>
+<name>Ролл Малевича</name>
+<price>249.00</price>
+<description>
+Черный рис, отварная креветка, пекинская капуста, манговый мусс, лук фри.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87%D0%B01.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">200.00 гр</param>
+</offer>
+<offer id="5929">
+<url>http://ufa.farfor.ru/pizza/juliette/</url>
+<name>Джульетта 40см</name>
+<price>590.00</price>
+<description>
+Карбонад, колбаса полукопченая, Ветчина, болгарский перец, сыр Моцарелла. В бортиках сыр Моцарелла. К пицце подается фирменный томатный соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%94%D0%B6%D1%83%D0%BB%D1%8C%D0%B5%D1%82%D1%82%D0%B0-6.png
+</picture>
+<categoryId>1</categoryId>
+<param name="Диаметр">40см</param>
+<param name="Вес">1130.00 гр</param>
+</offer>
+<offer id="2046">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_goryachee_serdce_samuraya/
+</url>
+<name>Запеченное Горячее сердце самурая</name>
+<price>249.00</price>
+<description>
+Ветка Сакуры зацвела. Незамеченной она останется неотведавшим... Чилийский лосось, морской окунь, сливочный сыр, сырный соус, соус Унаги, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/229_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B5%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D1%81%D0%B0%D0%BC%D1%83%D1%80%D0%B0%D1%8F_3.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">211.43</param>
+<param name="Белки">7.778</param>
+<param name="Жиры">9.075</param>
+<param name="Углеводы">24.476</param>
+</offer>
+<offer id="2050">
+<url>http://ufa.farfor.ru/japan/rolly/roll_sensei/</url>
+<name>Запеченный Сенсей</name>
+<price>249.00</price>
+<description>
+Дух ролла Сенсей вобрал в себя мудрость копченого лосося, гордость авокадо, силу сливочного сыра, утончённость сырного соуса с разноцветием кунжутных семечек.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/233_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%A1%D0%B5%D0%BD%D1%81%D0%B5%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">210.736</param>
+<param name="Белки">6.512</param>
+<param name="Жиры">9.584</param>
+<param name="Углеводы">24.468</param>
+</offer>
+<offer id="2052">
+<url>http://ufa.farfor.ru/japan/rolly/roll_tempurnyi/</url>
+<name>Ролл Темпурный</name>
+<price>249.00</price>
+<description>
+Обжаренный копченый угорь, маринованный розовый имбирь, ломтики свежего огурца и пикантный ореховый соус Гамадари.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/235_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D0%A2%D0%B5%D0%BC%D0%BF%D1%83%D1%80%D0%BD%D1%8B%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">250.00 гр</param>
+<param name="Каллорийность">212.987</param>
+<param name="Белки">5.263</param>
+<param name="Жиры">13.533</param>
+<param name="Углеводы">17.642</param>
+</offer>
+<offer id="2086">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_filadelfiya-one/
+</url>
+<name>Филадельфия-One</name>
+<price>249.00</price>
+<description>
+Чилийский лосось, сливочный сыр и огурец. Во многих заведениях Вам преподнесут этот ролл как Классическую Филадельфию.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0_one.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+<param name="Каллорийность">125.015</param>
+<param name="Белки">8.46</param>
+<param name="Жиры">2.35</param>
+<param name="Углеводы">17.579</param>
+</offer>
+<offer id="2087">
+<url>http://ufa.farfor.ru/japan/rolly/roll_fudziyama/</url>
+<name>Фудзияма</name>
+<price>249.00</price>
+<description>
+Чилийский лосось, сливочный сыр, красная икра Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%8F%D0%BC%D0%B0_03_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">190.00 гр</param>
+<param name="Каллорийность">170.701</param>
+<param name="Белки">8.68</param>
+<param name="Жиры">6.315</param>
+<param name="Углеводы">20.314</param>
+</offer>
+<offer id="2060">
+<url>http://ufa.farfor.ru/japan/rolly/vendetta/</url>
+<name>Вендетта</name>
+<price>249.00</price>
+<description>
+Индонезийская тигровая креветка, копченый лосось, сливочный сыр, тропический авокадо под шапкой икры капеллана Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%92%D0%B5%D0%BD%D0%B4%D0%B5%D1%82%D1%82%D0%B0_04_2.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">180.00 гр</param>
+<param name="Каллорийность">165.24</param>
+<param name="Белки">7.849</param>
+<param name="Жиры">4.331</param>
+<param name="Углеводы">21.701</param>
+</offer>
+<offer id="3089">
+<url>http://ufa.farfor.ru/japan/rolly/podpevas/</url>
+<name>Подпевас</name>
+<price>249.00</price>
+<description>Сливочный сыр, бекон, помидор, сырный соус.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/418_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9F%D0%BE%D0%B4%D0%BF%D0%B5%D0%B2%D0%B0%D1%81.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+<param name="Каллорийность">280.405</param>
+<param name="Белки">9.353</param>
+<param name="Жиры">19.797</param>
+<param name="Углеводы">17.629</param>
+</offer>
+<offer id="3105">
+<url>http://ufa.farfor.ru/japan/rolly/raj/</url>
+<name>Рай</name>
+<price>249.00</price>
+<description>
+Лосось холодного копчения, курица холодного копчения, унаги соус, сырный соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%80%D0%B0%D0%B9.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">190.00 гр</param>
+<param name="Каллорийность">191.488</param>
+<param name="Белки">9.389</param>
+<param name="Жиры">7.466</param>
+<param name="Углеводы">22.203</param>
+</offer>
+<offer id="3073">
+<url>http://ufa.farfor.ru/japan/rolly/krasava/</url>
+<name>Красава</name>
+<price>249.00</price>
+<description>
+Угорь, японский омлет Тамаго, помидор, унаги-соус, сырный соус, спайси-соус, чесночный соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/411_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">220.00 гр</param>
+<param name="Каллорийность">243.808</param>
+<param name="Белки">5.506</param>
+<param name="Жиры">18.673</param>
+<param name="Углеводы">20.434</param>
+</offer>
+<offer id="6475">
+<url>
+http://ufa.farfor.ru/japan/rolly/snezhnaya-koroleva/
+</url>
+<name>Снежная королева</name>
+<price>249.00</price>
+<description>
+Тунец охлажденный, зеленый лук, паста Кимчи острая, сливочный сыр, икра Масаго черная и красная.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A1%D0%BD%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B02.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">215.00 гр</param>
+</offer>
+<offer id="2072">
+<url>http://ufa.farfor.ru/japan/rolly/roll_nezhnost/</url>
+<name>Нежность</name>
+<price>269.00</price>
+<description>
+Название ролла говорит само за себя! В ролл неслучайно попали нежный лосось, нежный сливочный сыр и незабываемо нежный креветочный соус (креветки, настоящий майонез Хелманс, икра Масаго, секреты су-шефа).
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BD%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">225.00 гр</param>
+<param name="Каллорийность">304.414</param>
+<param name="Белки">7.29</param>
+<param name="Жиры">22.993</param>
+<param name="Углеводы">17.18</param>
+</offer>
+<offer id="2085">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_filadelfiya-maxi/
+</url>
+<name>Филадельфия-Maxi</name>
+<price>279.00</price>
+<description>
+Свежий чилийский лосось, сливочный сыр, оранжевая икра Масаго, ломтики авокадо и огурца.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0-%D0%BC%D0%B0%D0%BA%D1%81%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">250.00 гр</param>
+<param name="Каллорийность">135.953</param>
+<param name="Белки">4.203</param>
+<param name="Жиры">5.138</param>
+<param name="Углеводы">15.486</param>
+</offer>
+<offer id="10362">
+<url>http://ufa.farfor.ru/japan/rolly/roll-bardo/</url>
+<name>Бордо</name>
+<price>289.00</price>
+<description>
+Сливочный сыр, тунец, огурец, свекла, майонез, икра масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B1%D0%B0%D1%80%D0%B4%D0%BE_.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">240.00 гр</param>
+</offer>
+<offer id="2064">
+<url>http://ufa.farfor.ru/japan/rolly/roll_kanada/</url>
+<name>Канада</name>
+<price>289.00</price>
+<description>
+Чилийский лосось, сырный соус, ломтики свежего огурца и кунжутные семечки. Ролл накрыт обжаренным копченым угрём под соусом Унаги.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+<param name="Каллорийность">210.206</param>
+<param name="Белки">10.772</param>
+<param name="Жиры">10.367</param>
+<param name="Углеводы">18.544</param>
+</offer>
+<offer id="2066">
+<url>http://ufa.farfor.ru/japan/rolly/roll_lava/</url>
+<name>Лава Классик</name>
+<price>289.00</price>
+<description>
+Чилийский лосось, индонезийская тигровая креветка, сливочный сыр, икра капеллана Масаго, спайси соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/250_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9B%D0%B0%D0%B2%D0%B0_%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">230.00 гр</param>
+<param name="Каллорийность">140.057</param>
+<param name="Белки">6.987</param>
+<param name="Жиры">5.145</param>
+<param name="Углеводы">16.887</param>
+</offer>
+<offer id="2084">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_filadelfiya_classic/
+</url>
+<name>Филадельфия-Classic</name>
+<price>289.00</price>
+<description>
+Классическое исполнение самого популярного ролла в мире. Нежнейший чилийский лосось в миксе сливочного сыра.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA_2.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">250.00 гр</param>
+<param name="Каллорийность">187.813</param>
+<param name="Белки">12.745</param>
+<param name="Жиры">8.534</param>
+<param name="Углеводы">14.998</param>
+</offer>
+<offer id="2036">
+<url>http://ufa.farfor.ru/japan/rolly/kaliforniya_hot/</url>
+<name>Запеченная Калифорния</name>
+<price>289.00</price>
+<description>
+Чилийский лосось , икра капеллана Масаго, авокадо, огурец. В шапке: сырный соус, соус Унаги, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%B7%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">235.00 гр</param>
+<param name="Каллорийность">198.95</param>
+<param name="Белки">6.265</param>
+<param name="Жиры">10.723</param>
+<param name="Углеводы">17.692</param>
+</offer>
+<offer id="10340">
+<url>http://ufa.farfor.ru/japan/rolly/roll-mangol/</url>
+<name>Мангол</name>
+<price>299.00</price>
+<description>
+Креветка отварная, омлет, перец болгарский, воздушный рис, манговый мусс и табаско соус.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9C%D0%B0%D0%BD%D0%B3%D0%BE%D0%BB_2.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">240.00 гр</param>
+</offer>
+<offer id="2044">
+<url>
+http://ufa.farfor.ru/japan/rolly/niyama-zapechennaya/
+</url>
+<name>Запеченная Нияма</name>
+<price>299.00</price>
+<description>
+Лосось запеченный, икра Масаго оранжевая, огурец, спайси-соус. Шапка: креветочный соус, Унаги соус, белый кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/227_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%9D%D0%B8%D1%8F%D0%BC%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">250.00 гр</param>
+<param name="Каллорийность">291.25</param>
+<param name="Белки">8.397</param>
+<param name="Жиры">21.82</param>
+<param name="Углеводы">18.248</param>
+</offer>
+<offer id="2035">
+<url>http://ufa.farfor.ru/japan/rolly/roll_sikoku/</url>
+<name>Ролл Сикоку</name>
+<price>300.00</price>
+<description>
+Чилийский лосось, ломтики огурца, икра капеллана Масаго и внушительная шапка ролла с копченым угрем и майонезом под сладким унаги-соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/138_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D0%A1%D0%B8%D0%BA%D0%BE%D0%BA%D1%83.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+<param name="Каллорийность">161.75</param>
+<param name="Белки">8.29</param>
+<param name="Жиры">5.26</param>
+<param name="Углеводы">20.641</param>
+</offer>
+<offer id="2056">
+<url>http://ufa.farfor.ru/japan/rolly/roll_samuraiskii/</url>
+<name>Темпурный Самурайский</name>
+<price>329.00</price>
+<description>
+Отчаянно сытный ролл. Суровый самурай наедался обычно его половинкой. Он обжарен во фритюре, начинён копченым угрем, свежим лососем, ломтиками огурца и сливочным сыром.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/240_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A2%D0%B5%D0%BC%D0%BF%D1%83%D1%80%D0%BD%D1%8B%D0%B8_%D0%A1%D0%B0%D0%BC%D1%83%D1%80%D0%B0%D0%B8%D1%81%D0%BA%D0%B8%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">265.00 гр</param>
+<param name="Каллорийность">283.292</param>
+<param name="Белки">8.038</param>
+<param name="Жиры">18.866</param>
+<param name="Углеводы">20.521</param>
+</offer>
+<offer id="2042">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_filadelfiya-hot/
+</url>
+<name>Запеченная Филадельфия</name>
+<price>329.00</price>
+<description>
+Превосходный чилийский лосось и сливочный сыр, запеченные в гриль-саламандре под сырным соусом.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/225_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">320.00 гр</param>
+<param name="Каллорийность">229.679</param>
+<param name="Белки">10.85</param>
+<param name="Жиры">14.223</param>
+<param name="Углеводы">14.455</param>
+</offer>
+<offer id="2053">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya_tempura/
+</url>
+<name>Темпурная Филадельфия</name>
+<price>329.00</price>
+<description>
+Лосось запеченный, сливочный сыр, кляр. Украшение: Унаги соус, белый кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%82%D0%B5%D0%BC%D0%BF%D1%83%D1%80%D0%BD%D0%B0%D1%8F_%D1%84%D0%B8%D0%BB%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">240.00 гр</param>
+<param name="Каллорийность">280.489</param>
+<param name="Белки">9.325</param>
+<param name="Жиры">19.081</param>
+<param name="Углеводы">17.732</param>
+</offer>
+<offer id="2048">
+<url>http://ufa.farfor.ru/japan/rolly/roll_dzedo/</url>
+<name>Запеченный Дзедо</name>
+<price>339.00</price>
+<description>
+В школе японского буддизма Дзёдо ученики медитировали именно на него. Красавец ролл: чилийский лосось, сливочный сыр, спайси-соус. Шапка: угорь, икра Масаго, настоящий майонез Хелманс.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/231_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%94%D0%B7%D0%B5%D0%B4%D0%BE.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">240.00 гр</param>
+<param name="Каллорийность">230.927</param>
+<param name="Белки">10.358</param>
+<param name="Жиры">13.035</param>
+<param name="Углеводы">18.034</param>
+</offer>
+<offer id="2083">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll_filadelfiya_pod_ugrem/
+</url>
+<name>Филадельфия под угрём</name>
+<price>339.00</price>
+<description>Обжаренный копченый угорь, авокадо, сливочный сыр.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/268_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D0%BF%D0%BE%D0%B4_%D1%83%D0%B3%D1%80%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">220.00 гр</param>
+<param name="Каллорийность">248.238</param>
+<param name="Белки">9.164</param>
+<param name="Жиры">13.398</param>
+<param name="Углеводы">19.344</param>
+</offer>
+<offer id="2082">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-delux/
+</url>
+<name>Филадельфия Делюкс</name>
+<price>339.00</price>
+<description>
+Чилийский лосось и японский омлет Тамаго под шапкой сливочного сыра.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0-%D0%B4%D0%B5%D0%BB%D1%8E%D0%BA%D1%81_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">290.00 гр</param>
+<param name="Каллорийность">172.597</param>
+<param name="Белки">11.883</param>
+<param name="Жиры">8.081</param>
+<param name="Углеводы">13.119</param>
+</offer>
+<offer id="10395">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-fresh/
+</url>
+<name>Филадельфия Фреш</name>
+<price>349.00</price>
+<description>
+Лосось охлажденный, воздушный рис, киви, сыр сливочный.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D1%84%D1%80%D0%B5%D1%88.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">220.00 гр</param>
+</offer>
+<offer id="10384">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-klubnich/
+</url>
+<name>Филадельфия с клубничным муссом</name>
+<price>349.00</price>
+<description>Лосось охлажденный, клубничный мусс.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D1%81_%D0%BA%D0%BB%D1%83%D0%B1%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%BC_%D0%BC%D1%83%D1%81%D1%81%D0%BE%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Вес">210.00 гр</param>
+</offer>
+<offer id="4180">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-light-1-2/
+</url>
+<name>Филадельфия-Лайт 1/2 порции</name>
+<price>109.00</price>
+<description>Лосось охлажденный, огурец, сыр сливочный.</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%BC%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D0%BB%D0%B0%D0%B9%D1%82_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">95.00 гр</param>
+</offer>
+<offer id="4490">
+<url>
+http://ufa.farfor.ru/japan/rolly/bonito-12-portsii/
+</url>
+<name>Бонито 1/2 порции</name>
+<price>129.00</price>
+<description>
+Популярный ролл без сырой рыбы: норвежский лосось, обжаренный в соусе Терияки, ломтики огурца, сливочный сыр. Пикантный вкус роллу придает стружка тунца.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%91%D0%BE%D0%BD%D0%B8%D1%82%D0%BE_03_1_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">82.00 гр</param>
+</offer>
+<offer id="4496">
+<url>
+http://ufa.farfor.ru/japan/rolly/zapechenyie-sochi-12-portsii/
+</url>
+<name>Запеченые Сочи 1/2 порции</name>
+<price>129.00</price>
+<description>
+Сыр сливочный, икра Масаго оранжевая, снежный краб. Шапка: грибы шампиньоны, сырный соус, соус Унаги, кунжут белый.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/262_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D1%8B%D0%B5_%D0%A1%D0%BE%D1%87%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">123.00 гр</param>
+</offer>
+<offer id="4497">
+<url>
+http://ufa.farfor.ru/japan/rolly/kaliforniya-s-lososem-12-portsii/
+</url>
+<name>Калифорния с лососем 1/2 порции</name>
+<price>139.00</price>
+<description>
+Давно полюбившийся всем ролл с норвежским лососем, ломтиками огурца и авокадо. Ролл украшен оранжевой икрой Масаго.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F_%D1%81_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC_03_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">80.00 гр</param>
+</offer>
+<offer id="4495">
+<url>
+http://ufa.farfor.ru/japan/rolly/zapechennyij-majami-12-portsii/
+</url>
+<name>Запеченный Майами 1/2 порции</name>
+<price>139.00</price>
+<description>
+Ролл, который раскрепощает и не даёт покоя. Зажигательный Майами! Мидии, икра Масаго, сырный соус, Унаги-соус, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/234_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8_%D0%9C%D0%B0%D0%B8%D0%B0%D0%BC%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">113.00 гр</param>
+</offer>
+<offer id="4494">
+<url>
+http://ufa.farfor.ru/japan/rolly/zapechennoe-goryachee-serdtse-samuraya-12-portsii/
+</url>
+<name>Запеченное Горячее сердце самурая 1/2 порции</name>
+<price>149.00</price>
+<description>
+Ветка Сакуры зацвела. Незамеченной она останется неотведавшим... Морской окунь, норвежский лосось, сливочный сыр, сырный соус, соус Унаги, кунжут.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/229_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B5%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D1%81%D0%B0%D0%BC%D1%83%D1%80%D0%B0%D1%8F_2_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">93.00 гр</param>
+</offer>
+<offer id="4519">
+<url>
+http://ufa.farfor.ru/japan/rolly/roll-tempurnyij-12-portsii/
+</url>
+<name>Ролл Темпурный 1/2 порции</name>
+<price>149.00</price>
+<description>
+Фантастически популярный нежный темпурный ролл в пивном кляре: обжаренный копченый угорь, маринованный розовый имбирь, ломтики свежего огурца и пикантный ореховый соус Гамадари.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/235_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A0%D0%BE%D0%BB%D0%BB_%D0%A2%D0%B5%D0%BC%D0%BF%D1%83%D1%80%D0%BD%D1%8B%D0%B8.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">138.00 гр</param>
+</offer>
+<offer id="4615">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-one-12-portsii/
+</url>
+<name>Филадельфия-One 1/2 порции</name>
+<price>149.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0_one_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">105.00 гр</param>
+</offer>
+<offer id="4505">
+<url>
+http://ufa.farfor.ru/japan/rolly/nezhnost-12-portsii/
+</url>
+<name>Нежность 1/2 порции</name>
+<price>159.00</price>
+<description>
+Название ролла говорит само за себя! В ролл неслучайно попали нежный лосось, нежный сливочный сыр и незабываемо нежный креветочный соус (креветки, настоящий майонез Хелманс, икра Масаго, секреты су-шефа).
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D0%BD%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">115.00 гр</param>
+</offer>
+<offer id="4614">
+<url>http://ufa.farfor.ru/japan/rolly/filadelfiya-maxi/</url>
+<name>Филадельфия-Maxi 1/2 порции</name>
+<price>159.00</price>
+<description/>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0-%D0%BC%D0%B0%D0%BA%D1%81%D0%B8_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">125.00 гр</param>
+</offer>
+<offer id="4498">
+<url>
+http://ufa.farfor.ru/japan/rolly/kanada-12-portsii/
+</url>
+<name>Канада 1/2 порции</name>
+<price>179.00</price>
+<description>
+Популярный ролл без сырой рыбы: норвежский лосось, обжаренный в соусе Терияки, ломтики огурца, сливочный сыр. Пикантный вкус роллу придает стружка тунца.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/248_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">120.00 гр</param>
+</offer>
+<offer id="4500">
+<url>
+http://ufa.farfor.ru/japan/rolly/lava-klassik-12-portsii/
+</url>
+<name>Лава Классик 1/2 порции</name>
+<price>169.00</price>
+<description>
+Сыр Филадельфия, тигровая креветка, икра масаго, лосось, спайси соус, красная икра тобико, белый кунжут
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/250_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%9B%D0%B0%D0%B2%D0%B0_%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">125.00 гр</param>
+</offer>
+<offer id="4526">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-classic-12-portsii/
+</url>
+<name>Филадельфия-Classic 1/2 порции</name>
+<price>169.00</price>
+<description>
+Классическое исполнение самого популярного ролла в мире. Нежнейший норвежский лосось в миксе сливочного сыра.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA_2_1.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">125.00 гр</param>
+</offer>
+<offer id="4492">
+<url>
+http://ufa.farfor.ru/japan/rolly/zapechennaya-kaliforniya-12-portsii/
+</url>
+<name>Запеченная Калифорния 1/2 порции</name>
+<price>169.00</price>
+<description>
+Лосось , икра Масаго (оранжевая), авокадо, огурец. В шапке: сырный соус, соус Унаги, кунжут белый.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/219_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">125.00 гр</param>
+</offer>
+<offer id="4493">
+<url>
+http://ufa.farfor.ru/japan/rolly/zapechennaya-filadelfiya-12-portsii/
+</url>
+<name>Запеченная Филадельфия 1/2 порции</name>
+<price>189.00</price>
+<description>
+Сыр Филадельфия, лосось, сырный соус. Запекается в гриль-саламандре.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/225_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%97%D0%B0%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">167.00 гр</param>
+</offer>
+<offer id="4525">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-pod-ugryom-12-portsii/
+</url>
+<name>Филадельфия под угрём 1/2 порции</name>
+<price>169.00</price>
+<description>
+Новое исполнение знаменитого ролла Филадельфия. Мы заменили лосось обжаренным копченым угрём, добавили ломтики авокадо и традиционный сливочный сыр. Изысканный вкус ролла без сырой рыбы.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/268_%D0%A0%D0%BE%D0%BB%D0%BB%D1%8B_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D0%BF%D0%BE%D0%B4_%D1%83%D0%B3%D1%80%D0%B5%D0%BC.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">115.00 гр</param>
+</offer>
+<offer id="4524">
+<url>
+http://ufa.farfor.ru/japan/rolly/filadelfiya-delyuks-12-portsii/
+</url>
+<name>Филадельфия Делюкс 1/2 порции</name>
+<price>189.00</price>
+<description>
+Лосось охлажденный, омлет Тамаго. Шапка: сливочный сыр.
+</description>
+<picture>
+http://ufa.farfor.ru/media/menu/products/%D1%84%D0%B8%D0%BB%D0%B0-%D0%B4%D0%B5%D0%BB%D1%8E%D0%BA%D1%81.jpg
+</picture>
+<categoryId>18</categoryId>
+<param name="Диаметр">1/2 порции</param>
+<param name="Вес">150.00 гр</param>
+</offer>
+</offers>
+</shop>
+</yml_catalog>

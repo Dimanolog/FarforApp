@@ -13,6 +13,7 @@ import by.dimanolog.testappbalinasoft.R;
 
 
 public class ProgressDialogFragment extends DialogFragment {
+    public static final String FRAGMENT_TAG = "progress_dialog";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

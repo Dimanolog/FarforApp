@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="horizontal">
+              android:orientation="vertical">
 
     <ScrollView
         android:id="@+id/fragment_contacts_scrolview"
@@ -11,70 +11,88 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <by.dimanolog.testappbalinasoft.custom.CustomMapView
                 android:id="@+id/fragment_contacts_map"
-                android:layout_width="300dp"
-                android:layout_height="match_parent"/>
-
-
-            <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="180dp"/>
 
-                <TextView
-                    android:id="@+id/fragment_contacts_tel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_contact_telephone"
-                    android:gravity="center_vertical"
-                    android:text="@string/farfor_tel"/>
 
-                <TextView
-                    android:id="@+id/fragment_contacts_address2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_farfor_address"
-                    android:gravity="center_vertical"
-                    android:text="@string/farfor_address2"/>
+            <TextView
+                android:text="@string/contact_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                style="@style/NormalText"
+               />
 
-                <TextView
-                    android:id="@+id/fragment_contacts_address1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_farfor_address"
-                    android:gravity="center_vertical"
-                    android:text="@string/farfor_address1"/>
+            <TextView
+                android:id="@+id/fragment_contacts_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/ic_contact_telephone"
+                android:gravity="center_vertical"
+                android:text="@string/farfor_tel"
+                style="@style/NormalText"/>
 
-                <TextView
-                    android:id="@+id/fragment_contacts_address3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_farfor_address"
-                    android:gravity="center_vertical"
-                    android:text="@string/farfor_address3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/our_adress"
+                style="@style/NormalText"
+                />
 
-                <TextView
-                    android:id="@+id/fragment_contacts_address4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_farfor_address"
-                    android:gravity="center_vertical"
-                    android:text="@string/farfor_address4"/>
-            </LinearLayout>
+            <TextView
+                android:id="@+id/fragment_contacts_address1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:drawableLeft="@drawable/ic_farfor_address"
+                android:gravity="center_vertical"
+                android:text="@string/farfor_address1"
+                style="@style/NormalText"
+                />
+
+            <TextView
+                android:id="@+id/fragment_contacts_address2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:drawableLeft="@drawable/ic_farfor_address"
+                android:gravity="center_vertical"
+                android:text="@string/farfor_address2"
+                style="@style/NormalText"
+                />
+
+            <TextView
+                android:id="@+id/fragment_contacts_address3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:drawableLeft="@drawable/ic_farfor_address"
+                android:gravity="center_vertical"
+                android:text="@string/farfor_address3"
+                style="@style/NormalText"
+                />
+
+            <TextView
+                android:id="@+id/fragment_contacts_address4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:drawableLeft="@drawable/ic_farfor_address"
+                android:gravity="center_vertical"
+                android:text="@string/farfor_address4"
+                style="@style/NormalText"
+                />
 
         </LinearLayout>
     </ScrollView>

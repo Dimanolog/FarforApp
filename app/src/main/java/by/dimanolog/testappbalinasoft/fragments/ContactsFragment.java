@@ -48,10 +48,10 @@ public class ContactsFragment extends Fragment {
     private GoogleMap mGoogleMap;
     private GoogleApiClient mClient;
 
-    private TextView fragmentContactsAddress1;
-    private TextView fragmentContactsAddress2;
-    private TextView fragmentContactsAddress3;
-    private TextView fragmentContactsAddress4;
+    private TextView mFragmentContactsAddress1;
+    private TextView mFragmentContactsAddress2;
+    private TextView mFragmentContactsAddress3;
+    private TextView mFragmentContactsAddress4;
 
     private LatLng mUserPoint;
     private LatLng mFarforAddress1;
@@ -114,17 +114,6 @@ public class ContactsFragment extends Fragment {
         mGoogleMapView.onCreate(savedInstanceState);
         mGoogleMapView.setViewParent(scrollView);
 
-        if (mGoogleMapView != null) {
-            mGoogleMapView.getMapAsync(new OnMapReadyCallback() {
-                @Override
-                public void onMapReady(GoogleMap googleMap) {
-                    mGoogleMap = googleMap;
-                    mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
-                    addMarkers();
-                }
-            });
-
-        }
 
         mContactTel = (TextView) view.findViewById(R.id.fragment_contacts_tel);
 
@@ -137,23 +126,46 @@ public class ContactsFragment extends Fragment {
         });
         View.OnClickListener addressOnClickListener = new AddressOnClickListener();
 
-        fragmentContactsAddress1 = (TextView) view.findViewById(R.id.fragment_contacts_address1);
-        fragmentContactsAddress1.setOnClickListener(addressOnClickListener);
-        fragmentContactsAddress2 = (TextView) view.findViewById(R.id.fragment_contacts_address2);
-        fragmentContactsAddress2.setOnClickListener(addressOnClickListener);
-        fragmentContactsAddress3 = (TextView) view.findViewById(R.id.fragment_contacts_address3);
-        fragmentContactsAddress3.setOnClickListener(addressOnClickListener);
-        fragmentContactsAddress4 = (TextView) view.findViewById(R.id.fragment_contacts_address4);
-        fragmentContactsAddress4.setOnClickListener(addressOnClickListener);
+        mFragmentContactsAddress1 = (TextView) view.findViewById(R.id.fragment_contacts_address1);
+        mFragmentContactsAddress1.setOnClickListener(addressOnClickListener);
+        mFragmentContactsAddress2 = (TextView) view.findViewById(R.id.fragment_contacts_address2);
+        mFragmentContactsAddress2.setOnClickListener(addressOnClickListener);
+        mFragmentContactsAddress3 = (TextView) view.findViewById(R.id.fragment_contacts_address3);
+        mFragmentContactsAddress3.setOnClickListener(addressOnClickListener);
+        mFragmentContactsAddress4 = (TextView) view.findViewById(R.id.fragment_contacts_address4);
+        mFragmentContactsAddress4.setOnClickListener(addressOnClickListener);
+
+
+        if (mGoogleMapView != null) {
+            mGoogleMapView.getMapAsync(new OnMapReadyCallback() {
+                @Override
+                public void onMapReady(GoogleMap googleMap) {
+                    mGoogleMap = googleMap;
+                    mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
+                    setMapListener();
+                }
+            });
+
+
+        }
 
         return view;
+    }
+
+    private void setMapListener() {
+        mGoogleMap.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
+            @Override
+            public void onMapLoaded() {
+                addMarkers();
+                viewAllCamera();
+            }
+        });
     }
 
     void startCheckLocation() {
         LocationRequest request = LocationRequest.create();
         request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        request.setNumUpdates(1);
-        request.setInterval(0);
+        request.setInterval(5000);
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 && ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -173,7 +185,6 @@ public class ContactsFragment extends Fragment {
                 .requestLocationUpdates(mClient, request, new LocationListener() {
                     @Override
                     public void onLocationChanged(Location location) {
-
                         mUserPoint = new LatLng(location.getLatitude(), location.getLongitude());
                         addUserLocation();
                     }
@@ -182,15 +193,17 @@ public class ContactsFragment extends Fragment {
     }
 
     private void addUserLocation() {
-        if (mUserPoint != null) {
-            if (mUserMarker != null) {
-                mUserMarker.setPosition(mUserPoint);
+        if(mGoogleMap!=null) {
+            if (mUserPoint != null) {
+                if (mUserMarker != null) {
+                    mUserMarker.setPosition(mUserPoint);
 
-            } else {
-                MarkerOptions userMarkerOptions = new MarkerOptions()
-                        .position(mUserPoint)
-                        .title(getString(R.string.user_position_marker));
-                mUserMarker = mGoogleMap.addMarker(userMarkerOptions);
+                } else {
+                    MarkerOptions userMarkerOptions = new MarkerOptions()
+                            .position(mUserPoint)
+                            .title(getString(R.string.user_position_marker));
+                    mUserMarker = mGoogleMap.addMarker(userMarkerOptions);
+                }
             }
         }
     }
@@ -235,6 +248,21 @@ public class ContactsFragment extends Fragment {
 
     }
 
+    void viewAllCamera() {
+        if(mGoogleMap!=null) {
+            LatLngBounds bounds = new LatLngBounds.Builder()
+                    .include(mFarforAddress1)
+                    .include(mFarforAddress2)
+                    .include(mFarforAddress3)
+                    .include(mFarforAddress4)
+                    .build();
+
+            int margin = getResources().getDimensionPixelSize(R.dimen.map_inset_margin);
+            CameraUpdate update = CameraUpdateFactory.newLatLngBounds(bounds, margin);
+            mGoogleMap.animateCamera(update);
+        }
+    }
+
 
     @Override
     public void onStart() {
@@ -257,11 +285,18 @@ public class ContactsFragment extends Fragment {
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mGoogleMapView.onSaveInstanceState(outState);
+    }
+
+    @Override
     public void onStop() {
         super.onStop();
         mGoogleMapView.onStop();
         mClient.disconnect();
     }
+
 
     @Override
     public void onDestroy() {
@@ -295,8 +330,6 @@ public class ContactsFragment extends Fragment {
                     throw new IllegalArgumentException();
 
             }
-
-
         }
     }
 }

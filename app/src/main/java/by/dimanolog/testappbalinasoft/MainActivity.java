@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -27,13 +28,13 @@ public class MainActivity extends AppCompatActivity
         OfferListFragment.OfferListFragmentCallback,
         FarforDataProvider.FarforDataProviderCallback {
 
-    public static final String TAG = MainActivity.class.getSimpleName();
-    public static final String PROGRESS_DIALOG = "ProgressDialog";
-    public static final String ARG_CURRENT_CATEGORY = "current_category";
+    private static final String TAG = MainActivity.class.getSimpleName();
+    private static final String ARG_CURRENT_CATEGORY = "current_category";
 
     private Category mCurrentCategory;
     private FarforDataProvider mUfaFarforDataProvider;
     private ProgressDialogFragment mProgressDialog;
+    private NavigationView mNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         if (savedInstanceState != null) {
 
-            mCurrentCategory =(Category) savedInstanceState.getSerializable(ARG_CURRENT_CATEGORY);
+            mCurrentCategory = (Category) savedInstanceState.getSerializable(ARG_CURRENT_CATEGORY);
         }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -52,14 +53,25 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+        mNavigationView = (NavigationView) findViewById(R.id.nav_view);
+        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
                 return onItemSelected(item.getItemId());
             }
         });
+
+        getSupportFragmentManager().addOnBackStackChangedListener(
+                new FragmentManager.OnBackStackChangedListener() {
+                    public void onBackStackChanged() {
+                        Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.fragment_container);
+                        if (fragment instanceof ContactsFragment) {
+                           mNavigationView.setCheckedItem(R.id.nav_contacts);
+                        }else {
+                            mNavigationView.setCheckedItem(R.id.nav_catalog);
+                        }
+                    }
+                });
 
         mProgressDialog = new ProgressDialogFragment();
 
@@ -67,7 +79,8 @@ public class MainActivity extends AppCompatActivity
         mUfaFarforDataProvider.setCallback(this);
         if (!mUfaFarforDataProvider.isReady()) {
             if (mUfaFarforDataProvider.isLoading()) {
-                mProgressDialog.show(getSupportFragmentManager(), PROGRESS_DIALOG);
+                mProgressDialog=(ProgressDialogFragment)getSupportFragmentManager()
+                        .findFragmentByTag(ProgressDialogFragment.FRAGMENT_TAG);
             }
             mUfaFarforDataProvider.update();
         }
@@ -109,7 +122,6 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onOfferItemClick(Offer offer) {
-
         Fragment fragment = OfferFragment.newInstance(offer);
         showFragment(fragment);
     }
@@ -138,17 +150,21 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    private void firstFragmentLoad() {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragment_container, CatalogFragment.newInstance(mCurrentCategory))
+                .commit();
+    }
+
     @Override
     public void onStartLoad() {
-        mProgressDialog.show(getSupportFragmentManager(), PROGRESS_DIALOG);
+        mProgressDialog.show(getSupportFragmentManager(), ProgressDialogFragment.FRAGMENT_TAG);
     }
 
     @Override
     public void onFinishLoad() {
         mProgressDialog.dismiss();
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.fragment_container, CatalogFragment.newInstance(mCurrentCategory))
-                .commit();
+        firstFragmentLoad();
     }
 }

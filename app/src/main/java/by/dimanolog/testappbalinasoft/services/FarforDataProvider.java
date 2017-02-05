@@ -7,12 +7,17 @@ import android.util.Log;
 
 import com.j256.ormlite.dao.RuntimeExceptionDao;
 
+import org.simpleframework.xml.Serializer;
+import org.simpleframework.xml.core.Persister;
+
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 import by.dimanolog.testappbalinasoft.App;
+import by.dimanolog.testappbalinasoft.R;
 import by.dimanolog.testappbalinasoft.database.DatabaseHelper;
 import by.dimanolog.testappbalinasoft.model.Category;
 import by.dimanolog.testappbalinasoft.model.Offer;
@@ -124,11 +129,18 @@ public class FarforDataProvider {
                 return ymlCatalog;
             } catch (IOException e) {
                 Log.e(TAG, "cant access the server", e);
-                return getDataFromDb();
-
+                return getDataNoConnection();
             }
         } else {
+            return getDataNoConnection();
+        }
+    }
+
+    private YmlCatalog getDataNoConnection() {
+        if(!checkDbEmpty()) {
             return getDataFromDb();
+        }else {
+            return getDataFromXml();
         }
     }
 
@@ -172,8 +184,34 @@ public class FarforDataProvider {
         shop.setCategories(categoryList);
         YmlCatalog ymlCatalog = new YmlCatalog();
         ymlCatalog.setShop(shop);
+
         return ymlCatalog;
 
+    }
+
+    private YmlCatalog getDataFromXml(){
+        InputStream istream = mContext.getResources().openRawResource(R.raw.farfor);
+        Serializer serializer = new Persister();
+        YmlCatalog ymlCatalog=null;
+        try {
+            ymlCatalog = serializer.read(YmlCatalog.class, istream);
+            return ymlCatalog;
+        } catch (Exception e) {
+            Log.e(TAG,"cant read xml",e);
+
+        }
+        return ymlCatalog;
+
+    }
+
+    private boolean checkDbEmpty(){
+        DatabaseHelper databaseHelper = App.getDatabaseHelper();
+        long categoryCount=databaseHelper.getCategoryDao().countOf();
+        long offerCount=databaseHelper.getOfferDao().countOf();
+        if(categoryCount<1||offerCount<1){
+            return true;
+        }
+        return false;
     }
 
     private class DataLoadTask extends AsyncTask<Void, Void, YmlCatalog> {
@@ -183,13 +221,10 @@ public class FarforDataProvider {
             super.onPreExecute();
             mLoadingFlag = true;
             mCallback.onStartLoad();
-
-
         }
 
         @Override
         protected YmlCatalog doInBackground(Void... params) {
-
             return getData();
         }
 
