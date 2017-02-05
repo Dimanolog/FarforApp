@@ -1,4 +1,4 @@
-package by.dimanolog.testappbalinasoft.util;
+package by.dimanolog.testappbalinasoft.utilities;
 
 /**
  * Created by Dimanolog on 19.01.2017.

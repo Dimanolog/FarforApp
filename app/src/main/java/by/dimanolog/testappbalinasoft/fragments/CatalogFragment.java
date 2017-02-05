@@ -22,7 +22,7 @@ import by.dimanolog.testappbalinasoft.App;
 import by.dimanolog.testappbalinasoft.R;
 import by.dimanolog.testappbalinasoft.model.Category;
 import by.dimanolog.testappbalinasoft.services.FarforDataProvider;
-import by.dimanolog.testappbalinasoft.util.ResourcesUtil;
+import by.dimanolog.testappbalinasoft.utilities.ResourcesUtil;
 
 /**
  * Created by Dimanolog on 14.01.2017.

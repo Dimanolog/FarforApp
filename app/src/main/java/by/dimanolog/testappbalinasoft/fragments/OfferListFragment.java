@@ -21,7 +21,7 @@ import by.dimanolog.testappbalinasoft.model.Category;
 import by.dimanolog.testappbalinasoft.model.Offer;
 import by.dimanolog.testappbalinasoft.model.Param;
 import by.dimanolog.testappbalinasoft.services.FarforDataProvider;
-import by.dimanolog.testappbalinasoft.util.ParamNames;
+import by.dimanolog.testappbalinasoft.utilities.ParamNames;
 
 /**
  * Created by Dimanolog on 17.01.2017.

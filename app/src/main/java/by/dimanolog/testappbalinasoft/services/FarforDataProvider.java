@@ -24,7 +24,7 @@ import by.dimanolog.testappbalinasoft.model.Offer;
 import by.dimanolog.testappbalinasoft.model.Param;
 import by.dimanolog.testappbalinasoft.model.Shop;
 import by.dimanolog.testappbalinasoft.model.YmlCatalog;
-import by.dimanolog.testappbalinasoft.util.Network;
+import by.dimanolog.testappbalinasoft.utilities.Network;
 import retrofit2.Response;
 
 /**
