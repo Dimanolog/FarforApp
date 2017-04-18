@@ -222,6 +222,7 @@ public class ContactsFragment extends Fragment {
     }
 
     private void updateCamera(LatLng point) {
+        if(mClient.isConnected())
         if (mUserPoint != null) {
             boundsCamera(mUserPoint, point);
         } else {
