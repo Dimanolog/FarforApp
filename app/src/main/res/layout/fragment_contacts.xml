@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <by.dimanolog.farfo.custom.view.CustomMapView
+            <by.dimanolog.farfor.custom.view.CustomMapView
                 android:id="@+id/fragment_contacts_map"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"/>
