@@ -82,8 +82,7 @@ public class App extends Application {
         Serializer serializer = new Persister(matcher);
         mRetrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
-                .addConverterFactory(SimpleXmlConverterFactory.
-                        create(serializer))
+                .addConverterFactory(SimpleXmlConverterFactory.create(serializer))
                 .client(mOkHttpClient)
                 .build();
         sFarforApi = mRetrofit.create(FarforApi.class);

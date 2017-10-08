@@ -23,6 +23,8 @@ public class TestRetrofit {
     private static final String BASE_URL = "http://ufa.farfor.ru/";
     private static String KEY = "ukAXxeJYZN";
 
+
+
     @Test
     public void testDownloadXmlAndParse() {
 

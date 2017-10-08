@@ -29,20 +29,20 @@ import by.dimanolog.farfor.utilities.ParamNames;
 
 public class OfferListFragment extends Fragment {
 
-    private static String ARG_CATEGORY="category";
+    private static String ARG_CATEGORY = "category";
     private RecyclerView mOfferListRecyclerView;
     private List<Offer> mOfferList;
     private Category mCategory;
     private OfferListFragmentCallback mOfferListFragmentCallback;
 
-   public interface OfferListFragmentCallback{
+    public interface OfferListFragmentCallback {
         void onOfferItemClick(Offer offer);
     }
 
-    public static OfferListFragment newInstance(@Nullable Category  category) {
+    public static OfferListFragment newInstance(@Nullable Category category) {
         Bundle args = new Bundle();
         OfferListFragment fragment = new OfferListFragment();
-        if(category!=null) {
+        if (category != null) {
             args.putSerializable(ARG_CATEGORY, category);
             fragment.setArguments(args);
         }
@@ -52,20 +52,20 @@ public class OfferListFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        mOfferListFragmentCallback=(OfferListFragmentCallback)context;
+        mOfferListFragmentCallback = (OfferListFragmentCallback) context;
     }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Bundle bundle=getArguments();
-        if(bundle!=null){
-            if(bundle.containsKey(ARG_CATEGORY)){
-                mCategory=(Category)bundle.getSerializable(ARG_CATEGORY);
+        Bundle bundle = getArguments();
+        if (bundle != null) {
+            if (bundle.containsKey(ARG_CATEGORY)) {
+                mCategory = (Category) bundle.getSerializable(ARG_CATEGORY);
             }
         }
 
-        mOfferList= FarforDataProvider.getInstance(getActivity()).getOfferInCategory(mCategory);
+        mOfferList = FarforDataProvider.getInstance(getActivity()).getOfferInCategory(mCategory);
     }
 
     @Nullable
@@ -74,7 +74,7 @@ public class OfferListFragment extends Fragment {
         super.onCreateView(inflater, container, savedInstanceState);
 
         View v = inflater.inflate(R.layout.fragment_offers_list, null);
-        mOfferListRecyclerView = (RecyclerView)v
+        mOfferListRecyclerView = (RecyclerView) v
                 .findViewById(R.id.fragment_category_choose_recycler_view);
         mOfferListRecyclerView.setLayoutManager(new LinearLayoutManager
                 (getActivity()));
@@ -84,8 +84,8 @@ public class OfferListFragment extends Fragment {
         return v;
     }
 
-    private void setupAdapter(){
-        if(isAdded()){
+    private void setupAdapter() {
+        if (isAdded()) {
             mOfferListRecyclerView.setAdapter(new OfferAdapter(mOfferList));
         }
     }
@@ -108,17 +108,17 @@ public class OfferListFragment extends Fragment {
                     itemView.findViewById(R.id.offer_list_item_offer_name_txt);
             mOfferWeightTxtView = (TextView)
                     itemView.findViewById(R.id.offer_list_item_weight_txt);
-            mOfferPriceTxtView=(TextView)itemView.findViewById(R.id.offer_list_item_price_txt);
+            mOfferPriceTxtView = (TextView) itemView.findViewById(R.id.offer_list_item_price_txt);
 
         }
 
         public void bindOffer(Offer offer) {
             mOffer = offer;
             mOfferNameTxtView.setText(mOffer.getName());
-            String price=String.valueOf(mOffer.getPrice());
+            String price = String.valueOf(mOffer.getPrice());
             mOfferPriceTxtView.setText(price);
-            Param weightParam=mOffer.getParamsByName(ParamNames.WEIGHT);
-            if(weightParam!=null) {
+            Param weightParam = mOffer.getParamsByName(ParamNames.WEIGHT);
+            if (weightParam != null) {
                 mOfferWeightTxtView.setText(weightParam.toString());
             }
             Picasso.with(getActivity())
@@ -142,9 +142,9 @@ public class OfferListFragment extends Fragment {
 
 
         public OfferAdapter(List<Offer> offerList) {
-           mOfferList=offerList;
+            mOfferList = offerList;
 
-    }
+        }
 
         @Override
         public OfferHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -165,8 +165,6 @@ public class OfferListFragment extends Fragment {
         @Override
         public int getItemCount() {
             return mOfferList.size();
-
         }
-
     }
 }
