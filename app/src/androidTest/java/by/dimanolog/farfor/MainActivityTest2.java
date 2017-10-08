@@ -13,8 +13,6 @@ import org.junit.runner.RunWith;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.Espresso.pressBack;
 import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
-import static android.support.test.espresso.action.ViewActions.replaceText;
 import static android.support.test.espresso.action.ViewActions.scrollTo;
 import static android.support.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
@@ -39,19 +37,8 @@ public class MainActivityTest2 {
                         isDisplayed()));
         recyclerView.perform(actionOnItemAtPosition(2, click()));
 
-        ViewInteraction appCompatTextView = onView(
-                allOf(withId(R.id.offer_list_item_weight_txt), withText("Вес : 250.00 гр"), isDisplayed()));
-        appCompatTextView.perform(click());
-
-        ViewInteraction recyclerView2 = onView(
-                allOf(withId(R.id.fragment_category_choose_recycler_view),
-                        withParent(withId(R.id.fragment_container)),
-                        isDisplayed()));
-        recyclerView2.perform(actionOnItemAtPosition(1, click()));
-
-        ViewInteraction appCompatTextView2 = onView(
-                withId(R.id.fragment_offer_param));
-        appCompatTextView2.perform(scrollTo(), replaceText("Вес : 250.00 гр\nКаллорийность : 127.428\nБелки : 2.432\nЖиры : 5.55\nУглеводы : 16.609\n"), closeSoftKeyboard());
+        onView(allOf(withId(R.id.fragment_offer_param),
+                isDisplayed()));
 
         pressBack();
 
