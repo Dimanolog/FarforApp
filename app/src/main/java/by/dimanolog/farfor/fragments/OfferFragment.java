@@ -17,8 +17,6 @@ import by.dimanolog.farfor.R;
 import by.dimanolog.farfor.model.Offer;
 import by.dimanolog.farfor.model.Param;
 
-
-
 public class OfferFragment extends Fragment {
     private static final String ARG_OFFER = "offer";
     private TextView mOfferTitle;

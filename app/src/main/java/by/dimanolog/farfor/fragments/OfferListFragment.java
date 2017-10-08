@@ -90,7 +90,6 @@ public class OfferListFragment extends Fragment {
         }
     }
 
-
     private class OfferHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private ImageView mOfferImageView;
         private TextView mOfferNameTxtView;

@@ -22,7 +22,6 @@ import by.dimanolog.farfor.model.Category;
 import by.dimanolog.farfor.model.Offer;
 import by.dimanolog.farfor.services.FarforDataProvider;
 
-import static by.dimanolog.farfor.services.FarforDataProvider.getInstance;
 
 public class MainActivity extends AppCompatActivity
         implements CatalogFragment.CategoryChooserFragmentCallback,
@@ -76,8 +75,9 @@ public class MainActivity extends AppCompatActivity
 
         mProgressDialog = new ProgressDialogFragment();
 
-        mUfaFarforDataProvider = getInstance(this);
+        mUfaFarforDataProvider = FarforDataProvider.getInstance(this);
         mUfaFarforDataProvider.setCallback(this);
+
         if (!mUfaFarforDataProvider.isReady()) {
             if (mUfaFarforDataProvider.isLoading()) {
                 mProgressDialog = (ProgressDialogFragment) getSupportFragmentManager()

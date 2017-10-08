@@ -2,10 +2,6 @@ package by.dimanolog.farfor;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.simpleframework.xml.Serializer;
-import org.simpleframework.xml.core.Persister;
-import org.simpleframework.xml.strategy.CycleStrategy;
-import org.simpleframework.xml.strategy.Strategy;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -26,14 +22,10 @@ public class TestRetrofit {
     private static final int READ_TIMEOUT = 1;
     private static final String BASE_URL = "http://ufa.farfor.ru/";
     private static String KEY = "ukAXxeJYZN";
-    private static String IMAGE_URL = "http://ufa.farfor.ru/media/menu/products/%D0%A1%D1%83%D1%81%D0%B8_%D1%81_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.jpg";
-
 
     @Test
     public void testDownloadXmlAndParse() {
 
-        Strategy strategy = new CycleStrategy("id", "categoryId", "Offer");
-        Serializer serializer = new Persister(strategy);
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(SimpleXmlConverterFactory.create())

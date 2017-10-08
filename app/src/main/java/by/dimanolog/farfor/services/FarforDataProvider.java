@@ -143,6 +143,7 @@ public class FarforDataProvider {
     }
 
 
+    @Nullable
     private YmlCatalog getDataFromHttp() throws IOException {
         Response<YmlCatalog> response = App.getFarforApi()
                 .getData(App.getKey())
